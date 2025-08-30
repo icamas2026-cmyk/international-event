@@ -302,7 +302,7 @@ export default function UnifiedClone() {
         <footer className="bg-red-100 py-10">
           <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start md:items-center">
             <div className="md:w-1/2 mb-6 md:mb-0">
-              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/MNIT_Logo.svg/1200px-MNIT_Logo.svg.png" alt="NIT Logo" className="w-20 mb-4" />
+              <img src="/logo.png" alt="NIT Logo" className="w-20 mb-4" />
               <p className="text-[#540000] mb-4">
                 National Institute of Technology Arunachal Pradesh (NITAP) is one of the 31 prestigious National Institutes of Technology in India, recognized as an Institute of National Importance under the NIT Act, 2007. Established in the year 2010 by the Government of India, it aims to foster excellence in technical education and research in the northeastern region of India. The institute is surrounded by lush greenery and scenic hills, offering a peaceful and inspiring environment for study and innovation.
               </p>
