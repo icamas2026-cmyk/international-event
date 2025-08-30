@@ -1,0 +1,203 @@
+import React from "react";
+import { motion } from "framer-motion";
+
+export default function UnifiedClone() {
+  return (
+    <div className="min-h-screen bg-white text-[#5B0000] font-sans">
+      {/* Updated Header */}
+      <header className="w-full fixed top-0 left-0 z-50 bg-white shadow-md">
+        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+          <img src="/logo.png" alt="Institute Logo" className="h-12 w-auto" />
+          <nav className="flex flex-wrap justify-center gap-6 text-sm md:text-base font-medium">
+            <a href="#home" className="hover:underline">Home</a>
+            <a href="#about" className="hover:underline">About Arunachal Pradesh</a>
+            <a href="#registration" className="hover:underline">Registration</a>
+            <a href="#dates" className="hover:underline">Key Dates</a>
+            <a href="#visa" className="hover:underline">Visa</a>
+            <a href="#submission" className="hover:underline">Submission</a>
+            <a href="#program" className="hover:underline">Program</a>
+            <a href="#committees" className="hover:underline">Committees</a>
+            <a href="#keynotes" className="hover:underline">Key Notes</a>
+            <a href="#sponsorship" className="hover:underline">Sponsorship</a>
+            <a href="#travel" className="hover:underline text-center">Accomodation<br />& Travel</a>
+          </nav>
+        </div>
+      </header>
+
+      {/* Hero Section */}
+      <main className="pt-32">
+        <section
+          id="hero"
+          className="relative h-[90vh] bg-cover bg-center flex items-center justify-center"
+          style={{ backgroundImage: "url('/mnit-campus.jpg')" }}
+        >
+          <div className="bg-black bg-opacity-40 w-full h-full absolute top-0 left-0"></div>
+          <div className="relative z-10 text-center px-4 text-white">
+            <motion.h1
+              initial={{ opacity: 0, y: -50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+              className="text-3xl md:text-6xl font-bold leading-tight mb-6"
+            >
+              The Unified International Conference on Emerging Technologies in Cyber–Physical Systems and Industrial AI
+            </motion.h1>
+            <p className="text-xl md:text-2xl">Conference dates: 26–28th Nov, 24</p>
+          </div>
+        </section>
+
+        {/* Welcome Section */}
+        <section id="welcome" className="py-12 px-4 max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold mb-4">Unified International Conference <span className="text-red-500">Welcomes You</span></h2>
+          <div className="flex flex-col md:flex-row items-start gap-8">
+            <img src="/welcome-image.jpg" alt="Conference Setup" className="w-full md:w-1/2 rounded shadow" />
+            <div className="text-[#540000] md:w-1/2 space-y-4">
+              <p>On behalf of the United International Conference on Emerging technologies of:</p>
+              <ul className="list-disc list-inside space-y-2">
+                <li>INTPART–UTFORSK Project on Cyber–physical Systems (Professor Maneesh Singh, The Western Norway University of Applied Sciences),</li>
+                <li>IncoME conference (Professor Jyoti Sinha, University of Manchester),</li>
+                <li>TEPEN Conference (Professor Andrew Ball, University of Huddersfield, UK and Professor Fulei Chu, Tsinghua University, China)</li>
+                <li>DAMAS Conference (Professor Carol Featherston, Cardiff University; Professor Huajiang Ouyang, University of Liverpool; and Professor Anish Roy, Loughborough University)</li>
+              </ul>
+              <p>It is our pleasure to invite you to the conference to be held from 26th November to 28th November 2024 at the Malaviya National Institute of Technology (MNIT), Jaipur, India.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Conference Section */}
+        <section id="conference" className="py-12 px-4 bg-yellow-50 max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold mb-4">Conferences</h2>
+          <p className="text-[#540000] mb-8">
+            The 3–day event will provide the ideal opportunity for researchers, industrialists, and equipment manufacturers/suppliers to meet, share ideas and learn about the latest scientific and technological advances in all of the listed fields, along with the future directions that each of the fields is taking.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white rounded-lg p-6 shadow-md text-center">
+              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">🏠</span>
+              </div>
+              <h3 className="font-bold text-lg mb-2">The International Conference on Maintenance Engineering (IncoME)</h3>
+              <p className="text-sm text-[#540000] mb-2">IncoME aims to provide a common platform by which professionals, engineers, practitioners, and researchers working in the field of plant maintenance and reliability can share their experiences.</p>
+              <a href="#" className="text-red-600 font-semibold hover:underline">Learn More</a>
+            </div>
+            <div className="bg-white rounded-lg p-6 shadow-md text-center">
+              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">👥</span>
+              </div>
+              <h3 className="font-bold text-lg mb-2">The Efficiency and Performance Engineering Network (TEPEN) Conferences</h3>
+              <p className="text-sm text-[#540000] mb-2">(TEPEN) is an international network of world leading researchers in the field of efficiency and performance engineering.</p>
+              <a href="#" className="text-red-600 font-semibold hover:underline">Learn More</a>
+            </div>
+            <div className="bg-white rounded-lg p-6 shadow-md text-center">
+              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">🎓</span>
+              </div>
+              <h3 className="font-bold text-lg mb-2">International Conference on Damage Assessment of Structures (DAMAS)</h3>
+              <p className="text-sm text-[#540000] mb-2">DAMAS is one of the most influential conferences in the field of structural damage identification and machine fault diagnosis in the world and is held every two years.</p>
+              <a href="#" className="text-red-600 font-semibold hover:underline">Learn More</a>
+            </div>
+          </div>
+        </section>
+
+        {/* Scope Section */}
+        <section id="scope" className="py-12 px-4 max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold mb-4">Scope of the Conference</h2>
+          <p className="text-[#540000] mb-4">
+            The conference covers a broad area with multi-disciplinary interests in the fields of plant maintenance, asset management, reliability, condition monitoring, artificial intelligence and related areas, ranging from fundamental research to real-world applications.
+          </p>
+          <div className="flex flex-col md:flex-row gap-8">
+            <img src="/scope-room.jpg" alt="Scope Image" className="md:w-1/2 rounded shadow" />
+            <div className="md:w-1/2 text-[#540000] space-y-1">
+              <p>The conference welcomes the submission of papers in the nature of original research, technical review and tutorial from the following, but not limited to, cyber physical systems applications in following areas:</p>
+              <ol className="list-decimal list-inside space-y-1">
+                <li>Artificial Intelligence / Machine Learning</li>
+                <li>Asset Management</li>
+                <li>Biomedical Damage Detection and Analysis</li>
+                <li>Condition Monitoring and Machine Health Monitoring</li>
+                <li>Condition–based and Predictive Maintenance</li>
+                <li>Damage Assessment & Health Management</li>
+                <li>Electrical Vehicle Energy Management</li>
+                <li>Health, Safety & Carbon Neutralization with CPS</li>
+                <li>Industrial Internet of Things (IIoT)</li>
+                <li>Life Cycle Cost Optimisation</li>
+                <li>Machine Lube Oil Analysis & Monitoring</li>
+                <li>Maintenance Auditing</li>
+                <li>Maintenance Organisation</li>
+                <li>Maintenance Performance Measurement</li>
+                <li>Manufacturing Process Monitoring</li>
+                <li>Mobile Technology</li>
+                <li>Non–Destructive Testing with CPS</li>
+                <li>Plant Outage</li>
+                <li>Prognostics and Health Management</li>
+                <li>Reliability, Availability, Maintainability & Safety</li>
+                <li>Sensors, Instrumentation and Measurement Systems</li>
+                <li>Signal and Image Processing Methods in CPS</li>
+                <li>Structural Integrity</li>
+                <li>Vibro–acoustics Monitoring</li>
+              </ol>
+            </div>
+          </div>
+        </section>
+
+        {/* Contact Section */}
+        <section id="contact" className="py-10">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold mb-6">
+              <span className="text-red-500">Contact Us</span>
+              <span className="text-[#540000]"> To Know More</span>
+            </h2>
+
+            <form action="#" method="POST" className="max-w-4xl">
+              <input
+                type="text"
+                name="name"
+                placeholder="NAME"
+                className="w-full bg-red-300 p-4 mb-4 rounded focus:outline-none"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="EMAIL"
+                className="w-full bg-red-300 p-4 mb-4 rounded focus:outline-none"
+                required
+              />
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="MESSAGE"
+                className="w-full bg-red-300 p-4 mb-4 rounded focus:outline-none"
+                required
+              ></textarea>
+              <button
+                type="submit"
+                className="bg-yellow-400 hover:bg-yellow-500 text-[#540000] font-semibold py-2 px-6 rounded"
+              >
+                SUBMIT
+              </button>
+            </form>
+          </div>
+        </section>
+
+        {/* Footer Section */}
+        <footer className="bg-red-100 py-10">
+          <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div className="md:w-1/2 mb-6 md:mb-0">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/MNIT_Logo.svg/1200px-MNIT_Logo.svg.png" alt="MNIT Logo" className="w-20 mb-4" />
+              <p className="text-[#540000] mb-4">
+                The Institute was jointly established in 1963 as Malaviya Regional Engineering College Jaipur by the Government of India and the Government of Rajasthan. Subsequently, on 26 June, 2002, the college was given the status of National Institute of Technology. On 15 August 2007, it was recognized as the Institute of National Importance through an Act of Parliament. The Institute is fully funded by the Ministry of Education (Shiksha Mantralaya), Government of India.
+              </p>
+              <p className="text-[#540000] font-medium">
+                Copyright © 2024 UNIfied 2024 – All Rights Reserved.
+              </p>
+            </div>
+            <div className="md:w-1/3">
+              <h3 className="text-lg font-bold text-[#540000] mb-2">Contact Us</h3>
+              <p className="text-[#540000] mb-1">MNIT Arunachal Pradesh</p>
+              <p className="text-[#540000] mb-1">gsoni.mech@mnit.ac.in</p>
+              <p className="text-[#540000]">(+91)-9549654559</p>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+  );
+}
