@@ -15,7 +15,7 @@ export default function UnifiedClone() {
               Home
             </a>
             <a href="#about" className="hover:underline">
-              About Arunachal Pradesh
+              About NIT Arunachal Pradesh
             </a>
             <a href="#registration" className="hover:underline">
               Registration
