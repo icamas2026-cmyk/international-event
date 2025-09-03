@@ -92,13 +92,6 @@ export default function UnifiedClone() {
                 Key Dates
               </a>
               <a
-                href="#visa"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Visa
-              </a>
-              <a
                 href="#submission"
                 className="block hover:underline"
                 onClick={() => setOpen(false)}
