@@ -176,15 +176,26 @@ export default function UnifiedClone() {
 
         {/* Welcome Section */}
         <section id="welcome" className="py-12 px-4 max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4">
+          <h2 className="text-3xl font-bold mb-8 text-center">
             ICAMAS-2026 <span className="text-red-500">Welcomes You</span>
           </h2>
+
           <div className="flex flex-col md:flex-row items-start gap-8">
-            <img
-              src="/welcome-image.jpg"
-              alt="Conference Setup"
-              className="w-full md:w-1/2 rounded shadow"
-            />
+            {/* Left side - Two images stacked or side by side */}
+            <div className="flex flex-col md:flex-col gap-6 md:w-1/2">
+              <img
+                src="/welcome-image1.jpg"
+                alt="Conference Hall"
+                className="w-full rounded shadow"
+              />
+              <img
+                src="/welcome-image2.jpg"
+                alt="NIT Arunachal"
+                className="w-full rounded shadow"
+              />
+            </div>
+
+            {/* Right side - Text content */}
             <div className="text-[#540000] md:w-1/2 space-y-4">
               <p>
                 The 1st International Conference on Advances in Mechanical and
