@@ -38,7 +38,7 @@ export default function UnifiedClone() {
             <a href="#keynotes" className="hover:underline">
               Key Notes
             </a>
-            <a href="#sponsorship" className="hover:underline">
+            <a href="sponsorship.html" className="hover:underline">
               Sponsorship
             </a>
             <a href="#travel" className="hover:underline text-center">
