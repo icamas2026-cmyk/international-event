@@ -14,10 +14,7 @@ export default function UnifiedClone() {
             <a href="#home" className="hover:underline">
               Home
             </a>
-            <a
-              href="nitap.html"
-              className="hover:underline"
-            >
+            <a href="nitap.html" className="hover:underline">
               About NIT Arunachal Pradesh
             </a>
             <a href="#registration" className="hover:underline">
@@ -180,8 +177,7 @@ export default function UnifiedClone() {
         {/* Welcome Section */}
         <section id="welcome" className="py-12 px-4 max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-4">
-            Unified International Conference{" "}
-            <span className="text-red-500">Welcomes You</span>
+            ICAMAS-2026 <span className="text-red-500">Welcomes You</span>
           </h2>
           <div className="flex flex-col md:flex-row items-start gap-8">
             <img
@@ -191,34 +187,32 @@ export default function UnifiedClone() {
             />
             <div className="text-[#540000] md:w-1/2 space-y-4">
               <p>
-                On behalf of the United International Conference on Emerging
-                technologies of:
+                The 1st International Conference on Advances in Mechanical and
+                Aerospace Science (ICAMAS-2026) will be held at the National
+                Institute of Technology Arunachal Pradesh. Aligned with the{" "}
+                <strong>Viksit Bharat 2047 Vision</strong>, the conference
+                underscores key national priorities such as economic
+                diversification, sustainable development, and the advancement of
+                a knowledge-driven economy.
               </p>
-              <ul className="list-disc list-inside space-y-2">
-                <li>
-                  INTPART–UTFORSK Project on Cyber–physical Systems (Professor
-                  Maneesh Singh, The Western Norway University of Applied
-                  Sciences),
-                </li>
-                <li>
-                  IncoME conference (Professor Jyoti Sinha, University of
-                  Manchester),
-                </li>
-                <li>
-                  TEPEN Conference (Professor Andrew Ball, University of
-                  Huddersfield, UK and Professor Fulei Chu, Tsinghua University,
-                  China)
-                </li>
-                <li>
-                  DAMAS Conference (Professor Carol Featherston, Cardiff
-                  University; Professor Huajiang Ouyang, University of
-                  Liverpool; and Professor Anish Roy, Loughborough University)
-                </li>
-              </ul>
               <p>
-                It is our pleasure to invite you to the conference to be held
-                from 26th November to 28th March 2024 at the National Institute
-                of Technology (NIT), Arunachal Pradesh, India.
+                ICAMAS-2026 will bring together leading researchers, industry
+                professionals, and practitioners to share insights and explore
+                the latest developments in Mechanical and Aerospace Engineering.
+                With a particular emphasis on sustainability and renewable
+                energy, the conference seeks to address global challenges
+                through interdisciplinary engineering solutions.
+              </p>
+              <p>
+                By highlighting innovative technologies and methodologies,
+                ICAMAS-2026 aims to support India’s ambition of becoming a
+                global leader in green technology, while also contributing to
+                the wider global effort toward a sustainable and resilient
+                future.
+              </p>
+              <p>
+                You are cordially invited to be a part of ICAMAS-2026 to be held
+                in <strong>hybrid mode during 10-12 March 2026</strong>.
               </p>
             </div>
           </div>
