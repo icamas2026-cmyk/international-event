@@ -184,7 +184,7 @@ export default function UnifiedClone() {
             {/* Left side - Two images stacked or side by side */}
             <div className="flex flex-col md:flex-col gap-6 md:w-1/2">
               <img
-                src="/welcome-image1.jpg"
+                src="welcome-image1.png"
                 alt="Conference Hall"
                 className="w-full rounded shadow"
               />
