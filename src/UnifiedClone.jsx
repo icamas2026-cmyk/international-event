@@ -220,7 +220,7 @@ export default function UnifiedClone() {
             </div>
           </div>
         </section>
-        <p>
+        <p className="text-center">
           You are cordially invited to be a part of ICAMAS-2026 to be held in{" "}
           <strong>hybrid mode during 10-12 March 2026</strong>.
         </p>
