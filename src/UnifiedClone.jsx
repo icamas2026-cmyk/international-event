@@ -15,7 +15,7 @@ export default function UnifiedClone() {
               Home
             </a>
             <a
-              href="/international-event/nitap.html"
+              href="nitap.html"
               className="hover:underline"
             >
               About NIT Arunachal Pradesh
