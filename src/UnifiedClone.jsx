@@ -14,7 +14,10 @@ export default function UnifiedClone() {
             <a href="#home" className="hover:underline">
               Home
             </a>
-            <a href="/nitap.html" className="hover:underline">
+            <a
+              href="/international-event/nitap.html"
+              className="hover:underline"
+            >
               About NIT Arunachal Pradesh
             </a>
             <a href="#registration" className="hover:underline">
