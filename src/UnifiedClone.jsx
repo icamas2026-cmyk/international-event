@@ -217,11 +217,11 @@ export default function UnifiedClone() {
                 the wider global effort toward a sustainable and resilient
                 future.
               </p>
-              <p>
-                You are cordially invited to be a part of ICAMAS-2026 to be held
-                in <strong>hybrid mode during 10-12 March 2026</strong>.
-              </p>
             </div>
+            <p>
+              You are cordially invited to be a part of ICAMAS-2026 to be held
+              in <strong>hybrid mode during 10-12 March 2026</strong>.
+            </p>
           </div>
         </section>
 
