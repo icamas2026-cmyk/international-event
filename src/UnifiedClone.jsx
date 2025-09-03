@@ -160,60 +160,134 @@ export default function UnifiedClone() {
               transition={{ duration: 1 }}
               className="text-3xl md:text-6xl font-bold leading-tight mb-6"
             >
-              The Unified International Conference on Emerging Technologies in Cyber–Physical Systems and Industrial AI
+              1st International Conference on Advances in Mechanical and
+              Aerospace Science (ICAMAS-2026)
             </motion.h1>
-            <p className="text-xl md:text-2xl">Conference dates: 26–28th Nov, 24</p>
+            <p className="text-xl md:text-2xl">
+              Conference dates: 10-12 March, 2026
+            </p>
           </div>
         </section>
 
         {/* Welcome Section */}
         <section id="welcome" className="py-12 px-4 max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4">Unified International Conference <span className="text-red-500">Welcomes You</span></h2>
+          <h2 className="text-3xl font-bold mb-4">
+            Unified International Conference{" "}
+            <span className="text-red-500">Welcomes You</span>
+          </h2>
           <div className="flex flex-col md:flex-row items-start gap-8">
-            <img src="/welcome-image.jpg" alt="Conference Setup" className="w-full md:w-1/2 rounded shadow" />
+            <img
+              src="/welcome-image.jpg"
+              alt="Conference Setup"
+              className="w-full md:w-1/2 rounded shadow"
+            />
             <div className="text-[#540000] md:w-1/2 space-y-4">
-              <p>On behalf of the United International Conference on Emerging technologies of:</p>
+              <p>
+                On behalf of the United International Conference on Emerging
+                technologies of:
+              </p>
               <ul className="list-disc list-inside space-y-2">
-                <li>INTPART–UTFORSK Project on Cyber–physical Systems (Professor Maneesh Singh, The Western Norway University of Applied Sciences),</li>
-                <li>IncoME conference (Professor Jyoti Sinha, University of Manchester),</li>
-                <li>TEPEN Conference (Professor Andrew Ball, University of Huddersfield, UK and Professor Fulei Chu, Tsinghua University, China)</li>
-                <li>DAMAS Conference (Professor Carol Featherston, Cardiff University; Professor Huajiang Ouyang, University of Liverpool; and Professor Anish Roy, Loughborough University)</li>
+                <li>
+                  INTPART–UTFORSK Project on Cyber–physical Systems (Professor
+                  Maneesh Singh, The Western Norway University of Applied
+                  Sciences),
+                </li>
+                <li>
+                  IncoME conference (Professor Jyoti Sinha, University of
+                  Manchester),
+                </li>
+                <li>
+                  TEPEN Conference (Professor Andrew Ball, University of
+                  Huddersfield, UK and Professor Fulei Chu, Tsinghua University,
+                  China)
+                </li>
+                <li>
+                  DAMAS Conference (Professor Carol Featherston, Cardiff
+                  University; Professor Huajiang Ouyang, University of
+                  Liverpool; and Professor Anish Roy, Loughborough University)
+                </li>
               </ul>
-              <p>It is our pleasure to invite you to the conference to be held from 26th November to 28th March 2024 at the National Institute of Technology (NIT), Arunachal Pradesh, India.</p>
+              <p>
+                It is our pleasure to invite you to the conference to be held
+                from 26th November to 28th March 2024 at the National Institute
+                of Technology (NIT), Arunachal Pradesh, India.
+              </p>
             </div>
           </div>
         </section>
 
         {/* Conference Section */}
-        <section id="conference" className="py-12 px-4 bg-yellow-50 max-w-6xl mx-auto">
+        <section
+          id="conference"
+          className="py-12 px-4 bg-yellow-50 max-w-6xl mx-auto"
+        >
           <h2 className="text-3xl font-bold mb-4">Conferences</h2>
           <p className="text-[#540000] mb-8">
-            The 3–day event will provide the ideal opportunity for researchers, industrialists, and equipment manufacturers/suppliers to meet, share ideas and learn about the latest scientific and technological advances in all of the listed fields, along with the future directions that each of the fields is taking.
+            The 3–day event will provide the ideal opportunity for researchers,
+            industrialists, and equipment manufacturers/suppliers to meet, share
+            ideas and learn about the latest scientific and technological
+            advances in all of the listed fields, along with the future
+            directions that each of the fields is taking.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg p-6 shadow-md text-center">
               <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">🏠</span>
               </div>
-              <h3 className="font-bold text-lg mb-2">The International Conference on Maintenance Engineering (IncoME)</h3>
-              <p className="text-sm text-[#540000] mb-2">IncoME aims to provide a common platform by which professionals, engineers, practitioners, and researchers working in the field of plant maintenance and reliability can share their experiences.</p>
-              <a href="#" className="text-red-600 font-semibold hover:underline">Learn More</a>
+              <h3 className="font-bold text-lg mb-2">
+                The International Conference on Maintenance Engineering (IncoME)
+              </h3>
+              <p className="text-sm text-[#540000] mb-2">
+                IncoME aims to provide a common platform by which professionals,
+                engineers, practitioners, and researchers working in the field
+                of plant maintenance and reliability can share their
+                experiences.
+              </p>
+              <a
+                href="#"
+                className="text-red-600 font-semibold hover:underline"
+              >
+                Learn More
+              </a>
             </div>
             <div className="bg-white rounded-lg p-6 shadow-md text-center">
               <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">👥</span>
               </div>
-              <h3 className="font-bold text-lg mb-2">The Efficiency and Performance Engineering Network (TEPEN) Conferences</h3>
-              <p className="text-sm text-[#540000] mb-2">(TEPEN) is an international network of world leading researchers in the field of efficiency and performance engineering.</p>
-              <a href="#" className="text-red-600 font-semibold hover:underline">Learn More</a>
+              <h3 className="font-bold text-lg mb-2">
+                The Efficiency and Performance Engineering Network (TEPEN)
+                Conferences
+              </h3>
+              <p className="text-sm text-[#540000] mb-2">
+                (TEPEN) is an international network of world leading researchers
+                in the field of efficiency and performance engineering.
+              </p>
+              <a
+                href="#"
+                className="text-red-600 font-semibold hover:underline"
+              >
+                Learn More
+              </a>
             </div>
             <div className="bg-white rounded-lg p-6 shadow-md text-center">
               <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">🎓</span>
               </div>
-              <h3 className="font-bold text-lg mb-2">International Conference on Damage Assessment of Structures (DAMAS)</h3>
-              <p className="text-sm text-[#540000] mb-2">DAMAS is one of the most influential conferences in the field of structural damage identification and machine fault diagnosis in the world and is held every two years.</p>
-              <a href="#" className="text-red-600 font-semibold hover:underline">Learn More</a>
+              <h3 className="font-bold text-lg mb-2">
+                International Conference on Damage Assessment of Structures
+                (DAMAS)
+              </h3>
+              <p className="text-sm text-[#540000] mb-2">
+                DAMAS is one of the most influential conferences in the field of
+                structural damage identification and machine fault diagnosis in
+                the world and is held every two years.
+              </p>
+              <a
+                href="#"
+                className="text-red-600 font-semibold hover:underline"
+              >
+                Learn More
+              </a>
             </div>
           </div>
         </section>
@@ -222,12 +296,24 @@ export default function UnifiedClone() {
         <section id="scope" className="py-12 px-4 max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-4">Scope of the Conference</h2>
           <p className="text-[#540000] mb-4">
-            The conference covers a broad area with multi-disciplinary interests in the fields of plant maintenance, asset management, reliability, condition monitoring, artificial intelligence and related areas, ranging from fundamental research to real-world applications.
+            The conference covers a broad area with multi-disciplinary interests
+            in the fields of plant maintenance, asset management, reliability,
+            condition monitoring, artificial intelligence and related areas,
+            ranging from fundamental research to real-world applications.
           </p>
           <div className="flex flex-col md:flex-row gap-8">
-            <img src="/welcome-image.jpg" alt="Scope Image" className="md:w-1/2 rounded shadow" />
+            <img
+              src="/welcome-image.jpg"
+              alt="Scope Image"
+              className="md:w-1/2 rounded shadow"
+            />
             <div className="md:w-1/2 text-[#540000] space-y-1">
-              <p>The conference welcomes the submission of papers in the nature of original research, technical review and tutorial from the following, but not limited to, cyber physical systems applications in following areas:</p>
+              <p>
+                The conference welcomes the submission of papers in the nature
+                of original research, technical review and tutorial from the
+                following, but not limited to, cyber physical systems
+                applications in following areas:
+              </p>
               <ol className="list-decimal list-inside space-y-1">
                 <li>Artificial Intelligence / Machine Learning</li>
                 <li>Asset Management</li>
@@ -304,14 +390,24 @@ export default function UnifiedClone() {
             <div className="md:w-1/2 mb-6 md:mb-0">
               <img src="/logo.png" alt="NIT Logo" className="w-20 mb-4" />
               <p className="text-[#540000] mb-4">
-                National Institute of Technology Arunachal Pradesh (NITAP) is one of the 31 prestigious National Institutes of Technology in India, recognized as an Institute of National Importance under the NIT Act, 2007. Established in the year 2010 by the Government of India, it aims to foster excellence in technical education and research in the northeastern region of India. The institute is surrounded by lush greenery and scenic hills, offering a peaceful and inspiring environment for study and innovation.
+                National Institute of Technology Arunachal Pradesh (NITAP) is
+                one of the 31 prestigious National Institutes of Technology in
+                India, recognized as an Institute of National Importance under
+                the NIT Act, 2007. Established in the year 2010 by the
+                Government of India, it aims to foster excellence in technical
+                education and research in the northeastern region of India. The
+                institute is surrounded by lush greenery and scenic hills,
+                offering a peaceful and inspiring environment for study and
+                innovation.
               </p>
               <p className="text-[#540000] font-medium">
                 Copyright © 2024 UNIfied 2024 – All Rights Reserved.
               </p>
             </div>
             <div className="md:w-1/3">
-              <h3 className="text-lg font-bold text-[#540000] mb-2">Contact Us</h3>
+              <h3 className="text-lg font-bold text-[#540000] mb-2">
+                Contact Us
+              </h3>
               <p className="text-[#540000] mb-1">NIT Arunachal Pradesh</p>
               <p className="text-[#540000] mb-1">nitap.ac.in</p>
               <p className="text-[#540000]">(+91)-9549654559</p>
