@@ -184,14 +184,10 @@ export default function UnifiedClone() {
             {/* Left side - Two images stacked or side by side */}
             <div className="flex flex-col md:flex-col gap-6 md:w-1/2">
               <img
-                src="welcome-image1.png"
-                alt="Conference Hall"
-                className="w-full rounded shadow"
-              />
-              <img
-                src="/welcome-image2.jpg"
-                alt="NIT Arunachal"
-                className="w-full rounded shadow"
+                src="/welcome-image1.png"
+                alt="Conference Setup"
+                className="w-full h-full object-cover rounded shadow"
+                style={{ minHeight: "100%" }}
               />
             </div>
 
