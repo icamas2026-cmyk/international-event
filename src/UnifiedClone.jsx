@@ -218,12 +218,12 @@ export default function UnifiedClone() {
                 future.
               </p>
             </div>
-            <p>
-              You are cordially invited to be a part of ICAMAS-2026 to be held
-              in <strong>hybrid mode during 10-12 March 2026</strong>.
-            </p>
           </div>
         </section>
+        <p>
+          You are cordially invited to be a part of ICAMAS-2026 to be held in{" "}
+          <strong>hybrid mode during 10-12 March 2026</strong>.
+        </p>
 
         {/* Conference Section */}
         <section
