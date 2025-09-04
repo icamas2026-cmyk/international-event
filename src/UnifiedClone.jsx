@@ -47,11 +47,25 @@ export default function UnifiedClone() {
             </a>
           </nav>
           <button
-            className="md:hidden p-2"
+            className="md:hidden p-2 flex flex-col justify-between w-6 h-6"
             onClick={() => setOpen(!open)}
             aria-label="Toggle Menu"
           >
-            {open ? "X" : "M"}
+            <span
+              className={`block h-0.5 w-full bg-black transform transition duration-300 ${
+                open ? "rotate-45 translate-y-2" : ""
+              }`}
+            ></span>
+            <span
+              className={`block h-0.5 w-full bg-black transition duration-300 ${
+                open ? "opacity-0" : ""
+              }`}
+            ></span>
+            <span
+              className={`block h-0.5 w-full bg-black transform transition duration-300 ${
+                open ? "-rotate-45 -translate-y-2" : ""
+              }`}
+            ></span>
           </button>
         </div>
 
