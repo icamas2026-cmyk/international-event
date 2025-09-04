@@ -120,7 +120,7 @@ export default function UnifiedClone() {
                 Program
               </a>
               <a
-                href="#committees"
+                href="committees"
                 className="block hover:underline"
                 onClick={() => setOpen(false)}
               >
@@ -134,7 +134,7 @@ export default function UnifiedClone() {
                 Key Notes
               </a>
               <a
-                href="#sponsorship"
+                href="sponsorship.html"
                 className="block hover:underline"
                 onClick={() => setOpen(false)}
               >
