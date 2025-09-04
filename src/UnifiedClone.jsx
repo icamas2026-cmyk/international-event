@@ -71,11 +71,11 @@ export default function UnifiedClone() {
                 Home
               </a>
               <a
-                href="#about"
+                href="nitap.html"
                 className="block hover:underline"
                 onClick={() => setOpen(false)}
               >
-                About Arunachal Pradesh
+                About NIT Arunachal Pradesh
               </a>
               <a
                 href="#registration"
