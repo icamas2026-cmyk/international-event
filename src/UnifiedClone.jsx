@@ -278,9 +278,10 @@ export default function UnifiedClone() {
               <h3 className="text-lg font-bold text-[#540000] mb-2">
                 Contact Us
               </h3>
-              <p className="text-[#540000] mb-1">NIT Arunachal Pradesh</p>
-              <p className="text-[#540000] mb-1">nitap.ac.in</p>
-              <p className="text-[#540000]">(+91)-9549654559</p>
+              <p className="text-[#540000] mb-1">Dr. Ravi Ranjan kumar</p>
+              <p className="text-[#540000] mb-1">[Assistant Professor]</p>
+              <p className="text-[#540000] mb-1">icamas2026@gmail.com</p>
+              <p className="text-[#540000]">(+91)-9085659292</p>
             </div>
           </div>
         </footer>
