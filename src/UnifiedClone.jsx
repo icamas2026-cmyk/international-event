@@ -218,12 +218,12 @@ export default function UnifiedClone() {
               },
               {
                 title: "Recognition",
-                desc: "Recognized as an Institute of National Importance, NIT Arunachal Pradesh admits 180 undergraduate students yearly across core engineering branches, fostering excellence in technical education.",
+                desc: "Presently the Institute is running in the project phase with a yearly intake of 180 undergraduate students in five major Engineering departments such as Civil Engineering, Computer Science and Engineering, Electrical Engineering, Electronics and Communication Engineering and Mechanical Engineering. Each department is equipped with well-established state-of-the-art laboratories to crater the holistic development of the students.",
                 img: "./library.jpg",
               },
               {
                 title: "Research & Development",
-                desc: "With sponsored projects worth nearly 10 Crores, the institute promotes advanced research while encouraging students and faculty to contribute to national and global technological progress.",
+                desc: "Despite of few geographical constraints, the Institute has thrived through rigorous challenges and has evolved to see new heights with a present capacity of 850 students pursuing various bachelor, master as well as doctorate degrees from the departments. The faculty and student of the Institute are also engaged in various R&D projects sponsored by various Government agencies and the current value of such running project is around 10 Crore.",
                 img: "./research.jpg",
               },
             ].map((item, idx) => (
