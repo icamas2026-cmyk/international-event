@@ -6,7 +6,7 @@ export default function UnifiedClone() {
 
   const navLinks = [
     { name: "Home", href: "#home" },
-    { name: "About Arunachal Pradesh", href: "nitap.html" },
+    { name: "About Arunachal Pradesh", href: "about.html" },
     { name: "Registration", href: "#registration" },
     { name: "Key Dates", href: "keydates.html" },
     { name: "Visa", href: "#visa" },
