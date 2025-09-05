@@ -349,7 +349,7 @@ export default function UnifiedClone() {
       viewport={{ once: true }}
     >
       <h3 class="text-2xl font-semibold text-red-800 mb-4">
-        Tracks & Topics of Interest
+        Unpublished Original technical papers are sought in the following three tracks.The topics of interest include, but are not limited to: 
       </h3>
       <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-700 list-disc ml-6">
         <li>Experimental and Computational Fluid Mechanics</li>
