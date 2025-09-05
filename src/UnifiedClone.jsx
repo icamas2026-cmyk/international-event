@@ -257,6 +257,55 @@ export default function UnifiedClone() {
           </div>
         </section>
 
+
+
+    <section className="bg-gray-50 text-gray-800 py-16">
+      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
+        
+        {/* Left Side - Image with animation */}
+        <motion.img
+          src="/mechanical-lab.jpg"
+          alt="Mechanical Engineering Department"
+          className="rounded-xl shadow-lg md:w-1/2 max-h-80 object-cover hover:scale-105 transition-transform duration-500"
+          initial={{ opacity: 0, x: -80 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+        />
+
+        {/* Right Side - Text with animation */}
+        <motion.div
+          className="md:w-1/2 space-y-4"
+          initial={{ opacity: 0, x: 80 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1, delay: 0.3 }}
+          viewport={{ once: true }}
+        >
+          <h2 className="text-3xl font-bold text-blue-900">
+            About Department
+          </h2>
+          <p className="text-justify leading-relaxed text-gray-700">
+            The Department of Mechanical Engineering at 
+            <strong> NIT Arunachal Pradesh </strong> was established in August 2013. 
+            The department offers a four-year B.Tech degree in Mechanical Engineering 
+            with an annual intake of 40 students.
+          </p>
+          <p className="text-justify leading-relaxed text-gray-700">
+            Since July 2019, the department has also been offering a 
+            <strong> 2-year M.Tech. programme </strong> in Fluids and Thermal Engineering 
+            with an intake of 20 students. 
+          </p>
+          <p className="text-justify leading-relaxed text-gray-700">
+            Additionally, the department initiated its 
+            <strong> Ph.D. research programme </strong> in 2015-16, 
+            contributing to advanced research and innovation.
+          </p>
+        </motion.div>
+      </div>
+    </section>
+
+
+
         {/* Footer */}
         <footer className="bg-red-100 py-10">
           <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
