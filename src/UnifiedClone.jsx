@@ -2,155 +2,19 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
+// src/pages/unified.jsx
+import Header from "../components/Header"
+
 export default function UnifiedClone() {
   const [open, setOpen] = useState(false);
   return (
     <div className="min-h-screen bg-white text-[#5B0000] font-sans">
       {/* Updated Header */}
-      <header className="w-full fixed top-0 left-0 z-50 bg-white shadow-md">
-        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-          <img src="/logo.png" alt="Institute Logo" className="h-12 w-auto" />
-          <nav className="hidden md:flex gap-6 text-sm md:text-base font-medium">
-            <a href="#home" className="hover:underline">
-              Home
-            </a>
-            <a href="nitap.html" className="hover:underline">
-              About Arunachal Pradesh
-            </a>
-            <a href="#registration" className="hover:underline">
-              Registration
-            </a>
-            <a href="keydates.html" className="hover:underline">
-              Key Dates
-            </a>
-            <a href="#visa" className="hover:underline">
-              Visa
-            </a>
-            <a href="#submission" className="hover:underline">
-              Submission
-            </a>
-            <a href="#program" className="hover:underline">
-              Program
-            </a>
-            <a href="#committees" className="hover:underline">
-              Committees
-            </a>
-            <a href="#keynotes" className="hover:underline">
-              Key Notes
-            </a>
-            <a href="sponsorship.html" className="hover:underline">
-              Sponsorship
-            </a>
-            <a href="#travel" className="hover:underline text-center">
-              Accomodation
-              <br />& Travel
-            </a>
-          </nav>
-          <button
-            className="md:hidden p-2 flex flex-col justify-between w-6 h-6"
-            onClick={() => setOpen(!open)}
-            aria-label="Toggle Menu"
-          >
-            <span
-              className={`block h-0.5 w-full bg-black transform transition duration-300 ${
-                open ? "rotate-45 translate-y-2" : ""
-              }`}
-            ></span>
-            <span
-              className={`block h-0.5 w-full bg-black transition duration-300 ${
-                open ? "opacity-0" : ""
-              }`}
-            ></span>
-            <span
-              className={`block h-0.5 w-full bg-black transform transition duration-300 ${
-                open ? "-rotate-45 -translate-y-2" : ""
-              }`}
-            ></span>
-          </button>
-        </div>
+;
 
-        {open && (
-          <div className="fixed inset-0 z-40 md:hidden">
-            <div
-              className="absolute inset-0 bg-black opacity-40"
-              onClick={() => setOpen(false)}
-            ></div>
+<div className="min-h-screen bg-white text-[#5B0000] font-sans"> {/* Updated Header */} <header className="w-full fixed top-0 left-0 z-50 bg-white shadow-md"> <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between"> <img src="/logo.png" alt="Institute Logo" className="h-12 w-auto" /> <nav className="hidden md:flex gap-6 text-sm md:text-base font-medium"> <a href="#home" className="hover:underline"> Home </a> <a href="nitap.html" className="hover:underline"> About Arunachal Pradesh </a> <a href="#registration" className="hover:underline"> Registration </a> <a href="keydates.html" className="hover:underline"> Key Dates </a> <a href="#visa" className="hover:underline"> Visa </a> <a href="#submission" className="hover:underline"> Submission </a> <a href="#program" className="hover:underline"> Program </a> <a href="#committees" className="hover:underline"> Committees </a> <a href="#keynotes" className="hover:underline"> Key Notes </a> <a href="sponsorship.html" className="hover:underline"> Sponsorship </a> <a href="#travel" className="hover:underline text-center"> Accomodation <br />& Travel </a> </nav> <button className="md:hidden p-2 flex flex-col justify-between w-6 h-6" onClick={() => setOpen(!open)} aria-label="Toggle Menu" > <span className={block h-0.5 w-full bg-black transform transition duration-300 ${ open ? "rotate-45 translate-y-2" : "" }} ></span> <span className={block h-0.5 w-full bg-black transition duration-300 ${ open ? "opacity-0" : "" }} ></span> <span className={block h-0.5 w-full bg-black transform transition duration-300 ${ open ? "-rotate-45 -translate-y-2" : "" }} ></span> </button> </div> {open && ( <div className="fixed inset-0 z-40 md:hidden"> <div className="absolute inset-0 bg-black opacity-40" onClick={() => setOpen(false)} ></div> <div className="absolute top-0 left-0 w-64 h-full bg-white shadow-lg p-6 space-y-4 overflow-y-auto"> <a href="#home" className="block hover:underline" onClick={() => setOpen(false)} > Home </a> <a href="nitap.html" className="block hover:underline" onClick={() => setOpen(false)} > About Arunachal Pradesh </a> <a href="#registration" className="block hover:underline" onClick={() => setOpen(false)} > Registration </a> <a href="#dates" className="block hover:underline" onClick={() => setOpen(false)} > Key Dates </a> <a href="#submission" className="block hover:underline" onClick={() => setOpen(false)} > Submission </a> <a href="#program" className="block hover:underline" onClick={() => setOpen(false)} > Program </a> <a href="committees" className="block hover:underline" onClick={() => setOpen(false)} > Committees </a> <a href="keyNotes.html" className="block hover:underline" onClick={() => setOpen(false)} > Key Notes </a> <a href="sponsorship.html" className="block hover:underline" onClick={() => setOpen(false)} > Sponsorship </a> <a href="accomodation.html" className="block hover:underline" onClick={() => setOpen(false)} > Accomodation & Travel </a> </div> </div> )} </header>
 
-            <div className="absolute top-0 left-0 w-64 h-full bg-white shadow-lg p-6 space-y-4 overflow-y-auto">
-              <a
-                href="#home"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Home
-              </a>
-              <a
-                href="nitap.html"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                About Arunachal Pradesh
-              </a>
-              <a
-                href="#registration"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Registration
-              </a>
-              <a
-                href="#dates"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Key Dates
-              </a>
-              <a
-                href="#submission"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Submission
-              </a>
-              <a
-                href="#program"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Program
-              </a>
-              <a
-                href="committees"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Committees
-              </a>
-              <a
-                href="keyNotes.html"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Key Notes
-              </a>
-              <a
-                href="sponsorship.html"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Sponsorship
-              </a>
-              <a
-                href="accomodation.html"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Accomodation & Travel
-              </a>
-            </div>
-          </div>
-        )}
-      </header>
+
 
       {/* Hero Section */}
       <main className="pt-32">
