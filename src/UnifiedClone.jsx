@@ -264,7 +264,7 @@ export default function UnifiedClone() {
         
         {/* Left Side - Image with animation */}
         <motion.img
-          src="/mechanical-lab.jpg"
+          src="/depatment.jpg"
           alt="Mechanical Engineering Department"
           className="rounded-xl shadow-lg md:w-1/2 max-h-80 object-cover hover:scale-105 transition-transform duration-500"
           initial={{ opacity: 0, x: -80 }}
