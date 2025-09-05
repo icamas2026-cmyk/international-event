@@ -360,45 +360,7 @@ export default function UnifiedClone() {
           </div>
         </section>
 
-        {/* Contact Section */}
-        <section id="contact" className="py-10">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-6">
-              <span className="text-red-500">Contact Us</span>
-              <span className="text-[#540000]"> To Know More</span>
-            </h2>
-
-            <form action="#" method="POST" className="max-w-4xl">
-              <input
-                type="text"
-                name="name"
-                placeholder="NAME"
-                className="w-full bg-red-300 p-4 mb-4 rounded focus:outline-none"
-                required
-              />
-              <input
-                type="email"
-                name="email"
-                placeholder="EMAIL"
-                className="w-full bg-red-300 p-4 mb-4 rounded focus:outline-none"
-                required
-              />
-              <textarea
-                name="message"
-                rows="5"
-                placeholder="MESSAGE"
-                className="w-full bg-red-300 p-4 mb-4 rounded focus:outline-none"
-                required
-              ></textarea>
-              <button
-                type="submit"
-                className="bg-yellow-400 hover:bg-yellow-500 text-[#540000] font-semibold py-2 px-6 rounded"
-              >
-                SUBMIT
-              </button>
-            </form>
-          </div>
-        </section>
+       
 
         {/* Footer Section */}
         <footer className="bg-red-100 py-10">
