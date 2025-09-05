@@ -307,7 +307,7 @@ export default function UnifiedClone() {
  
  <section class="py-16 bg-white">
   <div class="max-w-6xl mx-auto px-6">
-    <!-- Heading -->
+    
     <motion.div 
       initial={{ opacity: 0, y: -50 }} 
       whileInView={{ opacity: 1, y: 0 }} 
@@ -326,7 +326,7 @@ export default function UnifiedClone() {
       </p>
     </motion.div>
 
-    <!-- Categories -->
+    
     <motion.div 
       initial={{ opacity: 0, x: -80 }} 
       whileInView={{ opacity: 1, x: 0 }} 
@@ -341,7 +341,7 @@ export default function UnifiedClone() {
       </ul>
     </motion.div>
 
-    <!-- Tracks -->
+    
     <motion.div 
       initial={{ opacity: 0, x: 80 }} 
       whileInView={{ opacity: 1, x: 0 }} 
