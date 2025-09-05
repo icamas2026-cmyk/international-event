@@ -271,7 +271,7 @@ export default function UnifiedClone() {
                 northeastern region of India.
               </p>
               <p className="text-[#540000] font-medium">
-                © 2024 UNIfied – All Rights Reserved.
+                © ICAMAS 2026 – All Rights Reserved.
               </p>
             </div>
             <div className="md:w-1/3">
