@@ -106,8 +106,7 @@ export default function UnifiedClone() {
         <section
           id="hero"
           className="relative h-[90vh] bg-cover bg-center flex items-center justify-center"
-          style={{ backgroundImage: "url('/mnit-campus.jpg')",
-            position: bottom
+          style={{ backgroundImage: "url('/mnit-campus.jpg')"
            }}
         >
           <div className="bg-black/40 w-full h-full absolute top-0 left-0"></div>
