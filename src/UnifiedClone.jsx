@@ -400,6 +400,7 @@ export default function UnifiedClone() {
           <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
             <div className="md:w-1/2">
               <img src="/logo.png" alt="NIT Logo" className="w-20 mb-4" />
+              <img src="/ica.png" alt="Logo" className="h-12 w-auto" />
               <p className="text-[#540000] mb-4">
                 National Institute of Technology Arunachal Pradesh (NITAP) is
                 one of the 31 prestigious NITs in India, recognized as an
