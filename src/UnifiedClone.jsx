@@ -1,51 +1,55 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { useState } from "react";
 
 export default function UnifiedClone() {
   const [open, setOpen] = useState(false);
+
+  // Motion Variants
+  const sectionVariant = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
+  };
+
+  const imageVariant = {
+    hidden: { opacity: 0, scale: 0.9 },
+    visible: { opacity: 1, scale: 1, transition: { duration: 0.8 } },
+  };
+
+  const textVariant = {
+    hidden: { opacity: 0, x: -50 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.8 } },
+  };
+
   return (
     <div className="min-h-screen bg-white text-[#5B0000] font-sans">
-      {/* Updated Header */}
+      {/* Header */}
       <header className="w-full fixed top-0 left-0 z-50 bg-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
           <img src="/logo.png" alt="Institute Logo" className="h-12 w-auto" />
           <nav className="hidden md:flex gap-6 text-sm md:text-base font-medium">
-            <a href="#home" className="hover:underline">
-              Home
-            </a>
-            <a href="nitap.html" className="hover:underline">
-              About Arunachal Pradesh
-            </a>
-            <a href="#registration" className="hover:underline">
-              Registration
-            </a>
-            <a href="keydates.html" className="hover:underline">
-              Key Dates
-            </a>
-            <a href="#visa" className="hover:underline">
-              Visa
-            </a>
-            <a href="#submission" className="hover:underline">
-              Submission
-            </a>
-            <a href="#program" className="hover:underline">
-              Program
-            </a>
-            <a href="#committees" className="hover:underline">
-              Committees
-            </a>
-            <a href="#keynotes" className="hover:underline">
-              Key Notes
-            </a>
-            <a href="sponsorship.html" className="hover:underline">
-              Sponsorship
-            </a>
-            <a href="#travel" className="hover:underline text-center">
-              Accomodation
-              <br />& Travel
-            </a>
+            {[
+              "Home",
+              "About Arunachal Pradesh",
+              "Registration",
+              "Key Dates",
+              "Visa",
+              "Submission",
+              "Program",
+              "Committees",
+              "Key Notes",
+              "Sponsorship",
+              "Accommodation & Travel",
+            ].map((link, idx) => (
+              <a
+                key={idx}
+                href="#"
+                className="hover:text-red-500 hover:underline transition"
+              >
+                {link}
+              </a>
+            ))}
           </nav>
+          {/* Mobile menu toggle */}
           <button
             className="md:hidden p-2 flex flex-col justify-between w-6 h-6"
             onClick={() => setOpen(!open)}
@@ -69,100 +73,56 @@ export default function UnifiedClone() {
           </button>
         </div>
 
-        {open && (
-          <div className="fixed inset-0 z-40 md:hidden">
-            <div
-              className="absolute inset-0 bg-black opacity-40"
-              onClick={() => setOpen(false)}
-            ></div>
-
-            <div className="absolute top-0 left-0 w-64 h-full bg-white shadow-lg p-6 space-y-4 overflow-y-auto">
+        {/* Mobile Menu */}
+        <motion.div
+          className={`fixed inset-0 z-40 md:hidden ${
+            open ? "block" : "hidden"
+          }`}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: open ? 1 : 0 }}
+          transition={{ duration: 0.3 }}
+        >
+          <div
+            className="absolute inset-0 bg-black opacity-40"
+            onClick={() => setOpen(false)}
+          ></div>
+          <motion.div
+            className="absolute top-0 left-0 w-64 h-full bg-white shadow-lg p-6 space-y-4 overflow-y-auto"
+            initial={{ x: -300 }}
+            animate={{ x: open ? 0 : -300 }}
+            transition={{ type: "spring", stiffness: 100 }}
+          >
+            {[
+              "Home",
+              "About Arunachal Pradesh",
+              "Registration",
+              "Key Dates",
+              "Submission",
+              "Program",
+              "Committees",
+              "Key Notes",
+              "Sponsorship",
+              "Accommodation & Travel",
+            ].map((link, idx) => (
               <a
-                href="#home"
-                className="block hover:underline"
+                key={idx}
+                href="#"
+                className="block hover:text-red-500 hover:underline transition"
                 onClick={() => setOpen(false)}
               >
-                Home
+                {link}
               </a>
-              <a
-                href="nitap.html"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                About Arunachal Pradesh
-              </a>
-              <a
-                href="#registration"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Registration
-              </a>
-              <a
-                href="#dates"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Key Dates
-              </a>
-              <a
-                href="#submission"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Submission
-              </a>
-              <a
-                href="#program"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Program
-              </a>
-              <a
-                href="committees"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Committees
-              </a>
-              <a
-                href="keyNotes.html"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Key Notes
-              </a>
-              <a
-                href="sponsorship.html"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Sponsorship
-              </a>
-              <a
-                href="accomodation.html"
-                className="block hover:underline"
-                onClick={() => setOpen(false)}
-              >
-                Accomodation & Travel
-              </a>
-            </div>
-          </div>
-        )}
+            ))}
+          </motion.div>
+        </motion.div>
       </header>
 
       {/* Hero Section */}
       <main className="pt-32">
         <section
           id="hero"
-          className="relative h-[90vh] bg-cover  bg-center flex items-center justify-center"
-          style={{
-            backgroundImage: "url('/mnit-campus.jpg')",
-            backgroundSize: "cover", // makes image cover entire section
-            backgroundPosition: "bottom", // positions image at the bottom
-            backgroundRepeat: "no-repeat", // prevents image from repeating
-          }}
+          className="relative h-[90vh] bg-cover bg-center flex items-center justify-center"
+          style={{ backgroundImage: "url('/mnit-campus.jpg')" }}
         >
           <div className="bg-black/40 w-full h-full absolute top-0 left-0"></div>
           <div className="relative z-10 text-center px-4 text-white">
@@ -175,31 +135,49 @@ export default function UnifiedClone() {
               1st International Conference on Advances in Mechanical and
               Aerospace Science (ICAMAS-2026)
             </motion.h1>
-            <p className="text-xl md:text-2xl">
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 1, delay: 0.5 }}
+              className="text-xl md:text-2xl"
+            >
               Conference dates: 10-12 March, 2026
-            </p>
+            </motion.p>
           </div>
         </section>
 
         {/* Welcome Section */}
-        <section id="welcome" className="py-12 px-4 max-w-6xl mx-auto">
+        <motion.section
+          id="welcome"
+          className="py-12 px-4 max-w-6xl mx-auto"
+          variants={sectionVariant}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+        >
           <h2 className="text-3xl font-bold mb-8 text-center">
             ICAMAS-2026 <span className="text-red-500">Welcomes You</span>
           </h2>
 
           <div className="flex flex-col md:flex-row items-start gap-8">
-            {/* Left side - Two images stacked or side by side */}
-            <div className="flex flex-col md:flex-col gap-6 md:w-1/2">
+            {/* Left side - image */}
+            <motion.div
+              className="flex flex-col md:w-1/2 gap-6"
+              variants={imageVariant}
+            >
               <img
                 src="/welcome-image1.png"
                 alt="Conference Setup"
-                className="w-full h-full object-cover rounded shadow"
+                className="w-full h-full object-cover rounded shadow-lg hover:scale-105 transition-transform duration-500"
                 style={{ minHeight: "100%" }}
               />
-            </div>
+            </motion.div>
 
-            {/* Right side - Text content */}
-            <div className="text-[#540000] md:w-1/2 space-y-4">
+            {/* Right side - Text */}
+            <motion.div
+              className="text-[#540000] md:w-1/2 space-y-4"
+              variants={textVariant}
+            >
               <p>
                 The 1st International Conference on Advances in Mechanical and
                 Aerospace Science (ICAMAS-2026) will be held at the National
@@ -224,133 +202,89 @@ export default function UnifiedClone() {
                 the wider global effort toward a sustainable and resilient
                 future.
               </p>
-            </div>
+            </motion.div>
+          </div>
+
+          <motion.p
+            className="text-center mt-8 font-semibold"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.5 }}
+          >
+            You are cordially invited to be a part of ICAMAS-2026 in{" "}
+            <strong>hybrid mode during 10-12 March 2026</strong>.
+          </motion.p>
+        </motion.section>
+
+        {/* About NIT Section */}
+        <section className="bg-gray-50 text-gray-800 py-12">
+          <div className="max-w-6xl mx-auto px-4">
+            <h2 className="text-3xl font-bold text-center text-blue-900 mb-10">
+              About NIT Arunachal Pradesh
+            </h2>
+
+            {[
+              {
+                title: "Establishment",
+                desc: "Founded in 2010 by the Ministry of Human Resource Development, NIT Arunachal Pradesh began as one of the ten new NITs created to meet India’s growing need for skilled engineers and innovators.",
+                img: "./nit.jpg",
+              },
+              {
+                title: "Recognition",
+                desc: "Recognized as an Institute of National Importance, NIT Arunachal Pradesh admits 180 undergraduate students yearly across core engineering branches, fostering excellence in technical education.",
+                img: "./library.jpg",
+              },
+              {
+                title: "Research & Development",
+                desc: "With sponsored projects worth nearly 10 Crores, the institute promotes advanced research while encouraging students and faculty to contribute to national and global technological progress.",
+                img: "./research.jpg",
+              },
+            ].map((item, idx) => (
+              <motion.div
+                key={idx}
+                className={`flex flex-col md:flex-row items-center gap-8 mb-12 ${
+                  idx % 2 === 1 ? "md:flex-row-reverse" : ""
+                }`}
+                initial={{ opacity: 0, x: idx % 2 === 1 ? 100 : -100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+              >
+                <div className="md:w-2/3">
+                  <h3 className="text-2xl font-semibold text-blue-800 mb-4">
+                    {item.title}
+                  </h3>
+                  <p className="text-justify">{item.desc}</p>
+                </div>
+                <motion.img
+                  src={item.img}
+                  alt={item.title}
+                  className="rounded-lg shadow-lg md:w-1/3 max-h-64 object-cover hover:scale-105 transition-transform duration-500"
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.8, delay: 0.3 }}
+                  viewport={{ once: true }}
+                />
+              </motion.div>
+            ))}
           </div>
         </section>
-        <p className="text-center">
-          You are cordially invited to be a part of ICAMAS-2026 to be held in{" "}
-          <strong>hybrid mode during 10-12 March 2026</strong>.
-        </p>  
 
-
-
-
-
-    <section className="bg-gray-50 text-gray-800 py-12">
-      <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center text-blue-900 mb-10">
-          About NIT Arunachal Pradesh
-        </h2>
-
-        {/* Establishment */}
-        <motion.div
-          className="flex flex-col md:flex-row items-center gap-8 mb-12"
-          initial={{ opacity: 0, x: -100 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-        >
-          <div className="md:w-2/3">
-            <h3 className="text-2xl font-semibold text-blue-800 mb-4">
-              Establishment
-            </h3>
-            <p className="text-justify">
-              Founded in 2010 by the Ministry of Human Resource Development,
-              NIT Arunachal Pradesh began as one of the ten new NITs created to
-              meet India’s growing need for skilled engineers and innovators.
-            </p>
-          </div>
-          <motion.img
-            src="./nit.jpg"
-            alt="NIT Campus"
-            className="rounded-lg shadow-lg md:w-1/3 max-h-64 object-cover"
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            viewport={{ once: true }}
-          />
-        </motion.div>
-
-        {/* Recognition */}
-        <motion.div
-          className="flex flex-col md:flex-row-reverse items-center gap-8 mb-12"
-          initial={{ opacity: 0, x: 100 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-        >
-          <div className="md:w-2/3">
-            <h3 className="text-2xl font-semibold text-blue-800 mb-4">
-              Recognition
-            </h3>
-            <p className="text-justify">
-              Recognized as an Institute of National Importance, NIT Arunachal
-              Pradesh admits 180 undergraduate students yearly across core
-              engineering branches, fostering excellence in technical education.
-            </p>
-          </div>
-          <motion.img
-            src="./library.jpg"
-            alt="Library and Students"
-            className="rounded-lg shadow-lg md:w-1/3 max-h-64 object-cover"
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            viewport={{ once: true }}
-          />
-        </motion.div>
-
-        {/* Research & Development */}
-        <motion.div
-          className="flex flex-col md:flex-row items-center gap-8"
-          initial={{ opacity: 0, x: -100 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-        >
-          <div className="md:w-2/3">
-            <h3 className="text-2xl font-semibold text-blue-800 mb-4">
-              Research & Development
-            </h3>
-            <p className="text-justify">
-              With sponsored projects worth nearly 10 Crores, the institute
-              promotes advanced research while encouraging students and faculty
-              to contribute to national and global technological progress.
-            </p>
-          </div>
-          <motion.img
-            src="./research.jpg"
-            alt="Research Projects"
-            className="rounded-lg shadow-lg md:w-1/3 max-h-64 object-cover"
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            viewport={{ once: true }}
-          />
-        </motion.div>
-      </div>
-    </section>
-
-       
-
-        {/* Footer Section */}
+        {/* Footer */}
         <footer className="bg-red-100 py-10">
-          <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start md:items-center">
-            <div className="md:w-1/2 mb-6 md:mb-0">
+          <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+            <div className="md:w-1/2">
               <img src="/logo.png" alt="NIT Logo" className="w-20 mb-4" />
               <p className="text-[#540000] mb-4">
                 National Institute of Technology Arunachal Pradesh (NITAP) is
-                one of the 31 prestigious National Institutes of Technology in
-                India, recognized as an Institute of National Importance under
-                the NIT Act, 2007. Established in the year 2010 by the
-                Government of India, it aims to foster excellence in technical
-                education and research in the northeastern region of India. The
-                institute is surrounded by lush greenery and scenic hills,
-                offering a peaceful and inspiring environment for study and
-                innovation.
+                one of the 31 prestigious NITs in India, recognized as an
+                Institute of National Importance under the NIT Act, 2007.
+                Established in 2010 by the Government of India, it fosters
+                excellence in technical education and research in the
+                northeastern region of India.
               </p>
               <p className="text-[#540000] font-medium">
-                Copyright © 2024 UNIfied 2024 – All Rights Reserved.
+                © 2024 UNIfied – All Rights Reserved.
               </p>
             </div>
             <div className="md:w-1/3">
