@@ -232,6 +232,11 @@ export default function UnifiedClone() {
           <strong>hybrid mode during 10-12 March 2026</strong>.
         </p>  
 
+    import { motion } from "framer-motion";
+
+
+
+
     <section className="bg-gray-50 text-gray-800 py-12">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-blue-900 mb-10">
@@ -239,8 +244,14 @@ export default function UnifiedClone() {
         </h2>
 
         {/* Establishment */}
-        <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
-          <div className="md:w-1/2">
+        <motion.div
+          className="flex flex-col md:flex-row items-center gap-8 mb-12"
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+        >
+          <div className="md:w-2/3">
             <h3 className="text-2xl font-semibold text-blue-800 mb-4">
               Establishment
             </h3>
@@ -250,18 +261,26 @@ export default function UnifiedClone() {
               meet India’s growing need for skilled engineers and innovators.
             </p>
           </div>
-          <div className="md:w-1/2">
-            <img
-              src="./nit.jpg"
-              alt="NIT Campus"
-              className="rounded-lg shadow-lg"
-            />
-          </div>
-        </div>
+          <motion.img
+            src="./nit.jpg"
+            alt="NIT Campus"
+            className="rounded-lg shadow-lg md:w-1/3 max-h-64 object-cover"
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+            viewport={{ once: true }}
+          />
+        </motion.div>
 
         {/* Recognition */}
-        <div className="flex flex-col md:flex-row-reverse items-center gap-8 mb-12">
-          <div className="md:w-1/2">
+        <motion.div
+          className="flex flex-col md:flex-row-reverse items-center gap-8 mb-12"
+          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+        >
+          <div className="md:w-2/3">
             <h3 className="text-2xl font-semibold text-blue-800 mb-4">
               Recognition
             </h3>
@@ -271,18 +290,26 @@ export default function UnifiedClone() {
               engineering branches, fostering excellence in technical education.
             </p>
           </div>
-          <div className="md:w-1/2">
-            <img
-              src="./library.jpg"
-              alt="Library and Students"
-              className="rounded-lg shadow-lg"
-            />
-          </div>
-        </div>
+          <motion.img
+            src="./library.jpg"
+            alt="Library and Students"
+            className="rounded-lg shadow-lg md:w-1/3 max-h-64 object-cover"
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+            viewport={{ once: true }}
+          />
+        </motion.div>
 
         {/* Research & Development */}
-        <div className="flex flex-col md:flex-row items-center gap-8">
-          <div className="md:w-1/2">
+        <motion.div
+          className="flex flex-col md:flex-row items-center gap-8"
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+        >
+          <div className="md:w-2/3">
             <h3 className="text-2xl font-semibold text-blue-800 mb-4">
               Research & Development
             </h3>
@@ -292,69 +319,18 @@ export default function UnifiedClone() {
               to contribute to national and global technological progress.
             </p>
           </div>
-          <div className="md:w-1/2">
-            <img
-              src="./research.jpg"
-              alt="Research Projects"
-              className="rounded-lg shadow-lg"
-            />
-          </div>
-        </div>
+          <motion.img
+            src="./research.jpg"
+            alt="Research Projects"
+            className="rounded-lg shadow-lg md:w-1/3 max-h-64 object-cover"
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+            viewport={{ once: true }}
+          />
+        </motion.div>
       </div>
     </section>
-
-
-        {/* Scope Section */}
-        <section id="scope" className="py-12 px-4 max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4">Scope of the Conference</h2>
-          <p className="text-[#540000] mb-4">
-            The conference covers a broad area with multi-disciplinary interests
-            in the fields of plant maintenance, asset management, reliability,
-            condition monitoring, artificial intelligence and related areas,
-            ranging from fundamental research to real-world applications.
-          </p>
-          <div className="flex flex-col md:flex-row gap-8">
-            <img
-              src="/welcome-image.jpg"
-              alt="Scope Image"
-              className="md:w-1/2 rounded shadow"
-            />
-            <div className="md:w-1/2 text-[#540000] space-y-1">
-              <p>
-                The conference welcomes the submission of papers in the nature
-                of original research, technical review and tutorial from the
-                following, but not limited to, cyber physical systems
-                applications in following areas:
-              </p>
-              <ol className="list-decimal list-inside space-y-1">
-                <li>Artificial Intelligence / Machine Learning</li>
-                <li>Asset Management</li>
-                <li>Biomedical Damage Detection and Analysis</li>
-                <li>Condition Monitoring and Machine Health Monitoring</li>
-                <li>Condition–based and Predictive Maintenance</li>
-                <li>Damage Assessment & Health Management</li>
-                <li>Electrical Vehicle Energy Management</li>
-                <li>Health, Safety & Carbon Neutralization with CPS</li>
-                <li>Industrial Internet of Things (IIoT)</li>
-                <li>Life Cycle Cost Optimisation</li>
-                <li>Machine Lube Oil Analysis & Monitoring</li>
-                <li>Maintenance Auditing</li>
-                <li>Maintenance Organisation</li>
-                <li>Maintenance Performance Measurement</li>
-                <li>Manufacturing Process Monitoring</li>
-                <li>Mobile Technology</li>
-                <li>Non–Destructive Testing with CPS</li>
-                <li>Plant Outage</li>
-                <li>Prognostics and Health Management</li>
-                <li>Reliability, Availability, Maintainability & Safety</li>
-                <li>Sensors, Instrumentation and Measurement Systems</li>
-                <li>Signal and Image Processing Methods in CPS</li>
-                <li>Structural Integrity</li>
-                <li>Vibro–acoustics Monitoring</li>
-              </ol>
-            </div>
-          </div>
-        </section>
 
        
 
