@@ -351,7 +351,7 @@ export default function UnifiedClone() {
       <h3 class="text-2xl font-semibold text-red-800 mb-4">
         Unpublished Original technical papers are sought in the following topics which include, but are not limited to: 
       </h3>
-      <ol class="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-700 list-disc ml-6">
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-700 list-disc ml-6">
         <li>Experimental and Computational Fluid Mechanics</li>
         <li>Clean Energy Systems and Renewable Technologies</li>
         <li>Dynamic Systems, Control, and AI Integration</li>
@@ -381,7 +381,7 @@ export default function UnifiedClone() {
         <li>IoT and Cyber-Physical Systems in Engineering</li>
         <li>Multiscale and Multiphysics Engineering Solutions</li>
         <li>FEA & CFD in Engineering</li>
-      </ol>
+      </ul>
     </motion.div>
   </div>
 </section>
