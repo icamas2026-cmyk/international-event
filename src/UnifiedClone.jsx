@@ -109,7 +109,7 @@ export default function UnifiedClone() {
           style={{
             backgroundImage: "url('/mnit-campus.jpg')",
             backgroundSize: "cover", // makes image cover entire section
-            backgroundPosition: "bottom", // positions image at the bottom 
+            backgroundPosition: "bottom", // positions image at the bottom
             backgroundRepeat: "no-repeat",
           }}
         >
