@@ -304,6 +304,88 @@ export default function UnifiedClone() {
       </div>
     </section>
 
+ 
+ <section class="py-16 bg-white">
+  <div class="max-w-6xl mx-auto px-6">
+    <!-- Heading -->
+    <motion.div 
+      initial={{ opacity: 0, y: -50 }} 
+      whileInView={{ opacity: 1, y: 0 }} 
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+      class="text-center mb-12"
+    >
+      <h2 class="text-4xl font-bold text-red-900">Call for Papers</h2>
+      <p class="mt-4 text-lg text-gray-700">
+        Authors are invited to SUBMIT an abstract of the proposed work before the deadline. Abstract should have a minimum of 250 words and not more than 500 words. 
+        Abstract & Paper submission through <a href="https://www.easychair.org" target="_blank" class="text-blue-600 underline">www.easychair.org</a>.
+      </p>
+      <p class="mt-2 text-gray-700">
+        All submitted papers must be original and should not be under consideration for publication in any other journal or conference. 
+        Full length paper is limited to 10–12 pages as per the proposed format.
+      </p>
+    </motion.div>
+
+    <!-- Categories -->
+    <motion.div 
+      initial={{ opacity: 0, x: -80 }} 
+      whileInView={{ opacity: 1, x: 0 }} 
+      transition={{ duration: 0.8 }} 
+      viewport={{ once: true }}
+      class="mb-8"
+    >
+      <h3 class="text-2xl font-semibold text-red-800">Submission Categories</h3>
+      <ul class="list-disc ml-6 mt-3 text-gray-700 space-y-1">
+        <li>Full Research Papers</li>
+        <li>Comprehensive Review Papers</li>
+      </ul>
+    </motion.div>
+
+    <!-- Tracks -->
+    <motion.div 
+      initial={{ opacity: 0, x: 80 }} 
+      whileInView={{ opacity: 1, x: 0 }} 
+      transition={{ duration: 0.8 }} 
+      viewport={{ once: true }}
+    >
+      <h3 class="text-2xl font-semibold text-red-800 mb-4">
+        Tracks & Topics of Interest
+      </h3>
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-700 list-disc ml-6">
+        <li>Experimental and Computational Fluid Mechanics</li>
+        <li>Clean Energy Systems and Renewable Technologies</li>
+        <li>Dynamic Systems, Control, and AI Integration</li>
+        <li>Mechatronics and Robotics</li>
+        <li>Computational Mechanics</li>
+        <li>Modelling and Simulation</li>
+        <li>Biomechanics and Biomedical Engineering</li>
+        <li>Advanced Materials and Manufacturing</li>
+        <li>Digital Manufacturing and Industry 4.0</li>
+        <li>Aerodynamics</li>
+        <li>Flight Mechanics, Dynamics, Testing and Simulation</li>
+        <li>Aircraft Structure and Design</li>
+        <li>Control Systems and Avionics</li>
+        <li>Fuels and Combustion</li>
+        <li>Advanced techniques in UAV and MAV</li>
+        <li>Aircraft, Spacecraft, and Rocket Design</li>
+        <li>Smart Materials for Space Exploration</li>
+        <li>Sustainable Aviation and Sustainable Space</li>
+        <li>Remote Sensing and Applications</li>
+        <li>Active and Passive Space Control</li>
+        <li>Space Policy and Space Law</li>
+        <li>Autonomous Taxiing</li>
+        <li>Hybrid Aircrafts</li>
+        <li>Satellite Communication</li>
+        <li>IoT in Aerospace Applications</li>
+        <li>Sensors and Applications</li>
+        <li>IoT and Cyber-Physical Systems in Engineering</li>
+        <li>Multiscale and Multiphysics Engineering Solutions</li>
+        <li>FEA & CFD in Engineering</li>
+      </ul>
+    </motion.div>
+  </div>
+</section>
+
 
 
         {/* Footer */}
