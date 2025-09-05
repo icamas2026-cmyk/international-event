@@ -230,83 +230,79 @@ export default function UnifiedClone() {
         <p className="text-center">
           You are cordially invited to be a part of ICAMAS-2026 to be held in{" "}
           <strong>hybrid mode during 10-12 March 2026</strong>.
-        </p>
+        </p>  
 
-        {/* Conference Section */}
-        <section
-          id="conference"
-          className="py-12 px-4 bg-yellow-50 max-w-6xl mx-auto"
-        >
-          <h2 className="text-3xl font-bold mb-4">Conferences</h2>
-          <p className="text-[#540000] mb-8">
-            The 3–day event will provide the ideal opportunity for researchers,
-            industrialists, and equipment manufacturers/suppliers to meet, share
-            ideas and learn about the latest scientific and technological
-            advances in all of the listed fields, along with the future
-            directions that each of the fields is taking.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-lg p-6 shadow-md text-center">
-              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">🏠</span>
-              </div>
-              <h3 className="font-bold text-lg mb-2">
-                The International Conference on Maintenance Engineering (IncoME)
-              </h3>
-              <p className="text-sm text-[#540000] mb-2">
-                IncoME aims to provide a common platform by which professionals,
-                engineers, practitioners, and researchers working in the field
-                of plant maintenance and reliability can share their
-                experiences.
-              </p>
-              <a
-                href="#"
-                className="text-red-600 font-semibold hover:underline"
-              >
-                Learn More
-              </a>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-md text-center">
-              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">👥</span>
-              </div>
-              <h3 className="font-bold text-lg mb-2">
-                The Efficiency and Performance Engineering Network (TEPEN)
-                Conferences
-              </h3>
-              <p className="text-sm text-[#540000] mb-2">
-                (TEPEN) is an international network of world leading researchers
-                in the field of efficiency and performance engineering.
-              </p>
-              <a
-                href="#"
-                className="text-red-600 font-semibold hover:underline"
-              >
-                Learn More
-              </a>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-md text-center">
-              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">🎓</span>
-              </div>
-              <h3 className="font-bold text-lg mb-2">
-                International Conference on Damage Assessment of Structures
-                (DAMAS)
-              </h3>
-              <p className="text-sm text-[#540000] mb-2">
-                DAMAS is one of the most influential conferences in the field of
-                structural damage identification and machine fault diagnosis in
-                the world and is held every two years.
-              </p>
-              <a
-                href="#"
-                className="text-red-600 font-semibold hover:underline"
-              >
-                Learn More
-              </a>
-            </div>
+    <section className="bg-gray-50 text-gray-800 py-12">
+      <div className="max-w-6xl mx-auto px-4">
+        <h2 className="text-3xl font-bold text-center text-blue-900 mb-10">
+          About NIT Arunachal Pradesh
+        </h2>
+
+        {/* Establishment */}
+        <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
+          <div className="md:w-1/2">
+            <h3 className="text-2xl font-semibold text-blue-800 mb-4">
+              Establishment
+            </h3>
+            <p className="text-justify">
+              Founded in 2010 by the Ministry of Human Resource Development,
+              NIT Arunachal Pradesh began as one of the ten new NITs created to
+              meet India’s growing need for skilled engineers and innovators.
+            </p>
           </div>
-        </section>
+          <div className="md:w-1/2">
+            <img
+              src="./nit.jpg"
+              alt="NIT Campus"
+              className="rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
+
+        {/* Recognition */}
+        <div className="flex flex-col md:flex-row-reverse items-center gap-8 mb-12">
+          <div className="md:w-1/2">
+            <h3 className="text-2xl font-semibold text-blue-800 mb-4">
+              Recognition
+            </h3>
+            <p className="text-justify">
+              Recognized as an Institute of National Importance, NIT Arunachal
+              Pradesh admits 180 undergraduate students yearly across core
+              engineering branches, fostering excellence in technical education.
+            </p>
+          </div>
+          <div className="md:w-1/2">
+            <img
+              src="./library.jpg"
+              alt="Library and Students"
+              className="rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
+
+        {/* Research & Development */}
+        <div className="flex flex-col md:flex-row items-center gap-8">
+          <div className="md:w-1/2">
+            <h3 className="text-2xl font-semibold text-blue-800 mb-4">
+              Research & Development
+            </h3>
+            <p className="text-justify">
+              With sponsored projects worth nearly 10 Crores, the institute
+              promotes advanced research while encouraging students and faculty
+              to contribute to national and global technological progress.
+            </p>
+          </div>
+          <div className="md:w-1/2">
+            <img
+              src="./research.jpg"
+              alt="Research Projects"
+              className="rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
 
         {/* Scope Section */}
         <section id="scope" className="py-12 px-4 max-w-6xl mx-auto">
