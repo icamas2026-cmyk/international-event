@@ -213,7 +213,7 @@ export default function UnifiedClone() {
             {[
               {
                 title: "Establishment",
-                desc: "Founded in 2010 by the Ministry of Human Resource Development, NIT Arunachal Pradesh began as one of the ten new NITs created to meet India’s growing need for skilled engineers and innovators.",
+                desc: "The National Institute of Technology, Arunachal Pradesh was established in the year 2010 by MHRD, Govt. of India and was inaugurated on 18th of August, 2010 as a member of a group of ten new NITs. These new NITs were established as centers of excellence in technical education to combat the growing need for technological professionals in India as well as in the world. It is one of the 31 National Institutes of Technology in India and is recognized as an Institute of National Importance. ",
                 img: "./nit.jpg",
               },
               {
