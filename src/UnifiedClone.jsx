@@ -15,7 +15,7 @@ export default function UnifiedClone() {
               Home
             </a>
             <a href="nitap.html" className="hover:underline">
-              About NIT Arunachal Pradesh
+              About Arunachal Pradesh
             </a>
             <a href="#registration" className="hover:underline">
               Registration
@@ -89,7 +89,7 @@ export default function UnifiedClone() {
                 className="block hover:underline"
                 onClick={() => setOpen(false)}
               >
-                About NIT Arunachal Pradesh
+                About Arunachal Pradesh
               </a>
               <a
                 href="#registration"
@@ -232,7 +232,6 @@ export default function UnifiedClone() {
           <strong>hybrid mode during 10-12 March 2026</strong>.
         </p>  
 
-    import { motion } from "framer-motion";
 
 
 
