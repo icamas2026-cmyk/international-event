@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitation Letter — ICAMAS-2026</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f0fdf4, #f0f9ff, #ecfdf5);
+      color: #1f2937;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 40px;
+      gap: 40px;
+    }
+    .left img {
+      max-width: 420px;
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+    .right {
+      max-width: 500px;
+    }
+    .right h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #065f46;
+      margin-bottom: 18px;
+    }
+    .right p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 28px;
+      color: #374151;
+    }
+    .btn {
+      display: inline-block;
+      padding: 14px 30px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      background: linear-gradient(90deg, #34d399, #3b82f6);
+      border-radius: 30px;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: all 0.3s ease-in-out;
+    }
+    .btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+      background: linear-gradient(90deg, #3b82f6, #34d399);
+    }
+    @media (max-width: 900px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+      .right {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="container">
+    <!-- Left Side Image -->
+    <div class="left" data-aos="fade-right" data-aos-duration="1000">
+      <img src="air.jpg" alt="Visa Invitation Image">
+    </div>
+
+    <!-- Right Side Content -->
+    <div class="right" data-aos="fade-left" data-aos-duration="1000">
+      <h2>Apply for an Invitation Letter for Visa Purposes</h2>
+      <p>
+        Please click the button below, fill out the form with the correct information, 
+        and an invitation letter in PDF version will be sent to you via email shortly.
+      </p>
+      <a href="https://forms.gle/c3YC2AV8AdkusGnK7" target="_blank" class="btn">Apply Now</a>
+    </div>
+  </section>
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

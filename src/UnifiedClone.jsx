@@ -9,7 +9,7 @@ export default function UnifiedClone() {
     { name: "About Arunachal Pradesh", href: "about.html" },
     { name: "Registration", href: "registration.html" },
     { name: "Key Dates", href: "keydates.html" },
-    { name: "Visa", href: "#visa" },
+    { name: "Visa", href: "visa.html" },
     { name: "Submission", href: "#submission" },
     { name: "Program", href: "#program" },
     { name: "Committees", href: "#committees" },
