@@ -5,7 +5,7 @@ export default function UnifiedClone() {
   const [open, setOpen] = useState(false);
 
   const navLinks = [
-    { name: "Home", href: "UnifiedClone.jsx" },
+    { name: "Home", href: "#home" },
     { name: "About Arunachal Pradesh", href: "about.html" },
     { name: "Registration", href: "#registration" },
     { name: "Key Dates", href: "keydates.html" },
