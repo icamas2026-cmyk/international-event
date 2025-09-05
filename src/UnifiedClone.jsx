@@ -54,6 +54,8 @@ export default function UnifiedClone() {
             ))}
           </nav>
 
+          <img src="/ica.png" alt="Logo" className="h-12 w-auto" />
+
           {/* Mobile Menu Button */}
           <button
             className="md:hidden flex flex-col justify-between w-6 h-6 p-1"
@@ -257,136 +259,141 @@ export default function UnifiedClone() {
           </div>
         </section>
 
+        <section className="bg-gray-50 text-gray-800 py-16">
+          <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
+            {/* Left Side - Image with animation */}
+            <motion.img
+              src="/depatment.jpg"
+              alt="Mechanical Engineering Department"
+              className="rounded-xl shadow-lg md:w-1/2 max-h-80 object-cover hover:scale-105 transition-transform duration-500"
+              initial={{ opacity: 0, x: -80 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+              viewport={{ once: true }}
+            />
 
+            {/* Right Side - Text with animation */}
+            <motion.div
+              className="md:w-1/2 space-y-4"
+              initial={{ opacity: 0, x: 80 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1, delay: 0.3 }}
+              viewport={{ once: true }}
+            >
+              <h2 className="text-3xl font-bold text-blue-900">
+                About Department
+              </h2>
+              <p className="text-justify leading-relaxed text-gray-700">
+                The Department of Mechanical Engineering at
+                <strong> NIT Arunachal Pradesh </strong> was established in
+                August 2013. The department offers a four-year B.Tech degree in
+                Mechanical Engineering with an annual intake of 40 students.
+              </p>
+              <p className="text-justify leading-relaxed text-gray-700">
+                Since July 2019, the department has also been offering a
+                <strong> 2-year M.Tech. programme </strong> in Fluids and
+                Thermal Engineering with an intake of 20 students.
+              </p>
+              <p className="text-justify leading-relaxed text-gray-700">
+                Additionally, the department initiated its
+                <strong> Ph.D. research programme </strong> in 2015-16,
+                contributing to advanced research and innovation.
+              </p>
+            </motion.div>
+          </div>
+        </section>
 
-    <section className="bg-gray-50 text-gray-800 py-16">
-      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
-        
-        {/* Left Side - Image with animation */}
-        <motion.img
-          src="/depatment.jpg"
-          alt="Mechanical Engineering Department"
-          className="rounded-xl shadow-lg md:w-1/2 max-h-80 object-cover hover:scale-105 transition-transform duration-500"
-          initial={{ opacity: 0, x: -80 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
-          viewport={{ once: true }}
-        />
+        <section class="py-16 bg-white">
+          <div class="max-w-6xl mx-auto px-6">
+            <motion.div
+              initial={{ opacity: 0, y: -50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              class="text-center mb-12"
+            >
+              <h2 class="text-4xl font-bold text-red-900">Call for Papers</h2>
+              <p class="mt-4 text-lg text-gray-700">
+                Authors are invited to SUBMIT an abstract of the proposed work
+                before the deadline. Abstract should have a minimum of 250 words
+                and not more than 500 words. Abstract & Paper submission through{" "}
+                <a
+                  href="https://www.easychair.org"
+                  target="_blank"
+                  class="text-blue-600 underline"
+                >
+                  www.easychair.org
+                </a>
+                .
+              </p>
+              <p class="mt-2 text-gray-700">
+                All submitted papers must be original and should not be under
+                consideration for publication in any other journal or
+                conference. Full length paper is limited to 10–12 pages as per
+                the proposed format.
+              </p>
+            </motion.div>
 
-        {/* Right Side - Text with animation */}
-        <motion.div
-          className="md:w-1/2 space-y-4"
-          initial={{ opacity: 0, x: 80 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1, delay: 0.3 }}
-          viewport={{ once: true }}
-        >
-          <h2 className="text-3xl font-bold text-blue-900">
-            About Department
-          </h2>
-          <p className="text-justify leading-relaxed text-gray-700">
-            The Department of Mechanical Engineering at 
-            <strong> NIT Arunachal Pradesh </strong> was established in August 2013. 
-            The department offers a four-year B.Tech degree in Mechanical Engineering 
-            with an annual intake of 40 students.
-          </p>
-          <p className="text-justify leading-relaxed text-gray-700">
-            Since July 2019, the department has also been offering a 
-            <strong> 2-year M.Tech. programme </strong> in Fluids and Thermal Engineering 
-            with an intake of 20 students. 
-          </p>
-          <p className="text-justify leading-relaxed text-gray-700">
-            Additionally, the department initiated its 
-            <strong> Ph.D. research programme </strong> in 2015-16, 
-            contributing to advanced research and innovation.
-          </p>
-        </motion.div>
-      </div>
-    </section>
+            <motion.div
+              initial={{ opacity: 0, x: -80 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              class="mb-8"
+            >
+              <h3 class="text-2xl font-semibold text-red-800">
+                Submission Categories
+              </h3>
+              <ul class="list-disc ml-6 mt-3 text-gray-700 space-y-1">
+                <li>Full Research Papers</li>
+                <li>Comprehensive Review Papers</li>
+              </ul>
+            </motion.div>
 
- 
- <section class="py-16 bg-white">
-  <div class="max-w-6xl mx-auto px-6">
-    
-    <motion.div 
-      initial={{ opacity: 0, y: -50 }} 
-      whileInView={{ opacity: 1, y: 0 }} 
-      transition={{ duration: 0.8 }}
-      viewport={{ once: true }}
-      class="text-center mb-12"
-    >
-      <h2 class="text-4xl font-bold text-red-900">Call for Papers</h2>
-      <p class="mt-4 text-lg text-gray-700">
-        Authors are invited to SUBMIT an abstract of the proposed work before the deadline. Abstract should have a minimum of 250 words and not more than 500 words. 
-        Abstract & Paper submission through <a href="https://www.easychair.org" target="_blank" class="text-blue-600 underline">www.easychair.org</a>.
-      </p>
-      <p class="mt-2 text-gray-700">
-        All submitted papers must be original and should not be under consideration for publication in any other journal or conference. 
-        Full length paper is limited to 10–12 pages as per the proposed format.
-      </p>
-    </motion.div>
-
-    
-    <motion.div 
-      initial={{ opacity: 0, x: -80 }} 
-      whileInView={{ opacity: 1, x: 0 }} 
-      transition={{ duration: 0.8 }} 
-      viewport={{ once: true }}
-      class="mb-8"
-    >
-      <h3 class="text-2xl font-semibold text-red-800">Submission Categories</h3>
-      <ul class="list-disc ml-6 mt-3 text-gray-700 space-y-1">
-        <li>Full Research Papers</li>
-        <li>Comprehensive Review Papers</li>
-      </ul>
-    </motion.div>
-
-    
-    <motion.div 
-      initial={{ opacity: 0, x: 80 }} 
-      whileInView={{ opacity: 1, x: 0 }} 
-      transition={{ duration: 0.8 }} 
-      viewport={{ once: true }}
-    >
-      <h3 class="text-2xl font-semibold text-red-800 mb-4">
-        Unpublished Original technical papers are sought in the following topics which include, but are not limited to: 
-      </h3>
-      <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-700 list-disc ml-6">
-        <li>Experimental and Computational Fluid Mechanics</li>
-        <li>Clean Energy Systems and Renewable Technologies</li>
-        <li>Dynamic Systems, Control, and AI Integration</li>
-        <li>Mechatronics and Robotics</li>
-        <li>Computational Mechanics</li>
-        <li>Modelling and Simulation</li>
-        <li>Biomechanics and Biomedical Engineering</li>
-        <li>Advanced Materials and Manufacturing</li>
-        <li>Digital Manufacturing and Industry 4.0</li>
-        <li>Aerodynamics</li>
-        <li>Flight Mechanics, Dynamics, Testing and Simulation</li>
-        <li>Aircraft Structure and Design</li>
-        <li>Control Systems and Avionics</li>
-        <li>Fuels and Combustion</li>
-        <li>Advanced techniques in UAV and MAV</li>
-        <li>Aircraft, Spacecraft, and Rocket Design</li>
-        <li>Smart Materials for Space Exploration</li>
-        <li>Sustainable Aviation and Sustainable Space</li>
-        <li>Remote Sensing and Applications</li>
-        <li>Active and Passive Space Control</li>
-        <li>Space Policy and Space Law</li>
-        <li>Autonomous Taxiing</li>
-        <li>Hybrid Aircrafts</li>
-        <li>Satellite Communication</li>
-        <li>IoT in Aerospace Applications</li>
-        <li>Sensors and Applications</li>
-        <li>IoT and Cyber-Physical Systems in Engineering</li>
-        <li>Multiscale and Multiphysics Engineering Solutions</li>
-        <li>FEA & CFD in Engineering</li>
-      </ul>
-    </motion.div>
-  </div>
-</section>
-
-
+            <motion.div
+              initial={{ opacity: 0, x: 80 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+            >
+              <h3 class="text-2xl font-semibold text-red-800 mb-4">
+                Unpublished Original technical papers are sought in the
+                following topics which include, but are not limited to:
+              </h3>
+              <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-700 list-disc ml-6">
+                <li>Experimental and Computational Fluid Mechanics</li>
+                <li>Clean Energy Systems and Renewable Technologies</li>
+                <li>Dynamic Systems, Control, and AI Integration</li>
+                <li>Mechatronics and Robotics</li>
+                <li>Computational Mechanics</li>
+                <li>Modelling and Simulation</li>
+                <li>Biomechanics and Biomedical Engineering</li>
+                <li>Advanced Materials and Manufacturing</li>
+                <li>Digital Manufacturing and Industry 4.0</li>
+                <li>Aerodynamics</li>
+                <li>Flight Mechanics, Dynamics, Testing and Simulation</li>
+                <li>Aircraft Structure and Design</li>
+                <li>Control Systems and Avionics</li>
+                <li>Fuels and Combustion</li>
+                <li>Advanced techniques in UAV and MAV</li>
+                <li>Aircraft, Spacecraft, and Rocket Design</li>
+                <li>Smart Materials for Space Exploration</li>
+                <li>Sustainable Aviation and Sustainable Space</li>
+                <li>Remote Sensing and Applications</li>
+                <li>Active and Passive Space Control</li>
+                <li>Space Policy and Space Law</li>
+                <li>Autonomous Taxiing</li>
+                <li>Hybrid Aircrafts</li>
+                <li>Satellite Communication</li>
+                <li>IoT in Aerospace Applications</li>
+                <li>Sensors and Applications</li>
+                <li>IoT and Cyber-Physical Systems in Engineering</li>
+                <li>Multiscale and Multiphysics Engineering Solutions</li>
+                <li>FEA & CFD in Engineering</li>
+              </ul>
+            </motion.div>
+          </div>
+        </section>
 
         {/* Footer */}
         <footer className="bg-red-100 py-10">
