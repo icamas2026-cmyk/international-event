@@ -410,6 +410,8 @@ export default function UnifiedClone() {
             <div className="md:w-1/2">
               <span>
                 <img src="/logo.png" alt="NIT Logo" className="w-20 mb-4" />
+              </span>
+              <span>
                 <img src="/ica.png" alt="Logo" className="w-20 mb-4" />
               </span>
 
