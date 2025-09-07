@@ -400,12 +400,13 @@ export default function UnifiedClone() {
             </motion.div>
 
             {/* NEW Publication Section */}
+            {/* NEW Publication Section */}
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
-              className="mt-16 bg-gradient-to-r from-green-50 to-blue-50 p-8 rounded-xl shadow-md"
+              className="mt-16 bg-gray-50 p-8 rounded-xl shadow-md"
             >
               <h2 className="text-3xl font-bold text-red-900 mb-4">
                 Publication
