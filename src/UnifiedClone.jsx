@@ -16,7 +16,7 @@ export default function UnifiedClone() {
     { name: "Committees", href: "committees.html" },
     { name: "Key Notes", href: "keyNotes.html" },
     { name: "Sponsorship", href: "sponsorship.html" },
-    { name: "Accomodation & Travel", href: "#travel" },
+    { name: "Accomodation & Travel", href: "travel.html" },
   ];
 
   const sectionVariant = {

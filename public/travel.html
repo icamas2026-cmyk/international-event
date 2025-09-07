@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel & Accommodation | NIT Arunachal Pradesh</title>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(135deg, #a8e6cf, #a0c4ff);
+      padding: 50px 20px;
+      text-align: center;
+      border-radius: 0 0 40px 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #034078;
+      animation: fadeInDown 1.2s ease-in-out;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #036666;
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 22px rgba(0,0,0,0.15);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      margin: 0 0 10px 0;
+      color: #034078;
+    }
+
+    .card p {
+      color: #555;
+      line-height: 1.5;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 60px;
+      text-align: center;
+      background: #a0c4ff;
+      color: #034078;
+      padding: 20px;
+      border-radius: 30px 30px 0 0;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Travel & Accommodation</h1>
+  </header>
+
+  <div class="container">
+    <!-- Travel Section -->
+    <section data-aos="fade-up">
+      <h2>Travel Information</h2>
+      <div class="grid">
+        <div class="card" data-aos="zoom-in">
+          <img src="airport.jpg" alt="Nearest Airport">
+          <h3>Nearest Airport</h3>
+          <p>Lokpriya Gopinath Bordoloi International Airport, Guwahati (Approx. 400 km). 
+          Connected by flights from major Indian cities. Taxis and buses are available to reach NIT Arunachal Pradesh.</p>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="200">
+          <img src="railway.jpg" alt="Nearest Railway Station">
+          <h3>Nearest Railway Station</h3>
+          <p>Naharlagun Railway Station (Approx. 30 km). 
+          Well connected to Guwahati and other parts of India. Taxis and local transport are available to reach the campus.</p>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="400">
+          <img src="bus.jpg" alt="Bus Services">
+          <h3>Bus Services</h3>
+          <p>Regular bus services are available from Guwahati and Naharlagun to NIT Arunachal Pradesh. 
+          Comfortable overnight buses connect Guwahati to Itanagar/Naharlagun.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Accommodation Section -->
+    <section data-aos="fade-up" style="margin-top:60px;">
+      <h2>Accommodation</h2>
+      <div class="grid">
+        <div class="card" data-aos="flip-left">
+          <img src="hotel1.jpg" alt="Hotel 1">
+          <h3>Hotel Blue Pine</h3>
+          <p>Located near Naharlagun town. Comfortable rooms, restaurant service, and close proximity to NIT Arunachal.</p>
+        </div>
+        <div class="card" data-aos="flip-left" data-aos-delay="200">
+          <img src="hotel2.jpg" alt="Hotel 2">
+          <h3>Hotel Waii International</h3>
+          <p>A popular choice with modern amenities and good transport access. Suitable for conference participants.</p>
+        </div>
+        <div class="card" data-aos="flip-left" data-aos-delay="400">
+          <img src="hotel3.jpg" alt="Hotel 3">
+          <h3>Hotel Pybss</h3>
+          <p>Situated in Itanagar. Offers spacious rooms, WiFi, and dining facilities. Good option for delegates.</p>
+        </div>
+        <div class="card" data-aos="flip-left" data-aos-delay="600">
+          <img src="hotel4.jpg" alt="Hotel 4">
+          <h3>Hotel Rajhans</h3>
+          <p>Located in Naharlagun, offering budget-friendly accommodation with clean rooms and basic amenities.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    © ICAMAS 2026 – Travel & Accommodation Guide | NIT Arunachal Pradesh
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
