@@ -288,21 +288,40 @@ export default function UnifiedClone() {
               <h2 className="text-3xl font-bold text-blue-900">
                 About Department
               </h2>
+
               <p className="text-justify leading-relaxed text-gray-700">
                 The Department of Mechanical Engineering at
                 <strong> NIT Arunachal Pradesh </strong> was established in
-                August 2013. The department offers a four-year B.Tech degree in
-                Mechanical Engineering with an annual intake of 40 students.
+                August 2013. It offers a{" "}
+                <strong> four-year B.Tech. programme </strong> in Mechanical
+                Engineering with an annual intake of 40 students.
               </p>
+
               <p className="text-justify leading-relaxed text-gray-700">
-                Since July 2019, the department has also been offering a
-                <strong> 2-year M.Tech. programme </strong> in Fluids and
-                Thermal Engineering with an intake of 20 students.
+                Since <strong> July 2025</strong>, the department has been
+                offering a postgraduate{" "}
+                <strong>
+                  {" "}
+                  2-year M.Tech. programme in Digital Manufacturing in Energy
+                  Systems{" "}
+                </strong>{" "}
+                with an intake capacity of 20 students.
               </p>
+
+              <p className="text-justify leading-relaxed text-gray-700">
+                Prior to this, the department offered two postgraduate
+                <strong> 2-year M.Tech. programmes</strong> —
+                <em> Mechanical System Design and Innovation Technology </em>{" "}
+                from July 2016 to June 2019, and{" "}
+                <em> Fluids and Thermal Engineering </em> from July 2019 to June
+                2025 — each with an intake of 20 students.
+              </p>
+
               <p className="text-justify leading-relaxed text-gray-700">
                 Additionally, the department initiated its
-                <strong> Ph.D. research programme </strong> in 2015-16,
-                contributing to advanced research and innovation.
+                <strong> Ph.D. programme </strong> in the academic year 2015–16,
+                fostering advanced research and innovation in key areas of
+                <strong> Mechanical Engineering</strong>.
               </p>
             </motion.div>
           </div>
@@ -454,7 +473,9 @@ export default function UnifiedClone() {
               <p className="text-[#540000] mb-1">Dr. Ravi Ranjan kumar</p>
               <p className="text-[#540000] mb-1">[Organizing Secretary]</p>
               <p className="text-[#540000] mb-1">
-                icamas2026@gmail.com <br />ravi@nitap.ac.in</p>
+                icamas2026@gmail.com <br />
+                ravi@nitap.ac.in
+              </p>
               <p className="text-[#540000]">(+91)-9085659292</p>
             </div>
           </div>
