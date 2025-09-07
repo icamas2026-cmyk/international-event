@@ -12,6 +12,9 @@
       padding: 0;
       background: #f9f9f9;
       color: #222;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; /* full height */
     }
 
     header {
@@ -31,9 +34,10 @@
 
     .container {
       max-width: 900px;
-      margin: 50px auto;
+      margin: 40px auto;
       padding: 20px;
       text-align: center;
+      flex: 1; /* push footer to bottom */
     }
 
     .link-card {
@@ -62,15 +66,13 @@
       color: #0081a7;
     }
 
-    .note {
-      margin-top: 40px;
-      font-size: 1rem;
-      color: #333;
-      background: #e0f7fa;
-      padding: 20px;
-      border-radius: 15px;
-      line-height: 1.6;
-      animation: fadeInUp 1.5s ease-in-out;
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: linear-gradient(90deg, #a8e6cf, #a0c4ff);
+      color: #034078;
+      font-weight: 500;
+      border-top: 2px solid #dbeafe;
     }
 
     @keyframes fadeInDown {
@@ -86,7 +88,7 @@
 </head>
 <body>
   <header>
-    <h1>ICAMAS-2026 </h1>
+    <h1>ICAMAS-2026</h1>
   </header>
 
   <div class="container">
@@ -96,18 +98,11 @@
     <div class="link-card" data-aos="fade-up">
       <a href="#">Download Final Schedule</a>
     </div>
-    
-    
-    <footer class="text-center py-4 bg-gradient-to-r from-blue-100 to-blue-200 text-gray-700">
-  National Institute of Technology Arunachal Pradesh | ICAMAS-2026
-</footer>
-
-   
-   
   </div>
-   
 
-  
+  <footer>
+    National Institute of Technology Arunachal Pradesh | ICAMAS-2026
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>
