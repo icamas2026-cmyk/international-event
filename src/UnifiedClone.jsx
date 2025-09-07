@@ -56,7 +56,7 @@ export default function UnifiedClone() {
           </nav>
 
           {/* Right Logo */}
-          <img src="/ica.png" alt="Logo" className="h-12 w-auto max-w-[120px] hidden md:block" />
+          <img src="/ica.png" alt="Logo" className="h-10 w-auto max-w-[120px] hidden md:block" />
 
           {/* Mobile Menu Button */}
           <button
