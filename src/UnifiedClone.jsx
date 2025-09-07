@@ -304,30 +304,33 @@ export default function UnifiedClone() {
           </div>
         </section>
 
-        <section class="py-16 bg-white">
-          <div class="max-w-6xl mx-auto px-6">
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6">
+            {/* Call for Papers */}
             <motion.div
               initial={{ opacity: 0, y: -50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
-              class="text-center mb-12"
+              className="text-center mb-12"
             >
-              <h2 class="text-4xl font-bold text-red-900">Call for Papers</h2>
-              <p class="mt-4 text-lg text-gray-700">
+              <h2 className="text-4xl font-bold text-red-900">
+                Call for Papers
+              </h2>
+              <p className="mt-4 text-lg text-gray-700">
                 Authors are invited to SUBMIT an abstract of the proposed work
                 before the deadline. Abstract should have a minimum of 250 words
                 and not more than 500 words. Abstract & Paper submission through{" "}
                 <a
                   href="https://www.easychair.org"
                   target="_blank"
-                  class="text-blue-600 underline"
+                  className="text-blue-600 underline"
                 >
                   www.easychair.org
                 </a>
                 .
               </p>
-              <p class="mt-2 text-gray-700">
+              <p className="mt-2 text-gray-700">
                 All submitted papers must be original and should not be under
                 consideration for publication in any other journal or
                 conference. Full length paper is limited to 10–12 pages as per
@@ -335,33 +338,35 @@ export default function UnifiedClone() {
               </p>
             </motion.div>
 
+            {/* Submission Categories */}
             <motion.div
               initial={{ opacity: 0, x: -80 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
-              class="mb-8"
+              className="mb-8"
             >
-              <h3 class="text-2xl font-semibold text-red-800">
+              <h3 className="text-2xl font-semibold text-red-800">
                 Submission Categories
               </h3>
-              <ul class="list-disc ml-6 mt-3 text-gray-700 space-y-1">
+              <ul className="list-disc ml-6 mt-3 text-gray-700 space-y-1">
                 <li>Full Research Papers</li>
                 <li>Comprehensive Review Papers</li>
               </ul>
             </motion.div>
 
+            {/* Topics */}
             <motion.div
               initial={{ opacity: 0, x: 80 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h3 class="text-2xl font-semibold text-red-800 mb-4">
+              <h3 className="text-2xl font-semibold text-red-800 mb-4">
                 Unpublished Original technical papers are sought in the
                 following topics which include, but are not limited to:
               </h3>
-              <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-700 list-disc ml-6">
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-700 list-disc ml-6">
                 <li>Experimental and Computational Fluid Mechanics</li>
                 <li>Clean Energy Systems and Renewable Technologies</li>
                 <li>Dynamic Systems, Control, and AI Integration</li>
@@ -393,15 +398,38 @@ export default function UnifiedClone() {
                 <li>FEA & CFD in Engineering</li>
               </ul>
             </motion.div>
+
+            {/* NEW Publication Section */}
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="mt-16 bg-gradient-to-r from-green-50 to-blue-50 p-8 rounded-xl shadow-md"
+            >
+              <h2 className="text-3xl font-bold text-red-900 mb-4">
+                Publication
+              </h2>
+              <p className="text-gray-700 leading-relaxed">
+                <strong>All accepted & presented papers</strong> will be
+                published in{" "}
+                <strong>Scopus indexed conference proceedings</strong> and
+                selected papers in{" "}
+                <strong>SCI/SCOPUS Indexed International Journals.</strong>
+                Abstracts of all accepted papers will be published in the{" "}
+                <strong>Conference Abstract Book</strong> and included in the{" "}
+                <strong>conference kit</strong> for all the registered
+                participants.
+              </p>
+            </motion.div>
           </div>
         </section>
 
         {/* Footer */}
         <footer className="bg-red-100 py-10">
           <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-            <img src="/logo.png" alt="NIT Logo" className="w-20 mb-4" />
-            <img src="/ica.png" alt="Logo" className="h-12 w-auto" />
             <div className="md:w-1/2">
+              <img src="/logo.png" alt="NIT Logo" className="w-20 mb-4" />
               <p className="text-[#540000] mb-4">
                 National Institute of Technology Arunachal Pradesh (NITAP) is
                 one of the 31 prestigious NITs in India, recognized as an
