@@ -134,6 +134,10 @@ export default function UnifiedClone() {
               className="text-xl md:text-2xl"
             >
               Conference dates: 10-12 March, 2026
+              <br />
+              <br />
+              All accepted & presented papers will be published in Scopus
+              indexed conference proceedings
             </motion.p>
           </div>
         </section>
@@ -221,7 +225,7 @@ export default function UnifiedClone() {
               },
               {
                 title: "Recognition",
-                desc: "Presently the Institute is running in the project phase with a yearly intake of 180 undergraduate students in five major Engineering departments such as Civil Engineering, Computer Science and Engineering, Electrical Engineering, Electronics and Communication Engineering and Mechanical Engineering. Each department is equipped with well-established state-of-the-art laboratories to crater the holistic development of the students.",
+                desc: "Presently the Institute is running in the project phase with a yearly intake of 230 undergraduate students in six major Engineering departments such as Bio-Technology, Civil Engineering, Computer Science and Engineering, Electrical Engineering, Electronics and Communication Engineering and Mechanical Engineering. Each department is equipped with well-established state-of-the-art laboratories to crater the holistic development of the students.",
                 img: "./library.jpg",
               },
               {
@@ -448,8 +452,9 @@ export default function UnifiedClone() {
                 Contact Us
               </h3>
               <p className="text-[#540000] mb-1">Dr. Ravi Ranjan kumar</p>
-              <p className="text-[#540000] mb-1">[Assistant Professor]</p>
-              <p className="text-[#540000] mb-1">icamas2026@gmail.com</p>
+              <p className="text-[#540000] mb-1">[Organizing Secretary]</p>
+              <p className="text-[#540000] mb-1">
+                icamas2026@gmail.com <br />ravi@nitap.ac.in</p>
               <p className="text-[#540000]">(+91)-9085659292</p>
             </div>
           </div>
