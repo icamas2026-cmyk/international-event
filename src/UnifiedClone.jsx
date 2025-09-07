@@ -343,15 +343,7 @@ export default function UnifiedClone() {
               <p className="mt-4 text-lg text-gray-700">
                 Authors are invited to SUBMIT an abstract of the proposed work
                 before the deadline. Abstract should have a minimum of 250 words
-                and not more than 500 words. Abstract & Paper submission through{" "}
-                <a
-                  href="https://www.easychair.org"
-                  target="_blank"
-                  className="text-blue-600 underline"
-                >
-                  www.easychair.org
-                </a>
-                .
+                and not more than 500 words. 
               </p>
               <p className="mt-2 text-gray-700">
                 All submitted papers must be original and should not be under
