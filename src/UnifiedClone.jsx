@@ -35,15 +35,15 @@ export default function UnifiedClone() {
   };
 
   return (
-    <div className="min-h-screen bg-white text-[#5B0000] font-sans">
+    <div className="min-h-screen bg-white text-[#5B0000] font-sans overflow-x-hidden">
       {/* Header */}
       <header className="w-full fixed top-0 left-0 z-50 bg-white shadow-md">
-        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-          {/* Logo */}
-          <img src="/logo.png" alt="Logo" className="h-12 w-auto" />
+        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between flex-wrap">
+          {/* Left Logo */}
+          <img src="/logo.png" alt="Logo" className="h-10 w-auto max-w-[120px]" />
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex gap-4 flex-wrap items-center justify-end">
+          <nav className="hidden md:flex gap-4 flex-wrap items-center justify-center flex-1">
             {navLinks.map((link, idx) => (
               <a
                 key={idx}
@@ -55,11 +55,12 @@ export default function UnifiedClone() {
             ))}
           </nav>
 
-          <img src="/ica.png" alt="Logo" className="h-18 w-auto" />
+          {/* Right Logo */}
+          <img src="/ica.png" alt="Logo" className="h-12 w-auto max-w-[120px] hidden md:block" />
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden flex flex-col justify-between w-6 h-6 p-1"
+            className="md:hidden flex flex-col justify-between w-6 h-6 p-1 ml-auto"
             onClick={() => setOpen(!open)}
             aria-label="Toggle Menu"
           >
@@ -80,6 +81,7 @@ export default function UnifiedClone() {
             ></span>
           </button>
         </div>
+
 
         {/* Mobile Navigation */}
         {open && (
