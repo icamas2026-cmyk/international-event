@@ -12,6 +12,9 @@
       padding: 0;
       background: #f9f9f9;
       color: #222;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
     }
 
     header {
@@ -34,6 +37,7 @@
       margin: 50px auto;
       padding: 20px;
       text-align: center;
+      flex: 1;
     }
 
     .link-card {
@@ -73,6 +77,19 @@
       animation: fadeInUp 1.5s ease-in-out;
     }
 
+    footer {
+      background: linear-gradient(135deg, #a8e6cf, #a0c4ff);
+      text-align: center;
+      padding: 15px;
+      color: #034078;
+      font-weight: bold;
+      border-radius: 30px 30px 0 0;
+      box-shadow: 0 -4px 10px rgba(0,0,0,0.1);
+      position: sticky;
+      bottom: 0;
+      width: 100%;
+    }
+
     @keyframes fadeInDown {
       from { opacity: 0; transform: translateY(-30px); }
       to { opacity: 1; transform: translateY(0); }
@@ -107,7 +124,10 @@
       for software development and support.
     </div>
   </div>
-  
+
+  <footer>
+    © 2026 ICAMAS Conference | All Rights Reserved
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>
