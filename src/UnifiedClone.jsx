@@ -12,6 +12,7 @@ export default function UnifiedClone() {
     { name: "Visa", href: "visa.html" },
     { name: "Submission", href: "#submission" },
     { name: "Program", href: "#program" },
+    { name: "Publication", href: "#travel" },
     { name: "Committees", href: "committees.html" },
     { name: "Key Notes", href: "keyNotes.html" },
     { name: "Sponsorship", href: "sponsorship.html" },
