@@ -10,7 +10,7 @@ export default function UnifiedClone() {
     { name: "Registration", href: "registration.html" },
     { name: "Key Dates", href: "keydates.html" },
     { name: "Visa", href: "visa.html" },
-    { name: "Submission", href: "#submission" },
+    { name: "Submission", href: "submission.html" },
     { name: "Program", href: "#program" },
     // { name: "Publication", href: "#travel" },
     { name: "Committees", href: "committees.html" },
