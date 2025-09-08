@@ -40,7 +40,11 @@ export default function UnifiedClone() {
       <header className="w-full fixed top-0 left-0 z-50 bg-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between flex-wrap">
           {/* Left Logo */}
-          <img src="/logo.png" alt="Logo" className="h-10 w-auto max-w-[120px]" />
+          <img
+            src="/logo.png"
+            alt="Logo"
+            className="h-10 w-auto max-w-[120px]"
+          />
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex gap-4 flex-wrap items-center justify-center flex-1">
@@ -56,7 +60,11 @@ export default function UnifiedClone() {
           </nav>
 
           {/* Right Logo */}
-          <img src="/ica.png" alt="Logo" className="h-10 w-auto max-w-[120px] hidden md:block" />
+          <img
+            src="/ica.png"
+            alt="Logo"
+            className="h-10 w-auto max-w-[120px] hidden md:block"
+          />
 
           {/* Mobile Menu Button */}
           <button
@@ -81,7 +89,6 @@ export default function UnifiedClone() {
             ></span>
           </button>
         </div>
-
 
         {/* Mobile Navigation */}
         {open && (
@@ -345,7 +352,7 @@ export default function UnifiedClone() {
               <p className="mt-4 text-lg text-gray-700">
                 Authors are invited to SUBMIT an abstract of the proposed work
                 before the deadline. Abstract should have a minimum of 250 words
-                and not more than 500 words. 
+                and not more than 500 words.
               </p>
               <p className="mt-2 text-gray-700">
                 All submitted papers must be original and should not be under
@@ -438,6 +445,9 @@ export default function UnifiedClone() {
                 <strong>Conference Abstract Book</strong> and included in the{" "}
                 <strong>conference kit</strong> for all the registered
                 participants.
+                <strong>
+                  <mark>(Approval Awaiting)</mark>
+                </strong>
               </p>
             </motion.div>
           </div>
