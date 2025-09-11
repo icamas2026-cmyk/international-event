@@ -14,7 +14,7 @@ export default function UnifiedClone() {
     { name: "Program", href: "program.html" },
     // { name: "Publication", href: "#travel" },
     { name: "Committees", href: "committees.html" },
-    { name: "Key Notes", href: "key.html" },
+    { name: "Keynotes", href: "key.html" },
     { name: "Sponsorship", href: "sponsorship.html" },
     { name: "Accomodation & Travel", href: "travel.html" },
   ];
