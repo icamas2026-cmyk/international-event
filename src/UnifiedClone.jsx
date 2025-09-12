@@ -375,7 +375,6 @@ export default function UnifiedClone() {
               </h3>
               <ul className="list-disc ml-6 mt-3 text-gray-700 space-y-1">
                 <li>Full Research Papers</li>
-                <li>Comprehensive Review Papers</li>
               </ul>
             </motion.div>
 
