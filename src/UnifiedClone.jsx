@@ -134,7 +134,7 @@ export default function UnifiedClone() {
               className="text-3xl md:text-6xl font-bold leading-tight mb-6"
             >
               1st International Conference on Advances in Mechanical and
-              Aerospace Sciences (ICAMAS-2026)
+              Aerospace Sciences <br />(ICAMAS-2026)
             </motion.h1>
             <motion.p
               initial={{ opacity: 0 }}
