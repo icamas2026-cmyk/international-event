@@ -134,7 +134,7 @@ export default function UnifiedClone() {
               className="text-3xl md:text-6xl font-bold leading-tight mb-6"
             >
               1st International Conference on Advances in Mechanical and
-              Aerospace Science (ICAMAS-2026)
+              Aerospace Sciences (ICAMAS-2026)
             </motion.h1>
             <motion.p
               initial={{ opacity: 0 }}
@@ -183,7 +183,7 @@ export default function UnifiedClone() {
             >
               <p>
                 The 1st International Conference on Advances in Mechanical and
-                Aerospace Science (ICAMAS-2026) will be held at the National
+                Aerospace Sciences (ICAMAS-2026) will be held at the National
                 Institute of Technology Arunachal Pradesh. Aligned with the{" "}
                 <strong>Viksit Bharat 2047 Vision</strong>, the conference
                 underscores key national priorities such as economic
