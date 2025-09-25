@@ -476,7 +476,7 @@ export default function UnifiedClone() {
               <p className="text-[#540000] mb-1">Dr. Ravi Ranjan kumar</p>
               <p className="text-[#540000] mb-1">[Organizing Secretary]</p>
               <p className="text-[#540000] mb-1">
-                icamas2026@gmail.com <br />
+                icamas2026@nitap.ac.in<br />
                 ravi@nitap.ac.in
               </p>
               <p className="text-[#540000]">(+91)-9085659292</p>
