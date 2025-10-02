@@ -61,7 +61,7 @@ export default function UnifiedClone() {
 
           {/* Right Logo */}
           <img
-            src="/ica.png"
+            src="new logo.jpeg"
             alt="Logo"
             className="h-10 w-auto max-w-[120px] hidden md:block"
           />
