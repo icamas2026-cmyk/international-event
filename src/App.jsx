@@ -1,5 +1,5 @@
 import React from "react";
-import UnifiedClone from "./UnifiedClone";
+import UnifiedClone from "./pages/UnifiedClone.jsx";
 
 function App() {
   return <UnifiedClone />;
