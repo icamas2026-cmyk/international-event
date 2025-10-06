@@ -5,11 +5,11 @@ export default function ProjectDownloads() {
   return (
     <div
       id="program"
-      className="scroll-mt-13 min-h-screen flex flex-col items-center bg-white text-gray-800"
-    >
+      className="min-h-[70%] lg:min-h-screen scroll-mt-13 flex flex-col items-center bg-white text-gray-800"
+    > 
       {/* Header */}
       <motion.header
-        className="bg-gradient-to-r from-green-200 to-blue-200 text-center rounded-b-3xl shadow-md w-2/6 my-4 p-2"
+        className=" bg-gradient-to-r from-green-200 to-blue-200 text-center rounded-b-3xl shadow-md w-2/6 my-4 p-2"
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2 }}
@@ -21,10 +21,10 @@ export default function ProjectDownloads() {
       </motion.header>
 
       {/* Links Section */}
-      <div className="flex flex-col items-center justify-center max-w-3xl mx-auto px-4 space-y-6 flex-1">
+      <div className="flex flex-col items-center p-20 max-w-3xl mx-auto px-4 space-y-10 flex-1">
         {/* Download Brochure */}
         <motion.div
-          className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-2xl hover:-translate-y-1 transition transform"
+          className=" bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-2xl hover:-translate-y-1 transition transform"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -34,7 +34,7 @@ export default function ProjectDownloads() {
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-lg font-semibold text-teal-700 hover:text-teal-800 transition"
+            className="text-lg md:text-3xl font-semibold text-teal-700 hover:text-teal-800 transition"
           >
             Download Brochure
           </a>
@@ -52,7 +52,7 @@ export default function ProjectDownloads() {
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-lg font-semibold text-teal-700 hover:text-teal-800 transition"
+            className="text-lg md:text-3xl font-semibold text-teal-700 hover:text-teal-800 transition"
           >
             Download Final Schedule
           </a>
@@ -60,7 +60,7 @@ export default function ProjectDownloads() {
 
         {/* Info Section */}
         <motion.div
-          className="bg-teal-50 p-6 rounded-2xl text-gray-700 text-sm leading-relaxed"
+          className="bg-teal-50 p-6 mt-10 rounded-2xl text-gray-700 text-md leading-relaxed"
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}

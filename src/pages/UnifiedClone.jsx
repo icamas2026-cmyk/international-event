@@ -16,6 +16,7 @@ import TravelAccommodation from "../components/Travel.jsx";
 import CallForPapers from "../components/CallForPapers.jsx";
 import Footer from "../components/Footer.jsx";
 import KeydatesAwardsPublications from "../components/KeydatesAwardsPublication.jsx";
+import ScrollToTop from "../components/ScrollToTop.jsx";
 
 
 export default function UnifiedClone() {
@@ -38,6 +39,7 @@ export default function UnifiedClone() {
         <KeynoteSpeakers/>
         <Sponsorship/>
         <TravelAccommodation/>
+        <ScrollToTop/>
         <Footer/>
       </main>
     </div>

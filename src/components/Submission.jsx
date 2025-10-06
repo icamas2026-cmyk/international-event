@@ -5,7 +5,7 @@ export default function PaperSubmission() {
   return (
     <section
       id="submission"
-      className="scroll-mt-6 min-h-screen flex flex-col items-center bg-gradient-to-br from-green-50 via-blue-50 to-green-100 text-gray-800 px-4 sm:px-6 lg:px-8 py-6"
+      className="scroll-mt-6 min-h-[70%] lg:min-h-screen  flex flex-col items-center  bg-gradient-to-br from-green-50 via-blue-50 to-green-100 text-gray-800 px-4 sm:px-6 lg:px-8 py-6"
     >
       {/* Header */}
       <motion.header
@@ -21,7 +21,7 @@ export default function PaperSubmission() {
       </motion.header>
 
       {/* Content Section */}
-      <div className="flex flex-col items-center justify-center max-w-3xl mx-auto w-full space-y-6 mt-6">
+      <div className="flex flex-col items-center justify-center max-w-3xl mx-auto w-full space-y-10 mt-10">
         {/* Microsoft CMT Link */}
         <motion.div
           className="bg-white w-full rounded-2xl shadow-lg p-5 sm:p-6 text-center hover:shadow-2xl hover:-translate-y-1 transition transform"

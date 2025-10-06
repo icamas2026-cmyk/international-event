@@ -17,14 +17,14 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/50"></div>
        <div className="absolute bottom-0 left-0 w-full h-60 bg-gradient-to-t from-white to-transparent pointer-events-none"></div>
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center w-full space-y-5">
+      <div className="relative z-10 flex flex-col items-center w-full">
 
         {/* Logo on top for mobile, center for all */}
         <div className="flex justify-center">
           <img
             src="./images/new logo.jpeg"
             alt="ICAMAS Logo"
-            className=" hidden sm:block w-12 sm:w-24 md:w-16 rounded-full"
+            className="block w-12 sm:w-24 md:w-16 rounded-full"
           />
         </div>
 
@@ -32,7 +32,7 @@ export default function Hero() {
         <div className="flex flex-row justify-center items-start gap-4 w-full px-2 flex-wrap sm:flex-nowrap">
           {/* Chief Guest */}
           <div className="flex flex-col items-center min-w-[140px] sm:min-w-[220px] flex-1">
-            <h1 className="text-lg sm:text-xl md:text-2xl font-extrabold mb-2">
+            <h1 className="text-lg sm:text-xl md:text-2xl font-extrabold">
               Chief Guest
             </h1>
             <img
@@ -91,7 +91,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="text-sm sm:text-xl md:text-xl max-w-6xl text-center pb-2 text-black"
+          className="text-sm sm:text-xl md:text-xl max-w-6xl text-center text-black"
         >
           Conference Dates: <strong>10-12 March, 2026</strong>
           <br />

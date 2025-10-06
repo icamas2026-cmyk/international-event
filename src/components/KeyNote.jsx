@@ -14,34 +14,36 @@ const speakers = [
     image: "./images/pmpandey.jpg",
     title:
       "IHFC Chair & Professor (HAG), Department of Mechanical Engineering, IIT Delhi",
-    description: `Prof. Pulak Mohan Pandey is a distinguished academician and researcher in Additive Manufacturing, CAD/CAM, Biomedical Applications of 3D Printing, and Non-traditional Machining. He has served as Director of BIET Jhansi (2021–2023) and has been a Professor at IIT Delhi since 2004.`,
+    description: `Prof. Pulak Mohan Pandey is a distinguished academician and researcher specializing in Additive Manufacturing, CAD/CAM, Biomedical Applications of 3D Printing, and Non-traditional Machining. He has been a Professor at IIT Delhi since 2004 and served as Director of BIET Jhansi from 2021 to 2023. Prof. Pandey’s work bridges cutting-edge research and practical applications, advancing technology in manufacturing and biomedical engineering, and establishing him as a leading figure in both academic and industrial communities. He has also mentored numerous students and guided impactful research projects globally.`,
   },
   {
     name: "Prof. Uday Shanker Dixit",
     image: "./images/dixit.jpg",
     title:
       "Professor, Department of Mechanical Engineering & Head, Center for Indian Knowledge System, IIT Guwahati",
-    description: `Prof. Uday Shanker Dixit is a distinguished academician and researcher in Modelling of Manufacturing Processes, Finite Element Analysis, Soft Computing, Design Optimization, and Design & Manufacturing of Mechatronic Systems.`,
+    description: `Prof. Uday Shanker Dixit is a distinguished academician and researcher known for his extensive contributions to the fields of Manufacturing Process Modelling, Finite Element Analysis, Soft Computing, Design Optimization, and the Design and Manufacturing of Mechatronic Systems. His research seamlessly integrates theoretical and practical aspects of mechanical engineering, driving innovation in advanced manufacturing technologies. Prof. Dixit’s work has significantly influenced modern engineering practices, making him a respected figure in academia and research worldwide.
+`,
   },
   {
     name: "Prof. Sunil Pandey",
     image: "./images/sunil_pandey.jpg",
     title:
       "Distinguished Professor, Dept. of Mechanical-Mechatronics Engineering, LNMIIT Jaipur",
-    description: `Prof. Sunil Pandey, a pioneer in Welding and Manufacturing, holds B.E., M.Tech., and Ph.D. from IIT Delhi with over 49 years of academic, research, and administrative experience. He established world-class Welding Research Laboratories at IIT Delhi, JNU, and LNMIIT.`,
+    description: `Prof. Sunil Pandey, a distinguished expert in Welding and Manufacturing, holds B.E., M.Tech., and Ph.D. degrees from IIT Delhi. With over 49 years of academic, research, and administrative experience, he has made outstanding contributions to engineering education and technological advancement. A pioneer in his field, Prof. Pandey established world-class Welding Research Laboratories at IIT Delhi, Jawaharlal Nehru University (JNU), and LNMIIT, fostering innovation, industrial collaboration, and cutting-edge research in welding science and advanced manufacturing processes.
+`,
   },
   {
     name: "Dr. Sudip Dey",
     image: "./images/sudipdey.jpeg",
     title:
       "Associate Professor, Department of Mechanical Engineering, NIT Silchar",
-    description: `Dr. Sudip Dey received his B.M.E from Jadavpur University and a Post Graduate Diploma in Management. He earned his Ph.D. in Engineering from Jadavpur University. His research spans Classical Mechanics to Quantum Mechanics, and Innovation to Design.`,
+    description: `Dr. Sudip Dey holds a Bachelor’s degree in Mechanical Engineering and a Ph.D. in Engineering from Jadavpur University, along with a Post Graduate Diploma in Management. His diverse research interests bridge the realms of Classical and Quantum Mechanics, as well as Innovation and Design. With a strong interdisciplinary approach, Dr. Dey has contributed significantly to advancing scientific understanding and practical applications across engineering and physics, reflecting his commitment to excellence in both research and education. He has also guided numerous students and research projects, fostering the next generation of innovators and scientists.`,
   },
   {
     name: "Prof. Goutam Sutradhar",
     image: "./images/gautam.jpg",
     title: "Director NIT Jamshedpur, Former: Director NIT Manipur",
-    description: `Prof. (Dr.) Goutam Sutradhar, Director of NIT Jamshedpur and former Director of NIT Manipur, is an eminent academician and researcher in mechanical and materials engineering. He holds a Ph.D. from BIT Mesra and an M.Tech in Foundry Technology from IIT Kharagpur. With over three decades of experience in academia and industry, he has published more than 125 research papers and guided numerous Ph.D. and M.Tech scholars. His expertise includes foundry processes, composite materials, and sustainable manufacturing technologies.`,
+    description: `Prof. (Dr.) Goutam Sutradhar, Director of NIT Jamshedpur and former Director of NIT Manipur, is an eminent academician and researcher in mechanical and materials engineering. He holds a Ph.D. from BIT Mesra and an M.Tech in Foundry Technology from IIT Kharagpur. With over three decades of experience in academia and industry, he has published more than 125 research papers and guided numerous Ph.D. and M.Tech scholars. His expertise includes foundry processes, composite materials, and sustainable manufacturing technologies.He continues to play a pivotal role in advancing technical education and fostering innovation in engineering research.`,
   },
   {
     name: "Prof. Rajat Gupta",

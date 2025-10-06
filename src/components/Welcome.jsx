@@ -21,7 +21,7 @@ export default function Welcome() {
   return (
     <motion.section
       id="welcome"
-      className="min-h-screen flex flex-col items-center justify-center py-12 px-4 max-w-6xl mx-auto overflow-x-hidden"
+      className="min-h-[70%] lg:min-h-screen flex flex-col items-center justify-center py-12 px-4 max-w-6xl mx-auto overflow-x-hidden"
       variants={sectionVariant}
       initial="hidden"
       whileInView="visible"

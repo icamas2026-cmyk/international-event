@@ -80,7 +80,7 @@ export default function Registration() {
           Registration Fees
         </h2>
         <p className="mt-4 text-gray-700 text-center text-sm sm:text-base">
-          The registration fee covers participation in Technical Sessions, Conference kit, Lunch, and Tea/Coffee.
+          The registration fee covers participation in Technical Sessions, Conference kit, Lunch, and Tea/Coffee. 
         </p>
 
         <ul className="mt-6 space-y-2 sm:space-y-3 text-sm sm:text-base text-gray-800 list-disc list-inside">
@@ -96,8 +96,18 @@ export default function Registration() {
             </motion.li>
           ))}
         </ul>
+        <p className="text-sm sm:text-base mt-6 text-justify">
+          <strong>Group Registration – 1 </strong>registration free on group of 5 participants from same affiliation
+          <br />
+          <br />
+          *An individual participant submitting an additional paper will receive a 25% waiver on the registration fee for each subsequent paper.
+          <br />
+          <br />
+          **Registration Fees are non-refundable
+
+        </p>
         <p className="mt-6 text-center text-xs sm:text-sm italic text-red-600">
-          NOTE: Lodging is not included in the registration fees.
+          NOTE: Lodging is not included in the registration fees. 
         </p>
       </motion.section>
 

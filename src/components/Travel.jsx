@@ -53,7 +53,7 @@ export default function TravelAccommodation() {
     <div id="travel" className="scroll-mt-13 bg-gray-50 text-gray-800 min-h-screen font-sans py-4">
       {/* Header */}
       <header className="w-11/12 sm:w-2/3 md:w-2/6 flex flex-col justify-center items-center mx-auto bg-gradient-to-br from-green-200 to-blue-200 text-center py-2 rounded-b-3xl shadow-md">
-        <h1 className="text-3xl sm:text-4xl font-extrabold text-blue-700" data-aos="fade-down">
+        <h1 className="text-3xl sm:text-3xl font-extrabold text-blue-700" data-aos="fade-down">
           TRAVEL & ACCOMMODATION
         </h1>
       </header>

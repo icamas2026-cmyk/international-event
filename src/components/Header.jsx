@@ -8,21 +8,14 @@ export default function Header() {
 
   return (
     <header className="w-full flex justify-between items-center p-2 bg-white shadow-md fixed top-0 z-50">
-      {/* Hamburger Button (Mobile) */}
-      <button
-        onClick={toggleMenu}
-        className="md:hidden text-3xl text-gray-800 focus:outline-none mr-4"
-      >
 
-        {isOpen ? "✖" : "☰"}
-      </button>
       {/* Left Logo */}
       <div>
         <img className="w-10 mx-6" src="./images/logo.png" alt="NIT Logo" />
       </div>
 
       {/* Desktop Nav */}
-      <nav className="hidden md:flex space-x-6 font-medium">
+      <nav className="hidden lg:flex space-x-6 font-medium ">
         <a href="#home" className="hover:text-indigo-600 transition">Home</a>
         <a href="#about" className="hover:text-indigo-600 transition">About</a>
         <a href="#registration" className="hover:text-indigo-600 transition">Registration</a>
@@ -38,8 +31,16 @@ export default function Header() {
 
       {/* Right Logo */}
       <div>
-        <img className=" w-11" src="./images/newlogo.png" alt="ICAI Logo" />
+        <img className="hidden sm:block w-11" src="./images/newlogo.png" alt="ICAI Logo" />
       </div>
+      {/* Hamburger Button (Mobile) */}
+      <button
+        onClick={toggleMenu}
+        className="lg:hidden text-3xl text-gray-800 focus:outline-none mr-4"
+      >
+
+        {isOpen ? "✖" : "☰"}
+      </button>
 
       {/* Mobile Sidebar */}
       <div
@@ -59,13 +60,12 @@ export default function Header() {
           <a href="#about" onClick={toggleMenu}>About</a>
           <a href="#registration" onClick={toggleMenu}>Registration</a>
           <a href="#callforpapers" onClick={toggleMenu}>Call For Papers</a>
-          <a href="#keydates" onClick={toggleMenu}>Key Dates</a>
           <a href="#visa" onClick={toggleMenu}>Visa</a>
           <a href="#submission" onClick={toggleMenu}>Submission</a>
           <a href="#program" onClick={toggleMenu}>Program</a>
           <a href="#committee" onClick={toggleMenu}>Committees</a>
           <a href="#keynote" onClick={toggleMenu}>KeyNotes</a>
-          <a href="#sponshorship" onClick={toggleMenu}>Sponsorship</a>
+          <a href="#sponsorship" onClick={toggleMenu}>Sponsorship</a>
           <a href="#travel" onClick={toggleMenu}>Travel & Accommodation</a>
         </nav>
       </div>

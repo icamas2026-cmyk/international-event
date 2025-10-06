@@ -23,13 +23,10 @@ const Footer = () => {
               <h3 className="text-lg font-bold text-[#3116df] mb-2">
                 Contact Us
               </h3>
-              <p className="text-[#2115c9] mb-1">Dr. Ravi Ranjan kumar</p>
-              <p className="text-[#2115c9] mb-1">[Organizing Secretary]</p>
               <p className="text-[#2115c9] mb-1">
-                icamas2026@nitap.ac.in<br />
-                ravi@nitap.ac.in
+                ✉ icamas2026@nitap.ac.in<br />
               </p>
-              <p className="text-[#2115c9]">(+91)-9085659292</p>
+              <p className="text-[#2115c9]">📞 9085659292/9485231949</p>
             </div>
           </div>
         </footer>
