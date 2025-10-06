@@ -31,7 +31,7 @@ export default function Registration() {
   return (
     <section
       id="registration"
-      className="scroll-mt-6 min-h-screen bg-gradient-to-br from-green-50 via-blue-50 to-green-100 text-gray-800 py-8 sm:py-12"
+      className="scroll-mt-6 min-h-[70%] lg:min-h-screen bg-gradient-to-br from-green-50 via-blue-50 to-green-100 text-gray-800 py-8 sm:py-12"
     >
       {/* Header */}
       <motion.header

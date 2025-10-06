@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { image, title } from "framer-motion/client";
 
 const speakers = [
   {
@@ -90,6 +91,12 @@ Prof. Ian Malcolm Richardson is an internationally recognized expert in welding 
     image: "./images/biswas.jpg",
     title: "Technical Director, GTRE ,Defence R&D Organisation",
     description: `Dr. D. Biswas is a senior scientist and Technical Director at the Gas Turbine Research Establishment (GTRE), DRDO, Ministry of Defence, Government of India. With over three decades of experience, he has played a vital role in designing and developing the Kaveri engine and advanced systems such as the Variable Exhaust Nozzle and Integrated Nozzle Actuation System. A Mechanical Engineering graduate, he earned his M.Tech and Ph.D. from IIT Kharagpur. His expertise lies in mechanisms, hydraulics, and control systems. Dr. Biswas is a life member of the Aeronautical Society of India and continues to contribute to indigenous jet engine`,
+  },
+  {
+    name:"Prof. Siby John",
+    image:"./images/john.png",
+    title:"Director, GKCIET Malda (WB)",
+    description:`Prof. Siby John, Director of Ghani Khan Choudhury Institute of Engineering and Technology (GKCIET), Malda, is a distinguished academician and environmental engineer. He holds a B.Tech in Civil Engineering, an M.Tech in Environmental Engineering, and a Ph.D. from IIT Kanpur. With over 150 research papers, 7 books, and 4000 citations, he has made significant contributions to environmental pollution control and sustainable development. A recipient of several prestigious awards, Prof. John is a Fellow of the Institution of Engineers (India) and an active member of multiple professional societies in the field of environmental engineering.He continues to inspire research and innovation aimed at achieving a cleaner and more sustainable future.`
   }
 ];
 
