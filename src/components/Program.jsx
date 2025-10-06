@@ -60,7 +60,7 @@ export default function ProjectDownloads() {
 
         {/* Info Section */}
         <motion.div
-          className="bg-teal-50 p-6 mt-10 rounded-2xl text-gray-700 text-md leading-relaxed"
+          className="bg-teal-50 p-6 mt-10 rounded-2xl text-gray-700 text-md leading-relaxed text-justify"
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
