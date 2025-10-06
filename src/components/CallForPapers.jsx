@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const CallForPapers = () => {
   return (
-    <section id="callforpapers" className="scroll-mt-6 min-h-screen py-8 bg-white">
+    <section id="callforpapers" className="scroll-mt-6 min-h-[70%] lg:min-h-screen py-8 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 overflow-x-hidden">
 
         {/* Header */}
