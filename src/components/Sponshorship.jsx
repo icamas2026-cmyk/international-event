@@ -18,7 +18,7 @@ export default function Sponsorship() {
   return (
     <section
       id="sponsorship"
-      className="scroll-mt-14 min-h-screen flex flex-col items-center justify-start bg-gradient-to-br from-green-100 to-blue-200 px-2 py-4 font-sans text-gray-800"
+      className="scroll-mt-14 min-h-[70%] md:min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-green-100 to-blue-200 px-2 py-4 font-sans text-gray-800"
     >
       {/* Header */}
       <header
@@ -72,7 +72,7 @@ export default function Sponsorship() {
         data-aos="fade-up"
       >
         For sponsorship inquiries, please contact the organizing committee at{" "}
-        <span className="font-semibold text-blue-700">sponsorship@icamas2026.org</span>
+        <span className="font-semibold text-blue-700">icamas2026@nitap.ac.in</span>
       </p>
     </section>
   );
