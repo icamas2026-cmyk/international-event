@@ -18,7 +18,7 @@ export default function Hero() {
       <div className="absolute bottom-0 left-0 w-full h-40 sm:h-60 bg-gradient-to-t from-white to-transparent pointer-events-none"></div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center w-full gap-10 sm:gap-30 lg:gap-20">
+      <div className="relative z-10 flex flex-col items-center w-full gap-10 sm:gap-30 lg:gap-10">
         {/* Logo */}
         <div className="flex relative top-6 justify-center">
           <img
@@ -86,7 +86,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="relative md:top-20 lg:top-0 text-3xl sm:text-3xl md:text-6xl lg:text-4xl font-bold max-w-xl md:max-w-7xl leading-snug px-2"
+          className="relative md:top-20 lg:top-0 text-3xl sm:text-5xl md:text-6xl lg:text-4xl font-bold max-w-xl md:max-w-7xl leading-snug px-2"
         >
           1st International Conference on Advances in Mechanical and Aerospace
           Sciences <br className="hidden sm:block" />
@@ -98,7 +98,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="relative md:top-20 lg:-top-10 lg:bottom-10 text-xs sm:text-base md:text-xl max-w-4xl text-center text-gray-100 lg:text-black"
+          className="relative md:top-20 lg:-top-10 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-4xl text-center text-gray-100 lg:text-black"
         >
           Conference Dates: <strong>10–12 March, 2026</strong>
           <br />
