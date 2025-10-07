@@ -32,7 +32,7 @@ export default function Hero() {
         <div className="flex flex-row sm:flex-row relative md:top-10 lg:top-0 justify-center items-center gap-6 sm:gap-10 w-full max-w-4xl">
           {/* Chief Guest */}
           <div className="flex flex-col items-center text-center flex-1">
-            <h1 className="text-base sm:text-lg md:text-2xl font-extrabold mb-1">
+            <h1 className="text-base sm:text-lg md:text-4xl lg:text-2xl font-extrabold mb-1">
               Chief Guest
             </h1>
             <img
@@ -41,7 +41,7 @@ export default function Hero() {
               className="w-16 h-16 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full shadow-md shadow-white object-cover"
             />
             <p className="mt-2 text-xs sm:text-sm md:text-base leading-snug">
-              <span className="block font-bold text-white text-sm sm:text-base">
+              <span className="block font-bold text-white text-sm sm:text-base  md:text-2xl lg:text-base">
                 Dr. V. Narayanan
               </span>
               <span className="block text-gray-200">Chairman, ISRO</span>
@@ -56,7 +56,7 @@ export default function Hero() {
 
           {/* Guest of Honour */}
           <div className="flex flex-col items-center text-center flex-1">
-            <h1 className="text-base sm:text-lg md:text-2xl font-extrabold mb-1">
+            <h1 className="text-base sm:text-lg md:text-4xl lg:text-2xl font-extrabold mb-1">
               Guest of Honour
             </h1>
             <img
@@ -65,7 +65,7 @@ export default function Hero() {
               className="w-14 h-14 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full shadow-md shadow-white object-cover"
             />
             <p className="mt-2 text-xs sm:text-sm md:text-base leading-snug">
-              <span className="block font-bold text-white text-sm sm:text-base">
+              <span className="block font-bold text-white text-sm sm:text-base  md:text-2xl lg:text-base">
                 Dr. Arun Kumar Jha
               </span>
               <span className="block text-gray-200">
