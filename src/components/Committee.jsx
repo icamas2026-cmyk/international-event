@@ -37,7 +37,32 @@ const membersData = {
     { name: "Dr. Sandip Kumar Mandal", img: "./images/sk.jpg" },
     { name: "Dr. Ravi Ranjan Kumar", img: "./images/rr.jpg" },
   ],
-  studentCommittee: [{ name: "Abhijeet", img: "./images/me.jpeg" }],
+  studentCommittee: [
+    { 
+      name: "Abhijeet", 
+      img: "./images/abhijeet.jpeg" 
+    },
+    {
+      name:"Tapan Boruah",
+      img:"./images/tapan.jpg"
+    },
+    {
+      name:"Radhe Mohan Lodhi",
+      img:"./images/radhe.jpg"
+    },
+    {
+      name:"Akash Raj",
+      img:"./images/akash.jpg"
+    },
+    {
+      name:"Hemika Harsha",
+      img:"./images/hemika.jpg"
+    },
+    {
+      name:"Thirumalai Nathan S",
+      img:"./images/thiru.jpg"
+    }
+  ],
 };
 
 const Section = ({ title, members }) => (
