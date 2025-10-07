@@ -14,7 +14,7 @@ export default function Header() {
     <header className="w-full flex justify-between items-center px-3 sm:px-6 py-2 bg-white shadow-md fixed top-0 z-50">
       {/* Left Logo */}
       <div className="flex-shrink-0">
-        <img className="w-9 sm:w-10 md:w-12" src="./images/logo.png" alt="NIT Logo" />
+        <img className="w-10 sm:w-10 md:w-12" src="./images/logo.png" alt="NIT Logo" />
       </div>
 
       {/* Desktop Nav */}

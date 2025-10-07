@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="scroll-mt-14 relative min-h-screen flex flex-col items-center  text-center text-white bg-gray-300 px-3 sm:px-4"
+      className="scroll-mt-14 relative top-0 min-h-screen flex flex-col items-center  text-center text-white bg-gray-300 px-3 sm:px-4"
       style={{
         backgroundImage: "url('./images/campus.jpg')",
         backgroundSize: "cover",
@@ -29,7 +29,7 @@ export default function Hero() {
         </div>
 
         {/* Chief Guest & Guest of Honour */}
-        <div className="flex flex-col sm:flex-row relative md:top-10 lg:top-0 justify-center items-center gap-6 sm:gap-10 w-full max-w-4xl">
+        <div className="flex flex-row sm:flex-row relative md:top-10 lg:top-0 justify-center items-center gap-6 sm:gap-10 w-full max-w-4xl">
           {/* Chief Guest */}
           <div className="flex flex-col items-center text-center flex-1">
             <h1 className="text-base sm:text-lg md:text-2xl font-extrabold mb-1">
@@ -38,7 +38,7 @@ export default function Hero() {
             <img
               src="./images/Narayanan_Chairman.png"
               alt="isrochairman"
-              className="w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full shadow-md shadow-white object-cover"
+              className="w-16 h-16 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full shadow-md shadow-white object-cover"
             />
             <p className="mt-2 text-xs sm:text-sm md:text-base leading-snug">
               <span className="block font-bold text-white text-sm sm:text-base">
@@ -62,7 +62,7 @@ export default function Hero() {
             <img
               src="./images/Arun.jpg"
               alt="arun"
-              className="w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full shadow-md shadow-white object-cover"
+              className="w-14 h-14 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full shadow-md shadow-white object-cover"
             />
             <p className="mt-2 text-xs sm:text-sm md:text-base leading-snug">
               <span className="block font-bold text-white text-sm sm:text-base">
@@ -74,7 +74,7 @@ export default function Hero() {
               <span className="block text-gray-200 text-xs sm:text-sm">
                 Former Economic Advisor, MoHFW (GoI)
               </span>
-              <span className="block text-gray-200 text-xs sm:text-sm">
+              <span className="hidden sm:block text-gray-200 text-xs sm:text-sm">
                 Additional Economic Advisor, MHA (GoI)
               </span>
             </p>
@@ -86,7 +86,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="relative md:top-20 lg:top-0 text-3xl sm:text-3xl md:text-4xl font-bold max-w-xl md:max-w-7xl leading-snug px-2"
+          className="relative md:top-20 lg:top-0 text-3xl sm:text-3xl md:text-6xl lg:text-4xl font-bold max-w-xl md:max-w-7xl leading-snug px-2"
         >
           1st International Conference on Advances in Mechanical and Aerospace
           Sciences <br className="hidden sm:block" />
