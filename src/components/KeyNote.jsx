@@ -22,7 +22,7 @@ const speakers = [
     image: "./images/dixit.jpg",
     title:
       "Professor, Department of Mechanical Engineering & Head, Center for Indian Knowledge System, IIT Guwahati",
-    description: `Prof. Uday Shanker Dixit is a distinguished academician and researcher known for his extensive contributions to the fields of Manufacturing Process Modelling, Finite Element Analysis, Soft Computing, Design Optimization, and the Design and Manufacturing of Mechatronic Systems. His research seamlessly integrates theoretical and practical aspects of mechanical engineering, driving innovation in advanced manufacturing technologies. Prof. Dixit’s work has significantly influenced modern engineering practices, making him a respected figure in academia and research worldwide.
+    description:`Prof. Uday Shanker Dixit is a distinguished academician and researcher known for his extensive contributions to the fields of Manufacturing Process Modelling, Finite Element Analysis, Soft Computing, Design Optimization, and the Design and Manufacturing of Mechatronic Systems. His research seamlessly integrates theoretical and practical aspects of mechanical engineering, driving innovation in advanced manufacturing technologies. Prof. Dixit’s work has significantly influenced modern engineering practices, making him a respected figure in academia and research worldwide.
 `,
   },
   {
@@ -44,16 +44,14 @@ const speakers = [
     name: "Prof. Goutam Sutradhar",
     image: "./images/gautam.jpg",
     title: "Director NIT Jamshedpur, Former: Director NIT Manipur",
-    description: `Prof. (Dr.) Goutam Sutradhar, Director of NIT Jamshedpur and former Director of NIT Manipur, is an eminent academician and researcher in mechanical and materials engineering. He holds a Ph.D. from BIT Mesra and an M.Tech in Foundry Technology from IIT Kharagpur. With over three decades of experience in academia and industry, he has published more than 125 research papers and guided numerous Ph.D. and M.Tech scholars. His expertise includes foundry processes, composite materials, and sustainable manufacturing technologies.He continues to play a pivotal role in advancing technical education and fostering innovation in engineering research.`,
+    description: `Prof. Goutam Sutradhar, Director of NIT Jamshedpur and former Director of NIT Manipur, is an eminent academician and researcher in mechanical and materials engineering. He holds a Ph.D. from BIT Mesra and an M.Tech in Foundry Technology from IIT Kharagpur. With over three decades of experience in academia and industry, he has published more than 125 research papers and guided numerous Ph.D. and M.Tech scholars. His expertise includes foundry processes, composite materials, and sustainable manufacturing technologies.He continues to play a pivotal role in advancing technical education and fostering innovation in engineering research.`,
   },
   {
     name: "Prof. Rajat Gupta",
     image: "./images/rajat.jpg",
     title:
       "Vice-Chancellor Vel Tech University Chennai, Former: Director NIT Mizoram, Director NIT Srinagar",
-    description: `ChatGPT said:
-
-Prof. Rajat Gupta is a distinguished academic and administrator, currently serving as the Vice-Chancellor of Vel Tech University, Chennai. With a rich career in higher education, he has previously held leadership roles as Director of NIT Mizoram and NIT Srinagar, contributing significantly to institutional development, research promotion, and academic excellence. Known for his visionary approach, Prof. Gupta has been instrumental in fostering innovation, strengthening industry-academia collaborations, and enhancing the overall quality of technical education in India, leaving a lasting impact on the institutions he has led.`,
+    description: `Prof. Rajat Gupta is a distinguished academic and administrator, currently serving as the Vice-Chancellor of Vel Tech University, Chennai. With a rich career in higher education, he has previously held leadership roles as Director of NIT Mizoram and NIT Srinagar, contributing significantly to institutional development, research promotion, and academic excellence. Known for his visionary approach, Prof. Gupta has been instrumental in fostering innovation, strengthening industry-academia collaborations, and enhancing the overall quality of technical education in India, leaving a lasting impact on the institutions he has led.`,
   },
   {
     name: "Prof. Sudarsanam Suresh Babu",
@@ -82,9 +80,7 @@ Prof. Rajat Gupta is a distinguished academic and administrator, currently servi
     name: "Prof. Ian Malcolm Richardson",
     image: "./images/ian.jpg",
     title: "Delft University of Technology, Netherlands",
-    description: `ChatGPT said:
-
-Prof. Ian Malcolm Richardson is an internationally recognized expert in welding and materials science with over 35 years of academic, research, and industrial experience. He holds a Ph.D. from Cranfield University and has served as Professor and Head of the Department of Materials Science and Engineering at Delft University of Technology. His expertise spans welding physics, arc and laser welding, stress and distortion analysis, and the influence of welding on materials and structures. A Chartered Engineer and Senior Member of The Welding Institute, he has supervised more than 70 postgraduate theses and authored over 250 international publications, significantly advancing joining technology research worldwide.`,
+    description: `Prof. Ian Malcolm Richardson is an internationally recognized expert in welding and materials science with over 35 years of academic, research, and industrial experience. He holds a Ph.D. from Cranfield University and has served as Professor and Head of the Department of Materials Science and Engineering at Delft University of Technology. His expertise spans welding physics, arc and laser welding, stress and distortion analysis, and the influence of welding on materials and structures. A Chartered Engineer and Senior Member of The Welding Institute, he has supervised more than 70 postgraduate theses and authored over 250 international publications, significantly advancing joining technology research worldwide.`,
   },
   {
     name: "Dr. D. Biswas",
