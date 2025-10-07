@@ -18,7 +18,7 @@ export default function Hero() {
       <div className="absolute bottom-0 left-0 w-full h-40 sm:h-60 bg-gradient-to-t from-white to-transparent pointer-events-none"></div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center w-full gap-20 sm:gap-20 md:gap-12">
+      <div className="relative z-10 flex flex-col items-center w-full gap-10 sm:gap-30 lg:gap-20">
         {/* Logo */}
         <div className="flex relative top-6 justify-center">
           <img
