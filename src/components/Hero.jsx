@@ -88,7 +88,7 @@ export default function Hero() {
           transition={{ duration: 1 }}
           className="relative md:top-20 lg:top-0 text-3xl sm:text-5xl md:text-6xl lg:text-4xl font-bold max-w-xl md:max-w-7xl leading-snug px-2"
         >
-          1st International Conference on Advances in Mechanical and Aerospace
+          1<sup>st</sup> International Conference on Advances in Mechanical and Aerospace
           Sciences <br className="hidden sm:block" />
           (ICAMAS-2026)
         </motion.h1>
@@ -100,7 +100,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.4 }}
           className="relative md:top-20 lg:-top-10 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-4xl text-center text-gray-100 lg:text-black"
         >
-          Conference Dates: <strong>10–12 March, 2026</strong>
+          Conference Dates: <strong>10<sup>th</sup>–12<sup>th</sup> March, 2026</strong>
           <br />
           All accepted & presented papers will be published in{" "}
           <strong>Scopus-indexed conference proceedings</strong>.

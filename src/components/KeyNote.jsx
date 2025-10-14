@@ -92,7 +92,7 @@ export default function KeynoteSpeakers() {
   return (
     <div
       id="keynote"
-      className="scroll-mt-9 bg-gradient-to-r from-green-50 to-blue-50 min-h-screen flex flex-col font-sans text-gray-800"
+      className="scroll-mt-11 bg-gradient-to-r from-green-50 to-blue-50 min-h-screen flex flex-col font-sans text-gray-800"
     >
       {/* Header Section */}
       <motion.header
