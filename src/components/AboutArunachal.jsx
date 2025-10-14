@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const sections = [
   {
     title: "Tawang Monastery",
-    desc: "The Tawang Monastery, one of the largest in India, is an iconic landmark of Arunachal Pradesh. Nestled amidst the Himalayas at 10,000 feet, it was founded in the 17th century and serves as a spiritual center for Mahayana Buddhism.",
+    desc: "The Tawang Monastery, one of the largest in India, is an iconic landmark of Arunachal Pradesh. Nestled amidst the Himalayas at 10,000 feet, it was founded in the 17ᵗʰ century and serves as a spiritual center for Mahayana Buddhism.",
     img: "./images/Tawang-Monastery.jpg",
   },
   {
@@ -29,7 +29,7 @@ const sections = [
   },
   {
     title: "Ita Fort",
-    desc: "Ita Fort, built in the 14th–15th century, showcases the ancient stone architecture of the region.",
+    desc: "Ita Fort, built in the 14ᵗʰ–15ᵗʰ century, showcases the ancient stone architecture of the region.",
     img: "./images/ita.jpg",
   },
   {

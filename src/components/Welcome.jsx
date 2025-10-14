@@ -44,7 +44,7 @@ export default function Welcome() {
         
         <motion.div className="text-[#540000] md:w-1/2 space-y-4 text-justify" variants={textVariant}>
           <p>
-            The 1st International Conference on Advances in Mechanical and
+            The 1<sup>st</sup> International Conference on Advances in Mechanical and
             Aerospace Sciences (ICAMAS-2026) will be held at the National
             Institute of Technology Arunachal Pradesh. Aligned with the{" "}
             <strong>Viksit Bharat 2047 Vision</strong>, the conference underscores
@@ -76,7 +76,7 @@ export default function Welcome() {
         transition={{ duration: 1, delay: 0.5 }}
       >
         You are cordially invited to be a part of ICAMAS-2026 in{" "}
-        <strong>hybrid mode during 10-12 March 2026</strong>.
+        <strong>hybrid mode during 10<sup>th</sup>-12<sup>th</sup> March 2026</strong>.
       </motion.p>
     </motion.section>
   );

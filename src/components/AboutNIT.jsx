@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const nitSections = [
   {
     title: "Establishment",
-    desc: "The National Institute of Technology, Arunachal Pradesh was established in 2010 by MHRD, Govt. of India and inaugurated on 18th August 2010. It is one of the 31 National Institutes of Technology in India and recognized as an Institute of National Importance.",
+    desc: "The National Institute of Technology, Arunachal Pradesh was established in 2010 by MHRD, Govt. of India and inaugurated on 18ᵗʰ August 2010. It is one of the 31 National Institutes of Technology in India and recognized as an Institute of National Importance.",
     img: "./images/nit.jpg",
   },
   {
