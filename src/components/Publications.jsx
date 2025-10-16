@@ -5,29 +5,34 @@ export default function Publications() {
     const publications = [
      {
        title:
-         "Transactions of the Indian Institute of Metals; Springer [Q2, SCIE, I.F: 1.6]",
+         "Transactions of the Indian Institute of Metals; Springer  ",
+        tag:"[Q2, SCIE, I.F: 1.6]",
        img: "./images/transaction.png",
        
      },
      {
        title:
-         "Advances in Computational Design, An International Journal; Techno Press [ESCI; I.F: 0.9]",
+         "Advances in Computational Design, An International Journal; Techno Press  ",
+         tag:"[ESCI; I.F: 0.9]",
        img: "./images/computational.png",
        
      },
      {
-       title: "Journal of Micromanufacturing; SAGE [Q2, SCOPUS]",
+       title: "Journal of Micromanufacturing; SAGE  ",
+       tag:"[Q2, SCOPUS]",
        img: "./images/micromanufacturing.png",
        
      },
      {
        title:
-         "International Journal of Energy for a Clean Environment; Begell House [Q2, SCOPUS]",
+         "International Journal of Energy for a Clean Environment; Begell House",
+         tag:"[Q2, SCOPUS]",
        img: "./images/internaljournal.png",
        
      },
      {
-       title: "International Journal of Intelligent Unmanned Systems; Emerald Publishing [ESCI]",
+       title: "International Journal of Intelligent Unmanned Systems; Emerald Publishing  ",
+       tag:"[ESCI]",
        img: "./images/unmannedsystem.jpg",
        
      },
@@ -61,6 +66,7 @@ export default function Publications() {
                 className="w-40 h-auto rounded-md mb-4"
               />
               <p className="font-semibold text-blue-800 text-sm">{pub.title}</p>
+              <p className="font-semibold text-blue-800 text-sm">{pub.tag}</p>
               
             </motion.div>
             ))}

@@ -52,15 +52,15 @@ function VerticalTicker({ items, height = 150, speed = 10, textClass = "" }) {
           if (item.subItems) {
             return (
               <div key={idx} className={`${textClass} py-3 shadow-md`}>
-                <div className="font-bold p-2">{item.title}</div>
+                <div className="font-bold p-2">{item.title}<span className="text-red-500 font-semibold animate-pulse">
+                        {" "}
+                        New
+                      </span>
+                  </div>
                 <div className="ml-5 space-y-1">
                   {item.subItems.map((sub, i) => (
                     <div key={i}>
                       {sub}
-                      <span className="text-red-500 font-semibold animate-pulse">
-                        {" "}
-                        New
-                      </span>
                     </div>
                   ))}
                 </div>
@@ -84,8 +84,12 @@ function VerticalTicker({ items, height = 150, speed = 10, textClass = "" }) {
           }
 
           return (
-            <div key={idx} className={`py-3 ${textClass} shadow-md`}>
+            <div key={idx} className={`py-3 ${textClass} shadow-md font-semibold`}>
               {typeof item === "string" ? item : JSON.stringify(item)}
+              <span className="text-red-500 font-semibold animate-pulse">
+                        {" "}
+                        New
+                      </span>
             </div>
           );
         })}
@@ -120,6 +124,7 @@ const awards = [
      },
      "☞ Best Poster award in all aforementioned verticals",
      "☞ Best Session award in each session",
+    
      {
        title: "*** Young Researcher Award:",
        subItems: [
