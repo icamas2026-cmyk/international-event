@@ -30,12 +30,10 @@ const CallForPapers = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <p className="mt-4 text-sm sm:text-base text-gray-700">
-            Authors are invited to submit an abstract of the proposed work before the deadline. Abstract should have a minimum of 250 words and not more than 500 words.
+          <p className="mt-6 text-sm sm:text-base text-blue-700">
+            Authors are encouraged to submit an abstract of their proposed work before the specified deadline. The abstract should be between 250 and 500 words in length. Both abstract and full paper submissions must be made through Microsoft CMT. All submissions must be original, unpublished, and not under review by any other journal or conference. Full-length research papers should follow the prescribed format and be limited to 10–12 pages. The conference invites original contributions from researchers, academicians, and industry professionals in areas including, but not limited to, the following:
           </p>
-          <p className="mt-2 text-sm sm:text-base text-gray-700">
-            All submitted papers must be original and should not be under consideration for publication in any other journal or conference. Full length paper is limited to 10–12 pages as per the proposed format.
-          </p>
+          
         </motion.div>
 
         {/* Submission Categories */}
@@ -46,12 +44,6 @@ const CallForPapers = () => {
           viewport={{ once: true }}
           className="mb-8"
         >
-          <h3 className="text-2xl sm:text-2xl font-semibold text-blue-800 mb-2">
-            Submission Categories
-          </h3>
-          <ul className="list-disc ml-6 text-sm sm:text-base text-gray-700 space-y-1">
-            <li>Full Research Papers</li>
-          </ul>
         </motion.div>
 
         {/* Topics */}
@@ -62,9 +54,6 @@ const CallForPapers = () => {
           viewport={{ once: true }}
           className="mb-12"
         >
-          <h3 className="text-2xl sm:text-2xl font-semibold text-blue-800 mb-8 text-center">
-            Unpublished original technical papers are sought in the following areas:
-          </h3>
 
           {/* Three-column grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
