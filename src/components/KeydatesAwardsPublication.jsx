@@ -200,7 +200,7 @@ const awards = [
           {/* Publications */}
           <motion.div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col justify-between">
             <h3 className="text-xl sm:text-2xl font-bold mb-4 underline text-center">Publications</h3>
-            <p className="text-sm font-semibold text-gray-700">All accepted & presented papers will be published in Scopus indexed conference proceedings and outstanding extented papers will be submitted for possible publication in special issue of the following SCIE/ESCI/SCOPUS Indexed journals:</p>
+            <p className="text-sm font-semibold text-gray-700 text-justify">All accepted & presented papers will be published in Scopus indexed conference proceedings and outstanding extented papers will be submitted for possible publication in special issue of the following SCIE/ESCI/SCOPUS Indexed journals:</p>
             <VerticalTicker items={publications} height={250} speed={25} textClass="text-blue-700 text-sm" />
             <button
               className="mt-4 text-blue-600 hover:text-blue-800 text-sm font-semibold underline self-center"
