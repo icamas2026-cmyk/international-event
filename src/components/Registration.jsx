@@ -33,7 +33,7 @@ export default function Registration() {
       id="registration"
       className="scroll-mt-6 min-h-[70%] lg:min-h-screen bg-gradient-to-br from-green-50 via-blue-50 to-green-100 text-gray-800 py-8 sm:py-12"
     >
-      {/* Header */}
+     
       <motion.header
         className="bg-gradient-to-r from-green-200 to-blue-200 text-center rounded-b-3xl shadow-md w-11/12 sm:w-2/3 md:w-2/6 mx-auto p-4 sm:p-2"
         initial={{ opacity: 0, y: -30 }}
