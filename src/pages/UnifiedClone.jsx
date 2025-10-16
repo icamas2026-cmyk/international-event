@@ -17,6 +17,9 @@ import CallForPapers from "../components/CallForPapers.jsx";
 import Footer from "../components/Footer.jsx";
 import KeydatesAwardsPublications from "../components/KeydatesAwardsPublication.jsx";
 import ScrollToTop from "../components/ScrollToTop.jsx";
+import Awards from "../components/Awards.jsx";
+import Publications from "../components/Publications.jsx";
+import ImportantDates from "../components/ImportantDates.jsx";
 
 
 export default function UnifiedClone() {
@@ -30,10 +33,13 @@ export default function UnifiedClone() {
         <AboutArunachal/>
         <AboutNIT/>
         <AboutDepartment/>
+        <ImportantDates/>
         <Registration/>
         <CallForPapers/>
         <InvitationLetter/>
         <PaperSubmission/>
+        <Awards/>
+        <Publications/>
         <ProjectDownloads/>
         <Committee />
         <KeynoteSpeakers/>
