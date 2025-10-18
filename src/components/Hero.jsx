@@ -13,20 +13,28 @@ export default function Hero() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      {/* Overlay */}
+      
       <div className="absolute inset-0 bg-black/50"></div>
       <div className="absolute bottom-0 left-0 w-full h-40 sm:h-60 bg-gradient-to-t from-white to-transparent pointer-events-none"></div>
 
-      {/* Content */}
+      
       <div className="relative z-10 flex flex-col items-center w-full gap-10 sm:gap-30 lg:gap-10">
-        {/* Logo */}
-        <div className="flex relative top-6 justify-center">
+        
+      
+      <div className="flex items-center justify-between w-full px-4 mt-4">
+        <div>
+          <img src="./images/Nesac.png" alt="Technical partner" className="w-24 sm:w-28" />
+          <p className="font-semibold">Technical Partner</p>
+        </div>
+        <div className="flex-1 flex justify-center">
           <img
             src="./images/newlogo.jpeg"
             alt="ICAMAS Logo"
             className="w-16 sm:w-20 md:w-24 rounded-full shadow-lg"
           />
         </div>
+      </div>
+
 
         {/* Chief Guest & Guest of Honour */}
         <div className="flex flex-row sm:flex-row relative md:top-10 lg:top-0 justify-center items-center gap-6 sm:gap-10 w-full max-w-4xl">
@@ -98,7 +106,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="relative md:top-20 lg:-top-10 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-4xl text-center text-gray-100 lg:text-black"
+          className="relative md:top-20 lg:-top-10 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-4xl text-center text-gray-100 lg:text-black 3xl:text-white"
         >
           Conference Dates: <strong>10<sup>th</sup>–12<sup>th</sup> March, 2026</strong>
           <br />
