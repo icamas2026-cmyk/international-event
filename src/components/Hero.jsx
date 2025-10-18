@@ -21,10 +21,10 @@ export default function Hero() {
       <div className="relative z-10 flex flex-col items-center w-full gap-10 sm:gap-30 lg:gap-10">
         
       
-      <div className="flex items-center justify-between w-full px-4 mt-4">
+      <div className="flex items-center justify-between w-full mt-4">
         <div>
-          <img src="./images/Nesac.png" alt="Technical partner" className="w-24 sm:w-28" />
-          <p className="font-semibold">Technical Partner</p>
+          <img src="./images/Nesac.png" alt="Technical partner" className="w-10 sm:w-20" />
+         
         </div>
         <div className="flex-1 flex justify-center">
           <img
@@ -33,11 +33,14 @@ export default function Hero() {
             className="w-16 sm:w-20 md:w-24 rounded-full shadow-lg"
           />
         </div>
+        <div>
+          <img src="./images/logo.png" alt="nit" className="w-10 sm:w-20" />
+        </div>
       </div>
 
 
         {/* Chief Guest & Guest of Honour */}
-        <div className="flex flex-row sm:flex-row relative md:top-10 lg:top-0 justify-center items-center gap-6 sm:gap-10 w-full max-w-4xl">
+        <div className="flex flex-row sm:flex-row relative md:top-10 lg:top-0 justify-center items-center gap-6 sm:gap-18 w-full max-w-4xl">
           {/* Chief Guest */}
           <div className="flex flex-col items-center text-center flex-1">
             <h1 className="text-base sm:text-lg md:text-4xl lg:text-2xl font-extrabold mb-1">
