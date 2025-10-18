@@ -27,21 +27,21 @@ export default function AboutDepartment() {
           <h2 className="text-3xl font-bold text-blue-900">About Department</h2>
 
           <p className="text-justify leading-relaxed text-gray-700">
-            The Department of Mechanical Engineering at <strong>NIT Arunachal Pradesh</strong> 
-            was established in August 2013. It offers a <strong>four-year B.Tech. programme</strong> 
+            The Department of Mechanical Engineering at <strong>NIT Arunachal Pradesh  </strong> 
+             was established in August 2013. It offers a <strong>four-year B.Tech. programme </strong> 
             in Mechanical Engineering with an annual intake of 40 students.
           </p>
 
           <p className="text-justify leading-relaxed text-gray-700">
             Since <strong>July 2025</strong>, the department offers a postgraduate 
-            <strong>2-year M.Tech. programme in Digital Manufacturing in Energy Systems</strong> 
+            <strong> 2-year M.Tech. programme in Digital Manufacturing in Energy Systems </strong> 
             with an intake of 20 students.
           </p>
 
           <p className="text-justify leading-relaxed text-gray-700">
             Previously, it offered two postgraduate <strong>2-year M.Tech. programmes</strong> — 
             <em>Mechanical System Design and Innovation Technology</em> (2016–2019) and 
-            <em>Fluids and Thermal Engineering</em> (2019–2025), each with 20 students.
+            <em> Fluids and Thermal Engineering</em> (2019–2025), each with 20 students.
           </p>
 
           <p className="text-justify leading-relaxed text-gray-700">
