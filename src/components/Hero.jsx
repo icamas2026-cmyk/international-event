@@ -112,7 +112,7 @@ export default function Hero() {
         </motion.p>
         <div className="flex flex-col justify-center items-center relative md:top-20 lg:-top-10 lg:bottom-10">
           <h1 className="text-center text-blue-500 text-2xl md:text-3xl lg:text-2xl font-extrabold">TECHNICAL PARTNER</h1>
-          <img src="./images/Nesac.png" alt="nesac" className="w-25 md:35 lg:25" />
+          <img src="./images/Nesac.png" alt="nesac" className="w-25 md:w-35 lg:w-25" />
         </div>
       </div>  
     </section>
