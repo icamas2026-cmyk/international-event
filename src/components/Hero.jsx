@@ -22,19 +22,12 @@ export default function Hero() {
         
       
       <div className="flex items-center justify-between w-full mt-4">
-        <div>
-          <img src="./images/Nesac.png" alt="Technical partner" className="w-10 sm:w-20" />
-         
-        </div>
         <div className="flex-1 flex justify-center">
           <img
             src="./images/newlogo.jpeg"
             alt="ICAMAS Logo"
             className="w-16 sm:w-20 md:w-24 rounded-full shadow-lg"
           />
-        </div>
-        <div>
-          <img src="./images/logo.png" alt="nit" className="w-10 sm:w-20" />
         </div>
       </div>
 
@@ -109,14 +102,18 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="relative md:top-20 lg:-top-10 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-4xl text-center text-gray-100 lg:text-black 3xl:text-white"
+          className="relative md:top-20 lg:-top-10 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-4xl text-center text-gray-100"
         >
           Conference Dates: <strong>10<sup>th</sup>–12<sup>th</sup> March, 2026</strong>
           <br />
           All accepted & presented papers will be published in{" "}
           <strong>Scopus-indexed conference proceedings</strong>.
         </motion.p>
-      </div>
+        <div className="flex flex-col justify-center items-center">
+          <h1 className="text-center text-blue-500 text-2xl font-extrabold">TECHNICAL PARTNER</h1>
+          <img src="./images/Nesac.png" alt="nesac" className="w-30" />
+        </div>
+      </div>  
     </section>
   );
 }
