@@ -95,6 +95,7 @@ export default function Hero() {
           1<sup>st</sup> International Conference on Advances in Mechanical and Aerospace
           Sciences <br className="hidden sm:block" />
           (ICAMAS-2026)
+          <br />
         </motion.h1>
 
         {/* Subtitle */}
@@ -109,9 +110,9 @@ export default function Hero() {
           All accepted & presented papers will be published in{" "}
           <strong>Scopus-indexed conference proceedings</strong>.
         </motion.p>
-        <div className="flex flex-col justify-center items-center">
-          <h1 className="text-center text-blue-500 text-2xl font-extrabold">TECHNICAL PARTNER</h1>
-          <img src="./images/Nesac.png" alt="nesac" className="w-30" />
+        <div className="flex flex-col justify-center items-center relative md:top-20 lg:-top-10 lg:bottom-10">
+          <h1 className="text-center text-blue-500 text-2xl md:text-3xl lg:text-2xl font-extrabold">TECHNICAL PARTNER</h1>
+          <img src="./images/Nesac.png" alt="nesac" className="w-25 md:35 lg:25" />
         </div>
       </div>  
     </section>
