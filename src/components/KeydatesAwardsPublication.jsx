@@ -166,6 +166,10 @@ const awards = [
        img: "./images/unmannedsystem.jpg",
        
      },
+     {
+      title:"Journal of Thermal Engineering; YTU Press [ESCI, I.F: 1.4]",
+      img:"./images/thermal.jpg",
+     }
    ];
 
   return (
