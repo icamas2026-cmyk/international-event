@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
+import { title } from "framer-motion/client";
 
 export default function Publications() {
     const publications = [
@@ -36,6 +37,11 @@ export default function Publications() {
        img: "./images/unmannedsystem.jpg",
        
      },
+     {
+      title:"Journal of Thermal Engineering; YTU Press",
+      tag:"[ESCI, I.F: 1.4]",
+      img:"./images/thermal.jpg"
+     }
    ];
   return (
     <section id="publications-section" className="scroll-mt-14 py-4 bg-green-50         text-center">
