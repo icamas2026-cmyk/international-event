@@ -37,75 +37,6 @@ const membersData = {
     { name: "Dr. Sandip Kumar Mandal", img: "./images/sk.jpg" },
     { name: "Dr. Ravi Ranjan Kumar", img: "./images/rr.jpg" },
   ],
-  advisoryBoard:[
-    {
-      name:"Prof. Associada Elaine Maria Cardoso; UNESP - Universidade Estadual Paulista, Brazil"
-    },
-    {
-      name:"Prof. Xiaolin Wang; University of Tasmania, Australia"
-    },
-    {
-      name:"Prof. Vaghela Hitensinh; ITER Organization, France"
-    },
-    {
-      name:"Prof. Tobias Plessing; Hof University, Germany"
-    },
-    {
-      name:"Prof. Prabhat Hajela; HBKU and the Qatar Foundation in Doha, Qatar"
-    },
-    {
-      name:"Prof. Dr.-Ing. habil. A. C. Benim; Duesseldorf University of Applied Sciences, Germany"
-    },
-
-    {
-      name:"Prof. Pradip Dutta; IISC Bangalore, India"
-    },
-    {
-      name:"Prof. Kaushik Pal; IIT Roorkee, India"
-    },
-    {
-      name:"Prof. Ujjwal Kumar Saha; IIT Guwahati, India"
-    },
-    {
-      name:"Prof. Rajiv Kumar Garg; NIT Jalandhar, India"
-    },
-    {
-      name:"Prof. Bijan Kumar Mandal, IIEST Shibpur, India"
-    },
-    {
-      name:"Prof. Rahul Dev Mishra; NIT Silchar, India"
-    },
-    {
-      name:"Prof. Sunil Pandey; IIT Delhi, India"
-    },
-    {
-      name:"Prof. Amaresh Dalal; IIT Guwahati, India"
-    },
-    {
-      name:"Prof. Arunabha Chanda; Jadavpur University, India"
-    },
-    {
-      name:"Prof. G. Ravi Kiran Sastry; NIT Andhra Pradesh, India"
-    },
-    {
-      name:"Prof. Rajesh Bhushan; NIT Manipur, India"
-    },
-
-    {
-      name:"Prof. Pushparaj Mani Pathak; IIT Roorkee, India"
-    },
-    {
-      name:"Prof. G. L. Samuel; IIT Madras, India"
-    },
-    {
-      name:"Prof. Santosha Kumar Dwivedy; IIT Guwahati, India",
-    },
-    {
-      name:"Prof. G. Rajesh; IIT Madras, India",
-    },
-
-
-  ],
   studentCommittee: [
     { 
       name: "Abhijeet", 
@@ -134,6 +65,33 @@ const membersData = {
   ],
 };
 
+const advisoryData = {
+  advisoryBoard: [
+    { name: "Prof. Associada Elaine Maria Cardoso", role: "UNESP - Universidade Estadual Paulista, Brazil" },
+    { name: "Prof. Xiaolin Wang", role: "University of Tasmania, Australia" },
+    { name: "Prof. Vaghela Hitensinh", role: "ITER Organization, France" },
+    { name: "Prof. Tobias Plessing", role: "Hof University, Germany" },
+    { name: "Prof. Prabhat Hajela", role: "HBKU and the Qatar Foundation, Doha, Qatar" },
+    { name: "Prof. Dr.-Ing. habil. A. C. Benim", role: "Duesseldorf University of Applied Sciences, Germany" },
+    { name: "Prof. Pradip Dutta", role: "IISc Bangalore, India" },
+    { name: "Prof. Kaushik Pal", role: "IIT Roorkee, India" },
+    { name: "Prof. Ujjwal Kumar Saha", role: "IIT Guwahati, India" },
+    { name: "Prof. Rajiv Kumar Garg", role: "NIT Jalandhar, India" },
+    { name: "Prof. Bijan Kumar Mandal", role: "IIEST Shibpur, India" },
+    { name: "Prof. Rahul Dev Mishra", role: "NIT Silchar, India" },
+    { name: "Prof. Sunil Pandey", role: "IIT Delhi, India" },
+    { name: "Prof. Amaresh Dalal", role: "IIT Guwahati, India" },
+    { name: "Prof. Arunabha Chanda", role: "Jadavpur University, India" },
+    { name: "Prof. G. Ravi Kiran Sastry", role: "NIT Andhra Pradesh, India" },
+    { name: "Prof. Rajesh Bhushan", role: "NIT Manipur, India" },
+    { name: "Prof. Pushparaj Mani Pathak", role: "IIT Roorkee, India" },
+    { name: "Prof. G. L. Samuel", role: "IIT Madras, India" },
+    { name: "Prof. Santosha Kumar Dwivedy", role: "IIT Guwahati, India" },
+    { name: "Prof. G. Rajesh", role: "IIT Madras, India" },
+  ],
+};
+
+
 const Section = ({ title, members }) => (
   <section className="flex flex-col justify-center max-w-6xl mx-auto my-10 p-4 sm:p-6 bg-white bg-opacity-90 rounded-xl shadow-lg w-full">
     <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center text-blue-800 mb-6 underline decoration-blue-300 decoration-2 underline-offset-4">
@@ -150,11 +108,12 @@ const Section = ({ title, members }) => (
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: idx * 0.1 }}
         >
-          <img
+            <img
             src={member.img}
             alt={member.name}
             className="w-28 h-28 mx-auto rounded-full object-cover mb-4 border-4 border-blue-200"
-          />
+            />
+         
           <h3 className="text-base sm:text-lg font-semibold text-gray-800">
             {member.name}
           </h3>
@@ -168,6 +127,23 @@ const Section = ({ title, members }) => (
     </div>
   </section>
 );
+
+const AdvisorySection = ({ title, members }) => (
+  <section className="flex flex-col justify-center max-w-6xl mx-auto my-10 p-4 sm:p-6 bg-white bg-opacity-90 rounded-xl shadow-lg w-full">
+    <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center text-blue-800 mb-6 underline decoration-blue-300 decoration-2 underline-offset-4">
+      {title}
+    </h2>
+
+    <ul className="list-none text-center text-gray-800 text-base sm:text-lg space-y-2">
+      {members.map((member, idx) => (
+        <li key={idx}>
+          <strong>{member.name}</strong>; {member.role}
+        </li>
+      ))}
+    </ul>
+  </section>
+);
+
 
 export default function Committee() {
   return (
@@ -193,7 +169,7 @@ export default function Committee() {
       <Section title="Chairperson" members={membersData.chairperson} />
       <Section title="Organizing Secretary" members={membersData.organizingSecretary} />
       <Section title="Organizing Committee" members={membersData.organizingCommittee} />
-      <Section title="Advisory Board" members={membersData.advisoryBoard}/>
+      <AdvisorySection title="Advisory Board" members={advisoryData.advisoryBoard}/>
       <Section title="Student Organizing Committee" members={membersData.studentCommittee} />
     </div>
   );
