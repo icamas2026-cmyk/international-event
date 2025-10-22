@@ -37,6 +37,75 @@ const membersData = {
     { name: "Dr. Sandip Kumar Mandal", img: "./images/sk.jpg" },
     { name: "Dr. Ravi Ranjan Kumar", img: "./images/rr.jpg" },
   ],
+  advisoryBoard:[
+    {
+      name:"Prof. Associada Elaine Maria Cardoso; UNESP - Universidade Estadual Paulista, Brazil"
+    },
+    {
+      name:"Prof. Xiaolin Wang; University of Tasmania, Australia"
+    },
+    {
+      name:"Prof. Vaghela Hitensinh; ITER Organization, France"
+    },
+    {
+      name:"Prof. Tobias Plessing; Hof University, Germany"
+    },
+    {
+      name:"Prof. Prabhat Hajela; HBKU and the Qatar Foundation in Doha, Qatar"
+    },
+    {
+      name:"Prof. Dr.-Ing. habil. A. C. Benim; Duesseldorf University of Applied Sciences, Germany"
+    },
+
+    {
+      name:"Prof. Pradip Dutta; IISC Bangalore, India"
+    },
+    {
+      name:"Prof. Kaushik Pal; IIT Roorkee, India"
+    },
+    {
+      name:"Prof. Ujjwal Kumar Saha; IIT Guwahati, India"
+    },
+    {
+      name:"Prof. Rajiv Kumar Garg; NIT Jalandhar, India"
+    },
+    {
+      name:"Prof. Bijan Kumar Mandal, IIEST Shibpur, India"
+    },
+    {
+      name:"Prof. Rahul Dev Mishra; NIT Silchar, India"
+    },
+    {
+      name:"Prof. Sunil Pandey; IIT Delhi, India"
+    },
+    {
+      name:"Prof. Amaresh Dalal; IIT Guwahati, India"
+    },
+    {
+      name:"Prof. Arunabha Chanda; Jadavpur University, India"
+    },
+    {
+      name:"Prof. G. Ravi Kiran Sastry; NIT Andhra Pradesh, India"
+    },
+    {
+      name:"Prof. Rajesh Bhushan; NIT Manipur, India"
+    },
+
+    {
+      name:"Prof. Pushparaj Mani Pathak; IIT Roorkee, India"
+    },
+    {
+      name:"Prof. G. L. Samuel; IIT Madras, India"
+    },
+    {
+      name:"Prof. Santosha Kumar Dwivedy; IIT Guwahati, India",
+    },
+    {
+      name:"Prof. G. Rajesh; IIT Madras, India",
+    },
+
+
+  ],
   studentCommittee: [
     { 
       name: "Abhijeet", 
@@ -124,6 +193,7 @@ export default function Committee() {
       <Section title="Chairperson" members={membersData.chairperson} />
       <Section title="Organizing Secretary" members={membersData.organizingSecretary} />
       <Section title="Organizing Committee" members={membersData.organizingCommittee} />
+      <Section title="Advisory Board" members={membersData.advisoryBoard}/>
       <Section title="Student Organizing Committee" members={membersData.studentCommittee} />
     </div>
   );
