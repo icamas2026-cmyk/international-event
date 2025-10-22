@@ -113,7 +113,7 @@ export default function Hero() {
           <strong>Scopus-indexed conference proceedings</strong>.
         </motion.p>
         <div className="flex bg-white w-90 rounded-full shadow-lg flex-col justify-center items-center relative md:top-20 lg:-top-10 lg:bottom-10">
-          <h1 className="text-center text-black text-xl md:text-3xl lg:text-2xl font-extrabold">TECHNICAL PARTNER</h1>
+          <h1 className="text-center text-black text-xl md:text-3xl lg:text-2xl font-extrabold p-1">TECHNICAL PARTNER</h1>
           <img src="./images/Nesac.png" alt="nesac" className="w-25 md:w-35 lg:w-25" />
         </div>
       </div>  
