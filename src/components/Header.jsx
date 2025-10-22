@@ -71,7 +71,7 @@ export default function Header() {
            <a href="#submission" onClick={toggleMenu}>Submission</a>           
            <a href="#program" onClick={toggleMenu}>Program</a>
            <a href="#committee" onClick={toggleMenu}>Committees</a>
-          <a href="#keynote" onClick={toggleMenu}>KeyNotes</a>          
+          <a href="#keynote" onClick={toggleMenu}>KeyNote Speaker</a>          
           <a href="#sponsorship" onClick={toggleMenu}>Sponsorship</a>
            <a href="#travel" onClick={toggleMenu}>Travel & Accommodation</a>
          </nav>

@@ -105,7 +105,7 @@ export default function KeydatesAwardsPublications() {
   };
 
   const importantDates = [
-     { date: "—", event: "Abstract submission", note: "Deadline 30 November 2025" },
+     { date: "30/11/2025", event: "Abstract submission", note: "Deadline 30 November 2025" },
      { date: "31/12/2025", event: "Early registration deadline", note: "Last date to benefit from early registration" },
      { date: "15/01/2026", event: "Full paper submission deadline", note: "All papers must be submitted by this date" },
      { date: "—", event: "Paper acceptance notification", note: "Within 15 days of submission" },
