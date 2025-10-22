@@ -108,7 +108,7 @@ export default function KeydatesAwardsPublications() {
      { date: "30/11/2025", event: "Abstract submission", note: "Deadline 30 November 2025" },
      { date: "31/12/2025", event: "Early registration deadline", note: "Last date to benefit from early registration" },
      { date: "15/01/2026", event: "Full paper submission deadline", note: "All papers must be submitted by this date" },
-     { date: "—", event: "Paper acceptance notification", note: "Within 15 days of submission" },
+     { date: "30/01/2025", event: "Paper acceptance notification", note: "Within 15 days of submission" },
      { date: "20/02/2026", event: "Final registration deadline", note: "Mandatory for accepted papers to be included" },
     { date: "10–12/03/2026", event: "Conference Dates", note: "Conference sessions and keynotes" },
   ];
