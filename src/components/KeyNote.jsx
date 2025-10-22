@@ -69,10 +69,10 @@ const speakers = [
     description:`Sri Hitajit Bhattacharyya is the **Chief General Manager (HR) at Guwahati Refinery, Indian Oil Corporation Limited**, with over **34 years of distinguished service** in diverse operational and managerial domains. He holds a **B.E. in Mechanical Engineering from NIT Srinagar, an MBA from IIM Shillong, and is pursuing a Ph.D. in OB & HR at IIM Raipur**. His professional journey spans LPG plant operations, refinery maintenance, materials management, TPM implementation, and human resources. With an additional 2 years of experience in the tea industry, he exemplifies leadership excellence, combining deep technical expertise with strategic HR management in the energy sector.`
   },
   {
-    name: "Prof. Ian Malcolm Richardson",
-    image: "./images/ian.jpg",
-    title: "Delft University of Technology, Netherlands",
-    description: `Prof. Ian Malcolm Richardson is an **internationally recognized expert in welding and materials science** with over **35 years of academic, research, and industrial experience**. He holds a **Ph.D. from Cranfield University** and has served as **Professor and Head of the Department of Materials Science and Engineering at Delft University of Technology**. His expertise spans welding physics, arc and laser welding, stress and distortion analysis, and the influence of welding on materials and structures. **A Chartered Engineer and Senior Member of The Welding Institute**, he has supervised more than 70 postgraduate theses and authored over **250 international publications**, significantly advancing joining technology research worldwide.`,
+    name: "Prof. Tobias Plessing",
+    image: "./images/tobias-plessing.jpg",
+    title: "Head of Institute , Institute for Hydrogen and Energy Technology (iwe)",
+    description: `Prof. Tobias Plessing is a **Professor of Energy Technology at Hof University**, where he leads the **Institute for Hydrogen and Energy Technology** and the Research Group **“Innovative Energy Systems and Hydrogen Technologies”**. He studied **mechanical engineering at RWTH Aachen University**. Among his key achievements are contributions to flame diagnostics (including work on flameless oxidation FLOX) , industrial experience in glass and **solar-glass technology**, and research leadership in renewable energy systems—especially biomass utilisation, solar ice-storage systems and hydrogen technologies. `,
   },
   {
     name: "Dr. D. Biswas",
@@ -85,7 +85,13 @@ const speakers = [
     image:"./images/john.png",
     title:"Director, GKCIET Malda (WB)",
     description:`Prof. Siby John, is a distinguished academician and environmental engineer. He holds a **B.Tech in Civil Engineering, an M.Tech in Environmental Engineering, and a Ph.D. from IIT Kanpur**. With over **150 research papers, 7 books, and 4000 citations**, he has made significant contributions to environmental pollution control and sustainable development. A recipient of several prestigious awards, Prof. John is a Fellow of the **Institution of Engineers (India)** and an active member of multiple professional societies in the field of environmental engineering.He continues to inspire research and innovation aimed at achieving a cleaner and more sustainable future.`
-  }
+  },
+  {
+    name:"Prof. B. B. Saha",
+    image:"./images/BSaha.jpg",
+    title:"Professor, Kyushu University, Japan",
+    description:`Prof. Bidyut Baran Saha is a **Professor and Principal Investigator at the International Institute for Carbon-Neutral Energy Research and a Professor at the Mechanical Engineering Department of Kyushu University, Japan**. He received his **B.Sc. (Hons.) and M.Sc. degrees from the University of Dhaka** and was the **1st Bose Fellow** at the same institution. He received his **Ph.D. in 1997 from the Tokyo University of Agriculture and Technology, Japan**. His research interests include thermally powered energy conversion systems (including adsorption cooling, refrigeration, and desalination cycles), thermal energy storage, heat and mass transfer analysis, energy analysis and energy policy. He has published **500 articles** in Scopus-indexed journals and international conference proceedings. He has edited eleven books and holds thirty-one patents. `
+  },
 ];
 
 export default function KeynoteSpeakers() {

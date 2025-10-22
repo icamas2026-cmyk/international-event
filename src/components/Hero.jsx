@@ -90,11 +90,13 @@ export default function Hero() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="relative md:top-20 lg:top-0 text-3xl sm:text-5xl md:text-6xl lg:text-4xl font-bold max-w-xl md:max-w-7xl leading-snug px-2"
+          className="relative md:top-20 lg:top-0 text-3xl sm:text-5xl md:text-6xl lg:text-3xl font-bold max-w-xl md:max-w-7xl leading-snug px-2"
         >
           1<sup>st</sup> International Conference on Advances in Mechanical and Aerospace
           Sciences <br className="hidden sm:block" />
           (ICAMAS-2026)
+          <br />
+          <p className="text-xl font-medium">(Hybrid Mode)</p>
           <br />
         </motion.h1>
 
@@ -110,8 +112,8 @@ export default function Hero() {
           All accepted & presented papers will be published in{" "}
           <strong>Scopus-indexed conference proceedings</strong>.
         </motion.p>
-        <div className="flex flex-col justify-center items-center relative md:top-20 lg:-top-10 lg:bottom-10">
-          <h1 className="text-center text-blue-500 text-2xl md:text-3xl lg:text-2xl font-extrabold">TECHNICAL PARTNER</h1>
+        <div className="flex bg-white w-90 rounded-full shadow-lg flex-col justify-center items-center relative md:top-20 lg:-top-10 lg:bottom-10">
+          <h1 className="text-center text-black text-xl md:text-3xl lg:text-2xl font-extrabold">TECHNICAL PARTNER</h1>
           <img src="./images/Nesac.png" alt="nesac" className="w-25 md:w-35 lg:w-25" />
         </div>
       </div>  

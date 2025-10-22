@@ -96,7 +96,7 @@ export default function Registration() {
             </motion.li>
           ))}
         </ul>
-        <p className="text-sm sm:text-base mt-6 text-justify">
+        <p className="text-sm sm:text-base mt-6 text-justify text-blue-600 font-semibold">
           <strong>Group Registration – 1 </strong>registration free on group of 5 participants from same affiliation
           <br />
           <br />

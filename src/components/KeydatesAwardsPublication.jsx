@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
+import { title } from "framer-motion/client";
 
 function VerticalTicker({ items, height = 150, speed = 10, textClass = "" }) {
   const containerRef = useRef(null);
@@ -104,10 +105,10 @@ export default function KeydatesAwardsPublications() {
   };
 
   const importantDates = [
-     { date: "—", event: "Abstract acceptance notification", note: "Within 15 days of submission" },
+     { date: "—", event: "Abstract submission", note: "Deadline 30 November 2025" },
      { date: "31/12/2025", event: "Early registration deadline", note: "Last date to benefit from early registration" },
      { date: "15/01/2026", event: "Full paper submission deadline", note: "All papers must be submitted by this date" },
-     { date: "—", event: "Paper acceptance notification", note: "Within 15 days of full paper submission" },
+     { date: "—", event: "Paper acceptance notification", note: "Within 15 days of submission" },
      { date: "20/02/2026", event: "Final registration deadline", note: "Mandatory for accepted papers to be included" },
     { date: "10–12/03/2026", event: "Conference Dates", note: "Conference sessions and keynotes" },
   ];
@@ -180,7 +181,7 @@ const awards = [
           {/* Awards */}
           <motion.div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col justify-between">
             <h3 className="text-xl sm:text-2xl font-bold mb-4 underline text-center">Awards</h3>
-            <VerticalTicker items={awards} height={340} speed={25} textClass="text-blue-700 text-sm" />
+            <VerticalTicker items={awards} height={400} speed={25} textClass="text-blue-700 text-sm" />
             <button
               className="mt-4 text-blue-600 hover:text-blue-800 text-sm font-semibold underline self-center"
               onClick={() => scrollToSection("awards-section")}
@@ -192,7 +193,7 @@ const awards = [
           {/* Dates */}
           <motion.div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col justify-between">
             <h3 className="text-xl sm:text-2xl font-bold mb-4 underline text-center">Important Dates</h3>
-            <VerticalTicker items={importantDates} height={340} speed={25} textClass="text-blue-700 text-sm" />
+            <VerticalTicker items={importantDates} height={400} speed={25} textClass="text-blue-700 text-sm" />
             <button
               className="mt-4 text-blue-600 hover:text-blue-800 text-sm font-semibold underline self-center"
               onClick={() => scrollToSection("dates-section")}
@@ -204,7 +205,8 @@ const awards = [
           {/* Publications */}
           <motion.div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col justify-between">
             <h3 className="text-xl sm:text-2xl font-bold mb-4 underline text-center">Publications</h3>
-            <p className="text-sm font-semibold text-gray-700 text-justify">All accepted & presented papers will be published in Scopus indexed conference proceedings and outstanding extented papers will be submitted for possible publication in special issue of the following SCIE/ESCI/SCOPUS Indexed journals:</p>
+            <p className="text-sm font-semibold text-gray-700 text-justify">All accepted & presented papers will be published in Scopus indexed conference proceedings and outstanding extended papers will be submitted for possible publication in special issue of the following SCIE/ESCI/SCOPUS Indexed journals:</p>
+            <p className="animate-pulse text-sm text-justify text-blue-800 font-semibold" >Outstanding extended papers will be submitted for possible publication in special/general issue of the SCIE/ESCI/SCOPUS Indexed journals.</p>
             <VerticalTicker items={publications} height={250} speed={25} textClass="text-blue-700 text-sm" />
             <button
               className="mt-4 text-blue-600 hover:text-blue-800 text-sm font-semibold underline self-center"
