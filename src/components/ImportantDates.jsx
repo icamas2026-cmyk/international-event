@@ -3,10 +3,10 @@ import { motion, useAnimation } from "framer-motion";
 
 export default function ImportantDates() {
     const importantDates = [
-     { date: "—", event: "Abstract acceptance notification", note: "Within 15 days of submission" },
+     { date: "30/11/2025", event: "Abstract submission deadline", note: "All abstract must be submitted by this date" },
      { date: "31/12/2025", event: "Early registration deadline", note: "Last date to benefit from early registration" },
      { date: "15/01/2026", event: "Full paper submission deadline", note: "All papers must be submitted by this date" },
-     { date: "—", event: "Paper acceptance notification", note: "Within 15 days of full paper submission" },
+     { date: "—", event: "Paper acceptance notification", note: "Within 15 days of submission" },
      { date: "20/02/2026", event: "Final registration deadline", note: "Mandatory for accepted papers to be included" },
     { date: "10–12/03/2026", event: "Conference Dates", note: "Conference sessions and keynotes" },
   ];
