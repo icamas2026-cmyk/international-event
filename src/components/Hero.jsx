@@ -79,7 +79,7 @@ export default function Hero() {
                 Former Economic Advisor, MoHFW (GoI)
               </span>
               <span className="hidden sm:block text-gray-200 text-xs sm:text-sm">
-                Additional Economic Advisor, MHA (GoI)
+                Former Additional Economic Advisor, MHA (GoI)
               </span>
             </p>
           </div>
@@ -96,8 +96,7 @@ export default function Hero() {
           Sciences <br className="hidden sm:block" />
           (ICAMAS-2026)
           <br />
-          <p className="text-xl font-medium">(Hybrid Mode)</p>
-          <br />
+          <p className="text-xl font-medium text-red-500">(Hybrid Mode)</p>
         </motion.h1>
 
         {/* Subtitle */}
@@ -111,10 +110,11 @@ export default function Hero() {
           <br />
           All accepted & presented papers will be published in{" "}
           <strong>Scopus-indexed conference proceedings</strong>.
+          <p className="text-base text-gray-300">Outstanding extended papers will be submitted for possible publication in special/general issue of the SCIE/ESCI/SCOPUS Indexed journals.</p>
         </motion.p>
         <div className="flex bg-white w-90 rounded-full shadow-lg flex-col justify-center items-center relative md:top-20 lg:-top-10 lg:bottom-10">
           <h1 className="text-center text-black text-xl md:text-3xl lg:text-2xl font-extrabold p-1">TECHNICAL PARTNER</h1>
-          <img src="./images/Nesac.png" alt="nesac" className="w-25 md:w-35 lg:w-25" />
+          <img src="./images/Nesac.png" alt="nesac" className="w-25 md:w-35 lg:w-35" />
         </div>
       </div>  
     </section>
