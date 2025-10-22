@@ -104,7 +104,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="relative md:top-20 lg:-top-15 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-5xl text-center text-gray-100"
+          className="relative -top-10 md:top-20 lg:-top-15 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-5xl text-center text-gray-100"
         >
           Conference Dates: <strong>10<sup>th</sup>–12<sup>th</sup> March, 2026</strong>
           <br />
