@@ -104,7 +104,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="relative -top-10 md:top-20 lg:-top-15 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-5xl text-center text-gray-100"
+          className="relative -top-10 md:top-20 lg:-top-15 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-6xl text-center text-gray-100"
         >
           Conference Dates: <strong>10<sup>th</sup>–12<sup>th</sup> March, 2026</strong>
           <br />
@@ -112,11 +112,11 @@ export default function Hero() {
           All accepted & presented papers will be published in{" "}
           <strong>Scopus-indexed conference proceedings</strong>.
           <br />
-          <span className="text-xs sm:text-base text-gray-300">Outstanding extended papers will be submitted for possible publication in special/general issue of the SCIE/ESCI/SCOPUS Indexed journals.</span>
+          <span className="text-xs sm:text-base text-green-400 font-semibold animate-pulse">Outstanding extended papers will be submitted for possible publication in special/general issue of the SCIE/ESCI/SCOPUS Indexed journals.<span className="text-red-500 animate-pulse"> New</span></span>
         </motion.p>
         <div className="flex bg-white w-90 rounded-full shadow-lg flex-col justify-center items-center relative md:top-20 lg:-top-10 lg:bottom-10">
           <h1 className="text-center text-black text-xl md:text-3xl lg:text-2xl font-extrabold p-1">TECHNICAL PARTNER</h1>
-          <img src="./images/Nesac.png" alt="nesac" className="w-25 sm:w-45 md:w-35 lg:w-35" />
+          <img src="./images/Nesac.png" alt="nesac" className="w-30 sm:w-65 md:w-55 lg:w-45" />
         </div>
       </div>  
     </section>
