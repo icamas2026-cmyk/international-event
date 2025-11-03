@@ -2,18 +2,18 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const registrationFees = [
-  { desc: "Indian students/scholars (Early bird)", amount: "Rs. 4000/-" },
-  { desc: "Indian students/scholars (after 31/12/25)", amount: "Rs. 5000/-" },
+  { desc: "Indian students/scholars (Early bird)", amount: "Rs. 4000/-", },
+  { desc: "Indian students/scholars (after 15/01/26)", amount: "Rs. 5000/-" },
   { desc: "International students/scholars (Early bird)", amount: "$100" },
-  { desc: "International students/scholars (after 31/12/25)", amount: "$150" },
+  { desc: "International students/scholars (after 15/01/26)", amount: "$150" },
   { desc: "Indian academicians (Early bird)", amount: "Rs. 7000/-" },
-  { desc: "Indian academicians (after 31/12/25)", amount: "Rs. 8000/-" },
+  { desc: "Indian academicians (after 15/01/26)", amount: "Rs. 8000/-" },
   { desc: "International academicians (Early bird)", amount: "$200" },
-  { desc: "International academicians (after 31/12/25)", amount: "$300" },
+  { desc: "International academicians (after 15/01/26)", amount: "$300" },
   { desc: "Industry participants from India (Early bird)", amount: "Rs. 10,000/-" },
-  { desc: "Industry participants from India (after 31/12/25)", amount: "Rs. 11,000/-" },
+  { desc: "Industry participants from India (after 15/01/26)", amount: "Rs. 11,000/-" },
   { desc: "Industry participants from outside India (Early bird)", amount: "$300" },
-  { desc: "Industry participants from outside India (after 31/12/25)", amount: "$400" },
+  { desc: "Industry participants from outside India (after 15/01/26)", amount: "$400" },
 ];
 
 const bankDetails = [
@@ -46,7 +46,6 @@ export default function Registration() {
         </h1>
       </motion.header>
 
-      {/* Registration Form Section */}
       <motion.section
         className="max-w-4xl mx-auto my-8 sm:my-12 p-6 sm:p-4 bg-white rounded-2xl shadow-xl text-center"
         initial={{ opacity: 0, scale: 0.8 }}
@@ -68,7 +67,6 @@ export default function Registration() {
         </a>
       </motion.section>
 
-      {/* Registration Fees Section */}
       <motion.section
         className="max-w-4xl mx-auto my-8 sm:my-12 p-6 sm:p-8 bg-gradient-to-r from-green-100 to-blue-100 rounded-2xl shadow-xl"
         initial={{ opacity: 0, y: 50 }}
@@ -111,7 +109,6 @@ export default function Registration() {
         </p>
       </motion.section>
 
-      {/* Bank Details Section */}
       <motion.section
         className="max-w-4xl mx-auto my-8 sm:my-12 p-6 sm:p-8 bg-white rounded-2xl shadow-xl"
         initial={{ opacity: 0, y: 50 }}

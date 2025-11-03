@@ -41,6 +41,16 @@ export default function Publications() {
       title:"Journal of Thermal Engineering; YTU Press",
       tag:"[ESCI, I.F: 1.4]",
       img:"./images/thermal.jpg"
+     },
+     {
+      title:"Thermal Engineering; Springer",
+      tag:"[ESCI; I.F.: 1]",
+      img:"./images/thermal1.jpg"
+     },
+     {
+      title:"Multiphase Science and Technology; Begell House ",
+      tag:"[SCOPUS]",
+      img:"./images/multiscience.jpg"
      }
    ];
   return (

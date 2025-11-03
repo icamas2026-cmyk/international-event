@@ -92,6 +92,18 @@ const speakers = [
     title:"Professor, Kyushu University, Japan",
     description:`Prof. Bidyut Baran Saha is a **Professor and Principal Investigator at the International Institute for Carbon-Neutral Energy Research and a Professor at the Mechanical Engineering Department of Kyushu University, Japan**. He received his **B.Sc. (Hons.) and M.Sc. degrees from the University of Dhaka** and was the **1st Bose Fellow** at the same institution. He received his **Ph.D. in 1997 from the Tokyo University of Agriculture and Technology, Japan**. His research interests include thermally powered energy conversion systems (including adsorption cooling, refrigeration, and desalination cycles), thermal energy storage, heat and mass transfer analysis, energy analysis and energy policy. He has published **500 articles** in Scopus-indexed journals and international conference proceedings. He has edited eleven books and holds thirty-one patents. `
   },
+  {
+    name:"Assoc Prof Anutosh Chakraborty",
+    image:"./images/anutosh.jpeg",
+    title:"Associate Professor, School of Mechanical & Aerospace Engineering",
+    description:`Anutosh Chakraborty is an Associate Professor at the School of **Mechanical and Aerospace Engineering of Nanyang Technological University (NTU) Singapore**. He obtained his **BSc Eng from BUET Bangladesh**. He then obtained **MEng and PhD in Mechanical Engineering from the Department of Mechanical Engineering, National University of Singapore (NUS)**. After graduation, Dr Chakraborty worked at the Institute for Materials, Chemistry and Engineering, Kyushu University, Japan as a lecturer (2006 – 2007). He was then awarded the **JSPS fellowship**. He joined the MAE NTU in 2010 as an Assistant Professor and promoted to a tenured Associate Professor in 2017. He has trained 8 PhDs and 5 post-doctoral fellows. He has published 5 book chapters **6 patents and more than 150 peer-reviewed papers**`
+  },
+  {
+    name:"Dr. S. P. Aggarwal",
+    image:"./images/aggarwal.jpg",
+    title:"Director, NESAC",
+    description:`Dr. S. P. Aggarwal assumed the charge of **Director, NESAC with effect from 17th September, 2021**. He has taken important initiatives towards effective utilization of **Space Science and Technology for various developmental activities of NER such as Natural Resource Management, Infrastructure Planning, Disaster Risk Management, Weather forecasting, Satellite communication applications, ICT based and Geo-governance related applications**, etc. Prior to this assignment, he was the **Group Head of Water Resources Department at Indian Institute of Remote Sensing (IIRS), ISRO, Dehradun**. Dr. Aggarwal is a highly accomplished scientist in the field of Remote Sensing and GIS applications in water resources management, disaster management and climate change impact assessment and at the same time he has immensely contributed in the capacity building and outreach program of ISRO.`
+  }
 ];
 
 export default function KeynoteSpeakers() {
