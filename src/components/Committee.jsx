@@ -73,6 +73,8 @@ const advisoryData = {
     { name: "Prof. Tobias Plessing", role: "Hof University, Germany" },
     { name: "Prof. Prabhat Hajela", role: "HBKU and the Qatar Foundation, Doha, Qatar" },
     { name: "Prof. Dr.-Ing. habil. A. C. Benim", role: "Duesseldorf University of Applied Sciences, Germany" },
+    { name:"Prof. Jayanta Deb Mondol",role:" Ulster University,Northern Ireland, UK"},
+    { name:"Prof. Tanmoy Mukhopadhyay",role:"University of Southampton, Southampton, UK"},
     { name: "Prof. Pradip Dutta", role: "IISc Bangalore, India" },
     { name: "Prof. Kaushik Pal", role: "IIT Roorkee, India" },
     { name: "Prof. Ujjwal Kumar Saha", role: "IIT Guwahati, India" },
