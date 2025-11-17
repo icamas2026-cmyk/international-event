@@ -69,7 +69,7 @@ export default function Publications() {
             <div className="py-10 max-w-5xl flex flex-col mx-auto px-4">
               <p className="text-sm font-semibold text-gray-700">All accepted & presented papers will be published in Scopus indexed conference proceedings.</p>
             <p className="text-blue-700">Outstanding extended papers will be submitted for possible publication in special/general issue of the SCIE/ESCI/SCOPUS Indexed journals.</p> 
-            <p className="font-bold"> (There are no additional publication charges.)</p>
+            <p className="font-bold text-red-500"> (There are no additional publication charges.)</p>
 
             </div>
             
