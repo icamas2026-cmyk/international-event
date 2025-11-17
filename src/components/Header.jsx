@@ -27,7 +27,7 @@ export default function Header() {
         <a href="#visa" className="hover:text-indigo-600 transition">Visa</a>
         <a href="#submission" className="hover:text-indigo-600 transition">Submission</a>
         <a href="#publications-section" className="hover:text-indigo-600 transition text-center">
-          Publication
+          Publications
         </a>
         <a href="#program" className="hover:text-indigo-600 transition">Program</a>
         <a href="#committee" className="hover:text-indigo-600 transition">Committees</a>
