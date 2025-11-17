@@ -215,6 +215,7 @@ const awards = [
             <h3 className="text-xl sm:text-2xl font-bold mb-4 underline text-center">Publications</h3>
             <p className="text-sm font-semibold text-gray-700 text-justify">All accepted & presented papers will be published in Scopus indexed conference proceedings.
             <span className="text-blue-700">Outstanding extended papers will be submitted for possible publication in special/general issue of the SCIE/ESCI/SCOPUS Indexed journals.</span> 
+            <span className="font-bold"> (There are no additional publication charges.)</span>
             </p>
             <VerticalTicker items={publications} height={350} speed={25} textClass="text-blue-700 text-sm" />
             <button

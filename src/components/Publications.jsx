@@ -66,6 +66,12 @@ export default function Publications() {
                   PUBLICATIONS
                 </h1>
             </motion.header>
+            <div className="py-10 max-w-5xl flex flex-col mx-auto px-4">
+              <p className="text-sm font-semibold text-gray-700">All accepted & presented papers will be published in Scopus indexed conference proceedings.</p>
+            <p className="text-blue-700">Outstanding extended papers will be submitted for possible publication in special/general issue of the SCIE/ESCI/SCOPUS Indexed journals.</p> 
+            <p className="font-bold"> (There are no additional publication charges.)</p>
+
+            </div>
             
             <div className="py-10 max-w-5xl mx-auto grid gap-8 sm:grid-cols-2 md:grid-cols-3 px-4">
             {publications.map((pub, idx) => (

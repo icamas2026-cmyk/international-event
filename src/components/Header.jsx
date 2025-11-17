@@ -5,7 +5,6 @@ export default function Header() {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
-  // Prevent background scroll when menu open
   useEffect(() => {
     document.body.style.overflow = isOpen ? "hidden" : "auto";
   }, [isOpen]);
@@ -21,16 +20,20 @@ export default function Header() {
       <nav className="hidden lg:flex justify-center items-center space-x-4 xl:space-x-6 text-sm xl:text-base font-medium tracking-tight">
         <a href="#home" className="hover:text-indigo-600 transition">Home</a>
         <a href="#about" className="hover:text-indigo-600 transition">About</a>
+        <a href="#dates-section" className="hover:text-indigo-600 transition">Important Dates</a>
         <a href="#registration" className="hover:text-indigo-600 transition">Registration</a>
+        
         <a href="#callforpapers" className="hover:text-indigo-600 transition">Call For Papers</a>
         <a href="#visa" className="hover:text-indigo-600 transition">Visa</a>
         <a href="#submission" className="hover:text-indigo-600 transition">Submission</a>
+        <a href="#publications-section" className="hover:text-indigo-600 transition text-center">
+          Publication
+        </a>
         <a href="#program" className="hover:text-indigo-600 transition">Program</a>
         <a href="#committee" className="hover:text-indigo-600 transition">Committees</a>
         <a href="#keynote" className="hover:text-indigo-600 transition">Keynote Speakers</a>
-        <a href="#sponsorship" className="hover:text-indigo-600 transition">Sponsorship</a>
-        <a href="#travel" className="hover:text-indigo-600 transition text-center">
-          Travel & Accommodation
+        <a href="#contact" className="hover:text-indigo-600 transition text-center">
+          Contact Us
         </a>
       </nav>
 
@@ -65,15 +68,16 @@ export default function Header() {
         <nav className="flex flex-col items-start space-y-4 p-6 md:text-lg font-medium">
            <a href="#home" onClick={toggleMenu}>Home</a>
            <a href="#about" onClick={toggleMenu}>About</a>
+           <a href="#dates-section" onClick={toggleMenu}>Important Dates</a>
            <a href="#registration" onClick={toggleMenu}>Registration</a>
            <a href="#callforpapers" onClick={toggleMenu}>Call For Papers</a>
            <a href="#visa" onClick={toggleMenu}>Visa</a>
-           <a href="#submission" onClick={toggleMenu}>Submission</a>           
+           <a href="#submission" onClick={toggleMenu}>Submission</a>    
+           <a href="#publications-section" onClick={toggleMenu}>Pubications</a>       
            <a href="#program" onClick={toggleMenu}>Program</a>
            <a href="#committee" onClick={toggleMenu}>Committees</a>
           <a href="#keynote" onClick={toggleMenu}>Keynote Speakers</a>          
-          <a href="#sponsorship" onClick={toggleMenu}>Sponsorship</a>
-           <a href="#travel" onClick={toggleMenu}>Travel & Accommodation</a>
+           <a href="#contact" onClick={toggleMenu}>Contact Us</a>
          </nav>
       </div>
 
