@@ -59,28 +59,23 @@ export default function Hero() {
           </div>
 
           {/* Guest of Honour */}
-          <div className="flex flex-col items-center text-center flex-1">
+          <div className="flex flex-col items-center text-center flex-1 mb-11">
             <h1 className="text-base sm:text-lg md:text-4xl lg:text-2xl font-extrabold mb-1">
               Guest of Honour
             </h1>
             <img
-              src="./images/Arun.jpg"
+              src="./images/sitharam.jpg"
               alt="arun"
-              className="w-14 h-14 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full shadow-md shadow-white object-cover"
+              className="w-16 h-16 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full shadow-md shadow-white object-cover"
             />
             <p className="mt-2 text-xs sm:text-sm md:text-base leading-snug">
               <span className="block font-bold text-white text-sm sm:text-base  md:text-2xl lg:text-base">
-                Dr. Arun Kumar Jha
+                Prof. T. G. Sitharam
               </span>
               <span className="block text-gray-200">
-                Chancellor, NIAMT, Ranchi
+                Chairman AICTE
               </span>
-              <span className="block text-gray-200 text-xs sm:text-sm">
-                Former Economic Advisor, MoHFW (GoI)
-              </span>
-              <span className="hidden sm:block text-gray-200 text-xs sm:text-sm">
-                Former Additional Economic Advisor, MHA (GoI)
-              </span>
+
             </p>
           </div>
         </div>
