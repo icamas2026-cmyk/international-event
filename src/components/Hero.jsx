@@ -247,7 +247,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="relative -top-40 md:top-0 lg:-top-37 text-3xl sm:text-5xl md:text-6xl lg:text-4xl font-bold max-w-xl md:max-w-7xl leading-snug px-2"
+          className="relative -top-50 md:top-0 lg:-top-37 text-3xl sm:text-5xl md:text-6xl lg:text-4xl font-bold max-w-xl md:max-w-7xl leading-snug px-2"
         >
           1<sup>st</sup> International Conference on Advances in Mechanical and Aerospace
           Sciences <br className="hidden sm:block" />
@@ -261,7 +261,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="relative -top-45 md:top-0 lg:-top-47 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-6xl text-center text-gray-100"
+          className="relative -top-50 md:top-0 lg:-top-47 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-6xl text-center text-gray-100"
         >
           Conference Dates: <strong>10<sup>th</sup>–12<sup>th</sup> March, 2026</strong>
           <br />
