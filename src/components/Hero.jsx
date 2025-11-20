@@ -172,7 +172,7 @@ export default function Hero() {
 
         {/* Chief Guest & Guest of Honour */}
         <div className="w-full max-w-4xl">
-          <div className="flex flex-col sm:flex-row justify-center items-start gap-6 sm:gap-10">
+          <div className="flex flex-row justify-center items-start gap-6 sm:gap-10">
             {/* Chief Guest */}
             <div className="flex flex-col items-center text-center flex-1 min-h-[360px]">
               <h1 className="text-base sm:text-lg md:text-2xl font-extrabold mb-2">
@@ -182,7 +182,7 @@ export default function Hero() {
               <img
                 src="./images/Narayanan_Chairman.png"
                 alt="isrochairman"
-                className="w-24 h-24 sm:w-28 sm:h-28 md:w-24 md:h-24 rounded-full shadow-md object-cover"
+                className="w-14 h-14 sm:w-28 sm:h-28 md:w-24 md:h-24 rounded-full shadow-md object-cover"
               />
 
               <p className="mt-3 text-xs sm:text-sm md:text-base leading-snug">
@@ -204,7 +204,7 @@ export default function Hero() {
               <img
                 src="./images/sitharam.jpg"
                 alt="sitharam"
-                className="w-24 h-24 sm:w-28 sm:h-28 md:w-24 md:h-24 rounded-full shadow-md object-cover"
+                className="w-14 h-14 sm:w-28 sm:h-28 md:w-24 md:h-24 rounded-full shadow-md object-cover"
               />
 
               <p className="mt-3 text-xs sm:text-sm md:text-base leading-snug">
@@ -224,7 +224,7 @@ export default function Hero() {
               <img
                 src="./images/Arun.jpg"
                 alt="arun"
-                className="w-24 h-24 sm:w-28 sm:h-28 md:w-24 md:h-24 rounded-full shadow-md object-cover"
+                className="w-14 h-14 sm:w-28 sm:h-28 md:w-24 md:h-24 rounded-full shadow-md object-cover"
               />
 
               <p className="mt-3 text-xs sm:text-sm md:text-base leading-snug">
