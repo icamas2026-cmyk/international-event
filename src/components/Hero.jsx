@@ -247,7 +247,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="relative -top-30 md:top-0 lg:-top-37 text-3xl sm:text-5xl md:text-6xl lg:text-4xl font-bold max-w-xl md:max-w-7xl leading-snug px-2"
+          className="relative -top-40 md:top-0 lg:-top-37 text-3xl sm:text-5xl md:text-6xl lg:text-4xl font-bold max-w-xl md:max-w-7xl leading-snug px-2"
         >
           1<sup>st</sup> International Conference on Advances in Mechanical and Aerospace
           Sciences <br className="hidden sm:block" />
@@ -261,7 +261,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="relative -top-35 md:top-0 lg:-top-47 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-6xl text-center text-gray-100"
+          className="relative -top-45 md:top-0 lg:-top-47 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-6xl text-center text-gray-100"
         >
           Conference Dates: <strong>10<sup>th</sup>–12<sup>th</sup> March, 2026</strong>
           <br />
@@ -274,7 +274,7 @@ export default function Hero() {
           </span>
         </motion.p>
 
-        <div className="flex bg-white w-90 rounded-full shadow-lg flex-col justify-center items-center relative -top-30 lg:-top-40 p-1">
+        <div className="flex bg-white w-90 rounded-full shadow-lg flex-col justify-center items-center relative -top-35 lg:-top-40 p-1">
           <h1 className="text-center text-black text-xl md:text-2xl lg:text-2xl font-extrabold p-1">TECHNICAL PARTNER</h1>
           <img src="./images/Nesac.png" alt="nesac" className="w-30 sm:w-65 md:w-55 lg:w-45" />
         </div>
