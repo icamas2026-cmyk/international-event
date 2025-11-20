@@ -173,9 +173,28 @@ export default function Hero() {
         {/* Chief Guest & Guest of Honour */}
         <div className="w-full max-w-4xl">
           <div className="flex flex-row justify-center items-start gap-6 sm:gap-10">
+            {/* Guest of Honour 1 */}
+            <div className="flex flex-col items-center text-center flex-1 min-h-[360px]">
+              <h1 className="text-sm sm:text-lg md:text-2xl font-extrabold mb-2">
+                Guest of Honour
+              </h1>
+
+              <img
+                src="./images/sitharam.jpg"
+                alt="sitharam"
+                className="w-14 h-14 sm:w-28 sm:h-28 md:w-24 md:h-24 rounded-full shadow-md object-cover"
+              />
+
+              <p className="mt-3 text-xs sm:text-sm md:text-base leading-snug">
+                <span className="block font-bold text-white md:text-xl">
+                  Prof.T.G.Sitharam
+                </span>
+                <span className="block text-gray-200">Chairman AICTE</span>
+              </p>
+            </div>
             {/* Chief Guest */}
             <div className="flex flex-col items-center text-center flex-1 min-h-[360px]">
-              <h1 className="text-base sm:text-lg md:text-2xl font-extrabold mb-2">
+              <h1 className="text-sm sm:text-lg md:text-2xl font-extrabold mb-2">
                 Chief Guest
               </h1>
 
@@ -190,34 +209,14 @@ export default function Hero() {
                   Dr. V. Narayanan
                 </span>
                 <span className="block text-gray-200">Chairman, ISRO</span>
-                <span className="block text-gray-200">Secretary, Dept. of Space</span>
-                <span className="block text-gray-200">Chairman, Space Commission</span>
-              </p>
-            </div>
-
-            {/* Guest of Honour 1 */}
-            <div className="flex flex-col items-center text-center flex-1 min-h-[360px]">
-              <h1 className="text-base sm:text-lg md:text-2xl font-extrabold mb-2">
-                Guest of Honour
-              </h1>
-
-              <img
-                src="./images/sitharam.jpg"
-                alt="sitharam"
-                className="w-14 h-14 sm:w-28 sm:h-28 md:w-24 md:h-24 rounded-full shadow-md object-cover"
-              />
-
-              <p className="mt-3 text-xs sm:text-sm md:text-base leading-snug">
-                <span className="block font-bold text-white md:text-xl">
-                  Prof. T. G. Sitharam
-                </span>
-                <span className="block text-gray-200">Chairman AICTE</span>
+                <span className="hidden sm:block text-gray-200">Secretary, Dept. of Space</span>
+                <span className="hidden sm:block text-gray-200">Chairman, Space Commission</span>
               </p>
             </div>
 
             {/* Guest of Honour 2 */}
             <div className="flex flex-col items-center text-center flex-1 min-h-[360px]">
-              <h1 className="text-base sm:text-lg md:text-2xl font-extrabold mb-2">
+              <h1 className="text-sm sm:text-lg md:text-2xl font-extrabold mb-2">
                 Guest of Honour
               </h1>
 
@@ -229,10 +228,10 @@ export default function Hero() {
 
               <p className="mt-3 text-xs sm:text-sm md:text-base leading-snug">
                 <span className="block font-bold text-white md:text-xl">
-                  Dr. Arun Kumar Jha
+                  Dr.Arun Kumar Jha
                 </span>
                 <span className="block text-gray-200">Chancellor, NIAMT, Ranchi</span>
-                <span className="block text-gray-200 text-xs sm:text-sm">
+                <span className="hidden sm:block text-gray-200 text-xs sm:text-sm">
                   Former Economic Advisor, MoHFW (GoI)
                 </span>
                 <span className="hidden sm:block text-gray-200 text-xs sm:text-sm">
@@ -248,7 +247,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="relative md:top-0 lg:-top-37 text-3xl sm:text-5xl md:text-6xl lg:text-4xl font-bold max-w-xl md:max-w-7xl leading-snug px-2"
+          className="relative -top-30 md:top-0 lg:-top-37 text-3xl sm:text-5xl md:text-6xl lg:text-4xl font-bold max-w-xl md:max-w-7xl leading-snug px-2"
         >
           1<sup>st</sup> International Conference on Advances in Mechanical and Aerospace
           Sciences <br className="hidden sm:block" />
@@ -262,7 +261,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="relative -top-10 md:top-0 lg:-top-47 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-6xl text-center text-gray-100"
+          className="relative -top-35 md:top-0 lg:-top-47 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-6xl text-center text-gray-100"
         >
           Conference Dates: <strong>10<sup>th</sup>–12<sup>th</sup> March, 2026</strong>
           <br />
@@ -275,7 +274,7 @@ export default function Hero() {
           </span>
         </motion.p>
 
-        <div className="flex bg-white w-90 rounded-full shadow-lg flex-col justify-center items-center relative lg:-top-40 p-1">
+        <div className="flex bg-white w-90 rounded-full shadow-lg flex-col justify-center items-center relative -top-30 lg:-top-40 p-1">
           <h1 className="text-center text-black text-xl md:text-2xl lg:text-2xl font-extrabold p-1">TECHNICAL PARTNER</h1>
           <img src="./images/Nesac.png" alt="nesac" className="w-30 sm:w-65 md:w-55 lg:w-45" />
         </div>
