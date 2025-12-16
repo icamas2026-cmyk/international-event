@@ -79,7 +79,7 @@ function VerticalTicker({ items, height = 150, speed = 10, textClass = "" }) {
                 <br />
                 <span className="text-gray-600 text-sm">{item.note}</span>
                 <br />
-                <span className="text-gray-500 text-xs mt-1">📅 {item.date}</span>
+                <span className="text-gray-500 text-xs mt-1">📅<span className="text-red-500 text-xs line-through">{item.oldDate}</span> {item.date}</span>
               </div>
             );
           }
@@ -105,7 +105,7 @@ export default function KeydatesAwardsPublications() {
   };
 
   const importantDates = [
-     { date: "15/01/2026", event: "Abstract submission deadline", note: "All abstract must be submitted by this date" },
+     {oldDate:"15/12/25", date: " extended to 15/01/2026", event: "Abstract submission deadline", note: "All abstract must be submitted by this date" },
      { date: "15/01/2026", event: "Early registration deadline", note: "Last date to benefit from early registration" },
      { date: "31/01/2026", event: "Full paper submission deadline", note: "All papers must be submitted by this date" },
      { date: "—", event: "Paper acceptance notification", note: "Within 15 days of  submission" },

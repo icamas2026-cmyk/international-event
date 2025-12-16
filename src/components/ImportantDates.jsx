@@ -3,7 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 
 export default function ImportantDates() {
     const importantDates = [
-     { date: "15/01/2026", event: "Abstract submission deadline", note: "All abstract must be submitted by this date" },
+     {oldDate:"15/12/25", date: " extended to 15/01/2026", event: "Abstract submission deadline", note: "All abstract must be submitted by this date" },
      { date: "15/01/2026", event: "Early registration deadline", note: "Last date to benefit from early registration" },
      { date: "31/01/2026", event: "Full paper submission deadline", note: "All papers must be submitted by this date" },
      { date: "—", event: "Paper acceptance notification", note: "Within 15 days of submission" },
@@ -34,8 +34,8 @@ export default function ImportantDates() {
             transition={{ duration: 0.4, delay: idx * 0.1 }}
           >
           <h3 className="font-semibold text-blue-800">{item.event}</h3>
-          <p className="text-gray-600 text-sm">{item.note}</p>
-          <p className="text-gray-500 text-xs mt-2">📅 {item.date}</p>
+          <p className="text-gray-600 text-sm">{item.note}</p>          
+          <p className="text-gray-500 text-xs mt-2">📅<span className="text-red-500 text-xs line-through">{item.oldDate}</span>{item.date}</p>
           </motion.div>
           ))}
         </div>
