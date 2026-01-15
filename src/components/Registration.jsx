@@ -3,17 +3,17 @@ import { motion } from "framer-motion";
 
 const registrationFees = [
   { desc: "Indian students/scholars (Early bird)", amount: "Rs. 4000/-", },
-  { desc: "Indian students/scholars (after 15/01/26)", amount: "Rs. 5000/-" },
+  { desc: "Indian students/scholars (after 20/02/26)", amount: "Rs. 5000/-" },
   { desc: "International students/scholars (Early bird)", amount: "$100" },
-  { desc: "International students/scholars (after 15/01/26)", amount: "$150" },
+  { desc: "International students/scholars (after 20/02/26)", amount: "$150" },
   { desc: "Indian academicians (Early bird)", amount: "Rs. 7000/-" },
-  { desc: "Indian academicians (after 15/01/26)", amount: "Rs. 8000/-" },
+  { desc: "Indian academicians (after 20/02/26)", amount: "Rs. 8000/-" },
   { desc: "International academicians (Early bird)", amount: "$200" },
-  { desc: "International academicians (after 15/01/26)", amount: "$300" },
+  { desc: "International academicians (after 20/02/26)", amount: "$300" },
   { desc: "Industry participants from India (Early bird)", amount: "Rs. 10,000/-" },
-  { desc: "Industry participants from India (after 15/01/26)", amount: "Rs. 11,000/-" },
+  { desc: "Industry participants from India (after 20/02/26)", amount: "Rs. 11,000/-" },
   { desc: "Industry participants from outside India (Early bird)", amount: "$300" },
-  { desc: "Industry participants from outside India (after 15/01/26)", amount: "$400" },
+  { desc: "Industry participants from outside India (after 20/02/26)", amount: "$400" },
 ];
 
 const bankDetails = [
