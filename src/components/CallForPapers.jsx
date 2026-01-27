@@ -9,7 +9,6 @@ const CallForPapers = () => {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 overflow-x-hidden">
 
-        {/* Header */}
         <motion.header
           className="bg-gradient-to-r from-green-200 to-blue-200 text-center rounded-b-3xl shadow-md w-11/12 sm:w-2/3 md:w-2/6 mx-auto p-4 sm:p-2 my-4"
           initial={{ opacity: 0, y: -30 }}
@@ -22,7 +21,6 @@ const CallForPapers = () => {
           </h2>
         </motion.header>
 
-        {/* Introduction */}
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -36,7 +34,6 @@ const CallForPapers = () => {
           
         </motion.div>
 
-        {/* Submission Categories */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -46,7 +43,6 @@ const CallForPapers = () => {
         >
         </motion.div>
 
-        {/* Topics */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -55,10 +51,8 @@ const CallForPapers = () => {
           className="mb-12"
         >
 
-          {/* Three-column grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-            {/* Category 1 */}
             <div className="bg-gray-50 rounded-2xl p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
               <h4 className="text-xl font-semibold text-green-700 mb-3 text-center">
                 Materials and Manufacturing
@@ -80,7 +74,6 @@ const CallForPapers = () => {
               </ul>
             </div>
 
-            {/* Category 2 */}
             <div className="bg-gray-50 rounded-2xl p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
               <h4 className="text-xl font-semibold text-green-700 mb-3 text-center">
                 Structures, Mechanics, Design and Control
@@ -105,7 +98,6 @@ const CallForPapers = () => {
               </ul>
             </div>
 
-            {/* Category 3 */}
             <div className="bg-gray-50 rounded-2xl p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
               <h4 className="text-xl font-semibold text-green-700 mb-3 text-center">
                 Propulsion, Aerodynamics, Fluids and Thermal
