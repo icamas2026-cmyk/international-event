@@ -51,6 +51,11 @@ export default function Publications() {
       title:"Multiphase Science and Technology; Begell House ",
       tag:"[SCOPUS]",
       img:"./images/multiscience.jpg"
+     },
+     {
+      title:"Lecture Notes in Mechanical Engineering; Springer",
+      tag:"[SCOPUS]",
+      img:"./images/lecture me.jpeg"
      }
    ];
   return (
@@ -67,7 +72,15 @@ export default function Publications() {
                 </h1>
             </motion.header>
             <div className="py-10 max-w-5xl flex flex-col mx-auto px-4">
-              <p className="text-sm font-semibold text-gray-700">All accepted & presented papers will be published in Scopus indexed conference proceedings.</p>
+            <p className="text-sm text-semibold ">
+            It is planned to publish the peer-reviewed and selected papers of conference as proceedings with Springer. For detailed instructions for author and editors of conference proceedings, kindly visit the following link: <span className="text-blue-500"><a href="https://www.springer.com/us/authors-editors/conference-proceedings">https://www.springer.com/us/authors-editors/conference-proceedings. </a></span> <br />
+            <br />
+
+Select papers from the conference will be published by Springer as a proceedings book volume. Springer will conduct quality checks on the accepted papers and only papers that pass these checks will be published.
+<br />
+Springer Nature does not charge any money for publication of Non-Open Access content. Abstracts/extended abstracts and short papers (less than 4 pages) are not considered for publication
+            </p>
+            <br />
             <p className="text-blue-700">Outstanding extended papers will be submitted for possible publication in special/general issue of the SCIE/ESCI/SCOPUS Indexed journals.</p> 
             <p className="font-bold text-red-500"> (There are no additional publication charges.)</p>
 

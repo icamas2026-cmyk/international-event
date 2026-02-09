@@ -264,9 +264,6 @@ export default function Hero() {
           className="relative -top-50 md:top-0 lg:-top-47 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-6xl text-center text-gray-100"
         >
           Conference Dates: <strong>10<sup>th</sup>–12<sup>th</sup> March, 2026</strong>
-          <br />
-          All accepted & presented papers will be published in{" "}
-          <strong>Scopus-indexed conference proceedings</strong>.
           <br/>
           <span className="text-xs sm:text-base text-green-400 font-semibold animate-pulse">
             Outstanding extended papers will be submitted for possible publication in special/general issue of the SCIE/ESCI/SCOPUS Indexed journals.
