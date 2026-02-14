@@ -268,9 +268,9 @@ export default function Hero() {
 
           <span className="text-xs sm:text-base text-green-400 font-semibold animate-pulse">
             Outstanding extended papers will be submitted for possible publication in special/general issue of the SCIE/ESCI/SCOPUS Indexed journals.
-            <span className="text-red-500 animate-pulse"> New</span><br />
-          </span>
-          <span className="text-green-500 text-xs sm:text-sm font-semibold">Dear Author, Thank you for your patience and overwhelming response. Your manuscript is currently under review, and you will be notified once the review process is complete.</span>
+            <span className="text-red-500 animate-pulse"> New</span>
+          </span><br />
+          <span className="text-yellow-400 text-xs sm:text-sm font-semibold">Dear Author, Thank you for your patience and overwhelming response. Your manuscript is currently under review, and you will be notified once the review process is complete.</span>
         </motion.p>
 
         <div className="flex bg-white w-90 rounded-full shadow-lg flex-col justify-center items-center relative -top-35 lg:-top-40 p-1">
