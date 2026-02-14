@@ -265,10 +265,12 @@ export default function Hero() {
         >
           Conference Dates: <strong>10<sup>th</sup>–12<sup>th</sup> March, 2026</strong>
           <br/>
+
           <span className="text-xs sm:text-base text-green-400 font-semibold animate-pulse">
             Outstanding extended papers will be submitted for possible publication in special/general issue of the SCIE/ESCI/SCOPUS Indexed journals.
-            <span className="text-red-500 animate-pulse"> New</span>
+            <span className="text-red-500 animate-pulse"> New</span><br />
           </span>
+          <span className="text-green-500 text-xs sm:text-sm font-semibold">Dear Author, Thank you for your patience and overwhelming response. Your manuscript is currently under review, and you will be notified once the review process is complete.</span>
         </motion.p>
 
         <div className="flex bg-white w-90 rounded-full shadow-lg flex-col justify-center items-center relative -top-35 lg:-top-40 p-1">
