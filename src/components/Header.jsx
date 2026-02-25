@@ -22,7 +22,7 @@ export default function Header() {
         <a href="#about" className="hover:text-indigo-600 transition">About</a>
         <a href="#dates-section" className="hover:text-indigo-600 transition">Important Dates</a>
         <a href="#registration" className="hover:text-indigo-600 transition">Registration</a>
-        
+
         <a href="#callforpapers" className="hover:text-indigo-600 transition">Call For Papers</a>
         <a href="#visa" className="hover:text-indigo-600 transition">Visa</a>
         <a href="#submission" className="hover:text-indigo-600 transition">Submission</a>
@@ -52,9 +52,8 @@ export default function Header() {
 
       {/* Mobile Sidebar */}
       <div
-        className={`fixed top-0 right-0 h-full w-3/4 sm:w-2/3 bg-white shadow-2xl transform transition-transform duration-300 ease-in-out z-40 ${
-          isOpen ? "translate-x-0" : "translate-x-full"
-        }`}
+        className={`fixed top-0 right-0 h-full w-3/4 sm:w-2/3 bg-white shadow-2xl transform transition-transform duration-300 ease-in-out z-40 ${isOpen ? "translate-x-0" : "translate-x-full"
+          }`}
       >
         {/* Sidebar Header */}
         <div className="flex justify-between items-center p-4 border-b">
@@ -66,19 +65,19 @@ export default function Header() {
 
         {/* Sidebar Nav */}
         <nav className="flex flex-col items-start space-y-4 p-6 md:text-lg font-medium">
-           <a href="#home" onClick={toggleMenu}>Home</a>
-           <a href="#about" onClick={toggleMenu}>About</a>
-           <a href="#dates-section" onClick={toggleMenu}>Important Dates</a>
-           <a href="#registration" onClick={toggleMenu}>Registration</a>
-           <a href="#callforpapers" onClick={toggleMenu}>Call For Papers</a>
-           <a href="#visa" onClick={toggleMenu}>Visa</a>
-           <a href="#submission" onClick={toggleMenu}>Submission</a>    
-           <a href="#publications-section" onClick={toggleMenu}>Pubications</a>       
-           <a href="#program" onClick={toggleMenu}>Program</a>
-           <a href="#committee" onClick={toggleMenu}>Committees</a>
-          <a href="#keynote" onClick={toggleMenu}>Keynote Speakers</a>          
-           <a href="#contact" onClick={toggleMenu}>Contact Us</a>
-         </nav>
+          <a href="#home" onClick={toggleMenu}>Home</a>
+          <a href="#about" onClick={toggleMenu}>About</a>
+          <a href="#dates-section" onClick={toggleMenu}>Important Dates</a>
+          <a href="#registration" onClick={toggleMenu}>Registration</a>
+          <a href="#callforpapers" onClick={toggleMenu}>Call For Papers</a>
+          <a href="#visa" onClick={toggleMenu}>Visa</a>
+          <a href="#submission" onClick={toggleMenu}>Submission</a>
+          <a href="#publications-section" onClick={toggleMenu}>Pubications</a>
+          <a href="#program" onClick={toggleMenu}>Program</a>
+          <a href="#committee" onClick={toggleMenu}>Committees</a>
+          <a href="#keynote" onClick={toggleMenu}>Keynote Speakers</a>
+          <a href="#contact" onClick={toggleMenu}>Contact Us</a>
+        </nav>
       </div>
 
       {/* Overlay */}

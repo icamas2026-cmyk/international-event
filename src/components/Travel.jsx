@@ -29,18 +29,35 @@ const accommodations = [
     img: "./images/blue.avif",
     description:
       "It is a modern, 3-star hotel in Itanagar offering amenities such as free Wi-Fi, an in-house restaurant. The hotel provides comfortable, spacious rooms with mountain views and aims to offer a hospitable, homely atmosphere with professional service.",
+    link: "https://www.google.com/maps/place/hotel+obsidian+blue+itanagar/data=!4m2!3m1!1s0x3744074b55b3de2b:0x386ca8913f115884?sa=X&ved=1t:242&ictx=111",
   },
   {
     title: "Cygnett Inn Trendz",
     img: "./images/inn.jpg",
     description:
       "It is a premium hotel in Itanagar offering excellent amenities, fine dining options, and seamless transport connectivity—making it ideal for conference participants. With its modern rooms, dedicated business facilities, and professional event services, it ensures a productive and comfortable stay.",
+    link: "https://www.google.com/maps/place/cygnett+inn+trendz+itanagar/data=!4m2!3m1!1s0x3744077324618b57:0xd1bbd870fa1b18e0?sa=X&ved=1t:242&ictx=111",
   },
   {
     title: "Hotel Blue Pine",
     img: "./images/pine.avif",
     description:
       "It is a centrally located, budget-friendly option in Itanagar, ideal for travelers attending conferences or exploring city highlights. Its convenient proximity to transport and tourist spots, free cancellation policies, and in-house restaurant make it appealing.",
+    link: "https://www.google.com/maps/place/hotel+blue+pine+itanagar/data=!4m2!3m1!1s0x374407b1db959e83:0x58d1654059f52e4d?sa=X&ved=1t:242&ictx=111",
+  },
+  {
+    title: "Donyi Polo International Hotel",
+    img: "./images/donyipolo.jpg",
+    description:
+      "A well-regarded hotel in Itanagar offering comfortable rooms, modern amenities, and convenient access to the city centre — ideal for conference participants looking for a relaxing and well-connected stay.",
+    link: "https://share.google/tFoQ7DAcTX9etG3Se",
+  },
+  {
+    title: "Hotel Moomsie",
+    img: "./images/moomsie.jpg",
+    description:
+      "Hotel Moomsie is a popular accommodation option in Itanagar, known for its warm hospitality, comfortable rooms, and easy connectivity to major landmarks and transport hubs in the city.",
+    link: "https://www.google.com/search?client=ms-android-motorola-rvo3&hs=p649&sca_esv=d705eb1ba6705ff2&sxsrf=ANbL-n7hZUwcP2wrvjEIEE99jcw74Zcwvg%3A1771994103552&kgmid=%2Fg%2F1hm4913lp&q=Hotel%20Moomsie%20Itanagar&shndl=30&source=sh%2Fx%2Floc%2Funi%2Fm1%2F2&kgs=2118907cf3f953ac",
   },
 ];
 
@@ -97,13 +114,29 @@ export default function TravelAccommodation() {
                 data-aos="flip-left"
                 data-aos-delay={idx * 200}
               >
-                <img
-                  src={hotel.img}
-                  alt={hotel.title}
-                  className="w-full h-48 object-cover rounded-xl mb-4"
-                />
+                {hotel.img ? (
+                  <img
+                    src={hotel.img}
+                    alt={hotel.title}
+                    className="w-full h-48 object-cover rounded-xl mb-4"
+                  />
+                ) : (
+                  <div className="w-full h-48 rounded-xl mb-4 flex items-center justify-center bg-gradient-to-br from-blue-100 to-teal-100">
+                    <span style={{ fontSize: "3rem" }}>🏨</span>
+                  </div>
+                )}
                 <h3 className="text-xl font-bold text-blue-900 mb-2">{hotel.title}</h3>
                 <p className="text-gray-600 text-sm text-justify">{hotel.description}</p>
+                {hotel.link && (
+                  <a
+                    href={hotel.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-3 px-4 py-2 bg-blue-700 text-white text-xs font-bold rounded-lg hover:bg-blue-900 transition-colors"
+                  >
+                    📍 View on Map
+                  </a>
+                )}
               </div>
             ))}
           </div>
