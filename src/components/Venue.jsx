@@ -36,7 +36,7 @@ export default function Venue() {
                                 padding: "0 80px",
                             }}
                         >
-                            📍 Venue : Itanagar Banquet Hall &nbsp;&nbsp;•&nbsp;&nbsp;
+                            📍 VENUE : STATE BANQUET HALL,ITANAGAR &nbsp;&nbsp;•&nbsp;&nbsp;
                         </span>
                     ))}
                 </div>
