@@ -20,6 +20,8 @@ import ScrollToTop from "../components/ScrollToTop.jsx";
 import Awards from "../components/Awards.jsx";
 import Publications from "../components/Publications.jsx";
 import ImportantDates from "../components/ImportantDates.jsx";
+import Venue from "../components/Venue.jsx";
+import TechnicalPartner from "../components/TechnicalPartner.jsx";
 
 
 export default function UnifiedClone() {
@@ -28,25 +30,27 @@ export default function UnifiedClone() {
       <Header />
       <main className="pt-15">
         <Hero />
-        <KeydatesAwardsPublications/>
+        <Venue />
+        <TechnicalPartner />
+        <KeydatesAwardsPublications />
         <Welcome />
-        <AboutArunachal/>
-        <AboutNIT/>
-        <AboutDepartment/>
-        <ImportantDates/>
-        <Registration/>
-        <CallForPapers/>
-        <InvitationLetter/>
-        <PaperSubmission/>
-        <Awards/>
-        <Publications/>
-        <ProjectDownloads/>
+        <AboutArunachal />
+        <AboutNIT />
+        <AboutDepartment />
+        <ImportantDates />
+        <Registration />
+        <CallForPapers />
+        <InvitationLetter />
+        <PaperSubmission />
+        <Awards />
+        <Publications />
+        <ProjectDownloads />
         <Committee />
-        <KeynoteSpeakers/>
-        <Sponsorship/>
-        <TravelAccommodation/>
-        <ScrollToTop/>
-        <Footer/>
+        <KeynoteSpeakers />
+        <Sponsorship />
+        <TravelAccommodation />
+        <ScrollToTop />
+        <Footer />
       </main>
     </div>
   );
