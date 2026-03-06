@@ -49,7 +49,7 @@ export default function ProjectDownloads() {
           viewport={{ once: true }}
         >
           <a
-            href="#"
+            href="./pdf/ICAMAS 2026_Conference  schedule.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-lg md:text-3xl font-semibold text-teal-700 hover:text-teal-800 transition"
