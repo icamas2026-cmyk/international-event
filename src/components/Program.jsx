@@ -57,6 +57,22 @@ export default function ProjectDownloads() {
             Download Final Schedule
           </a>
         </motion.div>
+        <motion.div
+          className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-2xl hover:-translate-y-1 transition transform"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          viewport={{ once: true }}
+        >
+          <a
+            href="./pdf/ICAMAS 2026_Presentation Schedule_R1.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-lg md:text-3xl font-semibold text-teal-700 hover:text-teal-800 transition"
+          >
+            Presentation Schedule
+          </a>
+        </motion.div>
 
         {/* Info Section */}
         <motion.div
