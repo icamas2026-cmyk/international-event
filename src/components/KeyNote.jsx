@@ -4,20 +4,20 @@ import { image, title } from "framer-motion/client";
 import ReactMarkdown from "react-markdown";
 
 const speakers = [
-  {
-    name: "Prof. Sarit Kumar Das",
-    image: "./images/skd.jpeg",
-    title:
-      "Institute Professor & V. Balakrishnan Chair Professor, Department of Mechanical Engineering, IIT Madras, India",
-    description: `Prof. Sarit K. Das is a distinguished **researcher in thermo-fluidics and nanofluids**, with contributions in heat and mass transfer, fuel cells, battery cooling, and bio-microfluidics. His group is internationally known for pioneering work on nanofluids and biochips for medical diagnostics. He has also advanced desalination technologies. A **former Director of IIT Ropar** and **Dean of Academic Research at IIT Madras**, Prof. Das has held visiting positions at MIT, USA and several European universities. He has authored **500+ publications with over 28,000 citations**, and is a **Fellow of INAE, NASI, and AUTSE**.`,
-  },
-  {
-    name: "Prof. Pulak Mohan Pandey",
-    image: "./images/pmpandey.jpg",
-    title:
-      "IHFC Chair & Professor (HAG), Department of Mechanical Engineering, IIT Delhi",
-    description: `Prof. Pulak Mohan Pandey is a distinguished academician and **researcher specializing in Additive Manufacturing, CAD/CAM, Biomedical Applications of 3D Printing, and Non-traditional Machining**. He has been a **Professor at IIT Delhi** since 2004 and served as **Director of BIET Jhansi** from 2021 to 2023. Prof. Pandey’s work bridges cutting-edge research and practical applications, advancing technology in manufacturing and biomedical engineering, and establishing him as a leading figure in both academic and industrial communities. He has also mentored numerous students and guided impactful research projects globally.`,
-  },
+  // {
+  //   name: "Prof. Sarit Kumar Das",
+  //   image: "./images/skd.jpeg",
+  //   title:
+  //     "Institute Professor & V. Balakrishnan Chair Professor, Department of Mechanical Engineering, IIT Madras, India",
+  //   description: `Prof. Sarit K. Das is a distinguished **researcher in thermo-fluidics and nanofluids**, with contributions in heat and mass transfer, fuel cells, battery cooling, and bio-microfluidics. His group is internationally known for pioneering work on nanofluids and biochips for medical diagnostics. He has also advanced desalination technologies. A **former Director of IIT Ropar** and **Dean of Academic Research at IIT Madras**, Prof. Das has held visiting positions at MIT, USA and several European universities. He has authored **500+ publications with over 28,000 citations**, and is a **Fellow of INAE, NASI, and AUTSE**.`,
+  // },
+  // {
+  //   name: "Prof. Pulak Mohan Pandey",
+  //   image: "./images/pmpandey.jpg",
+  //   title:
+  //     "IHFC Chair & Professor (HAG), Department of Mechanical Engineering, IIT Delhi",
+  //   description: `Prof. Pulak Mohan Pandey is a distinguished academician and **researcher specializing in Additive Manufacturing, CAD/CAM, Biomedical Applications of 3D Printing, and Non-traditional Machining**. He has been a **Professor at IIT Delhi** since 2004 and served as **Director of BIET Jhansi** from 2021 to 2023. Prof. Pandey’s work bridges cutting-edge research and practical applications, advancing technology in manufacturing and biomedical engineering, and establishing him as a leading figure in both academic and industrial communities. He has also mentored numerous students and guided impactful research projects globally.`,
+  // },
   {
     name: "Prof. Uday Shanker Dixit",
     image: "./images/dixit.jpg",
@@ -42,12 +42,12 @@ const speakers = [
       "Associate Professor, Department of Mechanical Engineering, NIT Silchar",
     description: `Dr. Sudip Dey holds a **Bachelor’s degree in Mechanical Engineering and a Ph.D. in Engineering from Jadavpur University**, along with a Post Graduate Diploma in Management. His diverse research interests bridge the realms of **Classical and Quantum Mechanics**, as well as Innovation and Design. With a strong interdisciplinary approach, Dr. Dey has contributed significantly to advancing scientific understanding and practical applications across engineering and physics, reflecting his commitment to excellence in both research and education. He has also guided numerous students and research projects, fostering the next generation of innovators and scientists.`,
   },
-  {
-    name: "Prof. Goutam Sutradhar",
-    image: "./images/gautam.jpg",
-    title: "Director NIT Jamshedpur, Former: Director NIT Manipur",
-    description: `Prof. Goutam Sutradhar, is an eminent academician and researcher in **Mechanical and ,Materials engineering**. He holds a **Ph.D. from BIT Mesra, an M.Tech in Foundry Technology from IIT Kharagpur and Bachelor's degree in Mechanical Engineering from Jalpaiguri Government Engineering College.** With over three decades of experience in academia and industry, he has published more than **125 research papers** and guided numerous Ph.D. and M.Tech scholars. His expertise includes foundry processes, composite materials, and sustainable manufacturing technologies.He continues to play a pivotal role in advancing technical education and fostering innovation in engineering research.`,
-  },
+  // {
+  //   name: "Prof. Goutam Sutradhar",
+  //   image: "./images/gautam.jpg",
+  //   title: "Director NIT Jamshedpur, Former: Director NIT Manipur",
+  //   description: `Prof. Goutam Sutradhar, is an eminent academician and researcher in **Mechanical and ,Materials engineering**. He holds a **Ph.D. from BIT Mesra, an M.Tech in Foundry Technology from IIT Kharagpur and Bachelor's degree in Mechanical Engineering from Jalpaiguri Government Engineering College.** With over three decades of experience in academia and industry, he has published more than **125 research papers** and guided numerous Ph.D. and M.Tech scholars. His expertise includes foundry processes, composite materials, and sustainable manufacturing technologies.He continues to play a pivotal role in advancing technical education and fostering innovation in engineering research.`,
+  // },
   {
     name: "Prof. Rajat Gupta",
     image: "./images/rajat.jpg",
@@ -80,12 +80,12 @@ const speakers = [
     title: "Technical Director, GTRE ,Defence R&D Organisation",
     description: `Dr. D. Biswas is a **senior scientist** and **Technical Director at the Gas Turbine Research Establishment (GTRE)**, DRDO, Ministry of Defence, Government of India. With over three decades of experience, he has played a vital role in designing and developing the **Kaveri engine** and advanced systems such as the **Variable Exhaust Nozzle and Integrated Nozzle Actuation System**. A Mechanical Engineering graduate, he earned his **M.Tech and Ph.D. from IIT Kharagpur**. His expertise lies in mechanisms, hydraulics, and control systems. Dr. Biswas is a life member of the **Aeronautical Society of India** and continues to contribute to indigenous **jet engine**`,
   },
-  {
-    name:"Prof. Siby John",
-    image:"./images/john.png",
-    title:"Director, GKCIET Malda (WB)",
-    description:`Prof. Siby John, is a distinguished academician and environmental engineer. He holds a **B.Tech in Civil Engineering, an M.Tech in Environmental Engineering, and a Ph.D. from IIT Kanpur**. With over **150 research papers, 7 books, and 4000 citations**, he has made significant contributions to environmental pollution control and sustainable development. A recipient of several prestigious awards, Prof. John is a Fellow of the **Institution of Engineers (India)** and an active member of multiple professional societies in the field of environmental engineering.He continues to inspire research and innovation aimed at achieving a cleaner and more sustainable future.`
-  },
+  // {
+  //   name:"Prof. Siby John",
+  //   image:"./images/john.png",
+  //   title:"Director, GKCIET Malda (WB)",
+  //   description:`Prof. Siby John, is a distinguished academician and environmental engineer. He holds a **B.Tech in Civil Engineering, an M.Tech in Environmental Engineering, and a Ph.D. from IIT Kanpur**. With over **150 research papers, 7 books, and 4000 citations**, he has made significant contributions to environmental pollution control and sustainable development. A recipient of several prestigious awards, Prof. John is a Fellow of the **Institution of Engineers (India)** and an active member of multiple professional societies in the field of environmental engineering.He continues to inspire research and innovation aimed at achieving a cleaner and more sustainable future.`
+  // },
   {
     name:"Prof. B. B. Saha",
     image:"./images/BSaha.jpg",

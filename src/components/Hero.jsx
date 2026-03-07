@@ -17,7 +17,7 @@ export default function Hero() {
       <div className="absolute bottom-0 left-0 w-full h-40 sm:h-60 bg-gradient-to-t from-black to-transparent pointer-events-none"></div>
 
       <div className="relative z-10 flex flex-col items-center w-full gap-10 sm:gap-30 lg:gap-10 pb-16">
-        <div className="flex items-center justify-center w-full mt-4">
+        <div className="flex items-center justify-center w-full mt-10">
           <img
             src="./images/newlogo.jpeg"
             alt="ICAMAS Logo"
@@ -26,9 +26,9 @@ export default function Hero() {
         </div>
 
         {/* Chief Guest & Guest of Honour */}
-        <div className="w-full max-w-4xl">
+        {/* <div className="w-full max-w-4xl">
           <div className="flex flex-row justify-center items-start gap-6 sm:gap-10">
-            {/* Guest of Honour 1 */}
+            
             <div className="flex flex-col items-center text-center flex-1 min-h-[360px]">
               <h1 className="text-sm sm:text-lg md:text-2xl font-extrabold mb-2">
                 Guest of Honour
@@ -47,7 +47,7 @@ export default function Hero() {
                 <span className="block text-gray-200">Chairman AICTE</span>
               </p>
             </div>
-            {/* Chief Guest */}
+            
             <div className="flex flex-col items-center text-center flex-1 min-h-[360px]">
               <h1 className="text-sm sm:text-lg md:text-2xl font-extrabold mb-2">
                 Chief Guest
@@ -69,7 +69,7 @@ export default function Hero() {
               </p>
             </div>
 
-            {/* Guest of Honour 2 */}
+            
             <div className="flex flex-col items-center text-center flex-1 min-h-[360px]">
               <h1 className="text-sm sm:text-lg md:text-2xl font-extrabold mb-2">
                 Guest of Honour
@@ -95,14 +95,14 @@ export default function Hero() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Title */}
         <motion.h1
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="relative -top-50 md:top-0 lg:-top-37 text-3xl sm:text-5xl md:text-6xl lg:text-4xl font-bold max-w-xl md:max-w-7xl leading-snug px-2"
+          className="relative top-5 text-3xl sm:text-5xl md:text-6xl lg:text-4xl font-bold max-w-xl md:max-w-7xl leading-snug px-2"
         >
           1<sup>st</sup> International Conference on Advances in Mechanical and Aerospace
           Sciences <br className="hidden sm:block" />
@@ -116,7 +116,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="relative -top-50 md:top-0 lg:-top-47 lg:bottom-10 text-xs sm:text-xl md:text-xl max-w-6xl text-center text-gray-100"
+          className="relative text-xs sm:text-xl md:text-xl max-w-6xl text-center text-gray-100"
         >
           Conference Dates: <strong>10<sup>th</sup>–12<sup>th</sup> March, 2026</strong>
           <br />
